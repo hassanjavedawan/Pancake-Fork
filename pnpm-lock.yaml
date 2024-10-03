@@ -144,7 +144,7 @@ importers:
         specifier: ^4.17.21
         version: 4.17.21
       viem:
-        specifier: 'catalog:'
+        specifier: ^2.21.9
         version: 2.21.9(bufferutil@4.0.8)(typescript@5.2.2)(utf-8-validate@6.0.3)(zod@3.22.4)
       zod:
         specifier: ^3.22.3
@@ -221,7 +221,7 @@ importers:
         specifier: ^0.4.2
         version: 0.4.5
       viem:
-        specifier: 'catalog:'
+        specifier: ^2.21.9
         version: 2.21.9(bufferutil@4.0.8)(typescript@5.2.2)(utf-8-validate@6.0.3)(zod@3.22.4)
     devDependencies:
       '@cloudflare/workers-types':
@@ -312,7 +312,7 @@ importers:
         specifier: ^4.17.21
         version: 4.17.21
       next:
-        specifier: 'catalog:'
+        specifier: 14.2.10
         version: 14.2.10(@babel/core@7.23.3)(@opentelemetry/api@1.9.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       next-seo:
         specifier: ^5.15.0
@@ -400,7 +400,7 @@ importers:
         specifier: ^2.3.0
         version: 2.3.2(@types/node@18.0.4)(next@14.2.10(@babel/core@7.23.9)(@opentelemetry/api@1.9.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(terser@5.24.0)(webpack@5.89.0(esbuild@0.16.3))
       next:
-        specifier: 'catalog:'
+        specifier: 14.2.10
         version: 14.2.10(@babel/core@7.23.9)(@opentelemetry/api@1.9.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       next-seo:
         specifier: ^5.15.0
@@ -500,7 +500,7 @@ importers:
         specifier: ^4.17.21
         version: 4.17.21
       next:
-        specifier: 'catalog:'
+        specifier: 14.2.10
         version: 14.2.10(@babel/core@7.23.9)(@opentelemetry/api@1.9.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       next-themes:
         specifier: ^0.2.1
@@ -518,10 +518,10 @@ importers:
         specifier: 5.1.1
         version: 5.1.1(@babel/core@7.23.9)(react@18.2.0)
       viem:
-        specifier: 'catalog:'
+        specifier: ^2.21.9
         version: 2.21.9(bufferutil@4.0.8)(typescript@5.2.2)(utf-8-validate@5.0.10)(zod@3.22.4)
       wagmi:
-        specifier: 'catalog:'
+        specifier: ^2.12.12
         version: 2.12.12(@tanstack/query-core@5.52.0)(@tanstack/react-query@4.36.1(react-dom@18.2.0(react@18.2.0))(react-native@0.73.6(@babel/core@7.23.9)(@babel/preset-env@7.23.3(@babel/core@7.23.9))(bufferutil@4.0.8)(react@18.2.0)(utf-8-validate@5.0.10))(react@18.2.0))(@types/react@18.2.37)(bufferutil@4.0.8)(immer@9.0.21)(react-dom@18.2.0(react@18.2.0))(react-native@0.73.6(@babel/core@7.23.9)(@babel/preset-env@7.23.3(@babel/core@7.23.9))(bufferutil@4.0.8)(react@18.2.0)(utf-8-validate@5.0.10))(react@18.2.0)(rollup@3.29.4)(typescript@5.2.2)(utf-8-validate@5.0.10)(viem@2.21.9(bufferutil@4.0.8)(typescript@5.2.2)(utf-8-validate@5.0.10)(zod@3.22.4))(zod@3.22.4)
     devDependencies:
       '@next/eslint-plugin-next':
@@ -592,7 +592,7 @@ importers:
         specifier: ^4.17.21
         version: 4.17.21
       next:
-        specifier: 'catalog:'
+        specifier: 14.2.10
         version: 14.2.10(@babel/core@7.23.9)(@opentelemetry/api@1.9.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       next-seo:
         specifier: ^5.15.0
@@ -767,7 +767,7 @@ importers:
         specifier: ^4.17.21
         version: 4.17.21
       next:
-        specifier: 'catalog:'
+        specifier: 14.2.10
         version: 14.2.10(@babel/core@7.23.9)(@opentelemetry/api@1.9.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       next-auth:
         specifier: ^4.24.7
@@ -830,10 +830,10 @@ importers:
         specifier: link:@pancakeswap/wagmi/connectors/trustWallet
         version: link:@pancakeswap/wagmi/connectors/trustWallet
       viem:
-        specifier: 'catalog:'
+        specifier: ^2.21.9
         version: 2.21.9(bufferutil@4.0.8)(typescript@5.2.2)(utf-8-validate@5.0.10)(zod@3.22.4)
       wagmi:
-        specifier: 'catalog:'
+        specifier: ^2.12.12
         version: 2.12.12(@tanstack/query-core@5.52.0)(@tanstack/react-query@5.52.1(react@18.2.0))(@types/react@18.2.37)(bufferutil@4.0.8)(immer@9.0.21)(react-dom@18.2.0(react@18.2.0))(react-native@0.73.6(@babel/core@7.23.9)(@babel/preset-env@7.23.3(@babel/core@7.23.9))(bufferutil@4.0.8)(react@18.2.0)(utf-8-validate@5.0.10))(react@18.2.0)(rollup@3.29.4)(typescript@5.2.2)(utf-8-validate@5.0.10)(viem@2.21.9(bufferutil@4.0.8)(typescript@5.2.2)(utf-8-validate@5.0.10)(zod@3.22.4))(zod@3.22.4)
     devDependencies:
       '@next/eslint-plugin-next':
@@ -1137,7 +1137,7 @@ importers:
         specifier: ^2.4.0
         version: 2.4.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       next:
-        specifier: 'catalog:'
+        specifier: 14.2.10
         version: 14.2.10(@babel/core@7.23.9)(@opentelemetry/api@1.9.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       next-seo:
         specifier: ^5.15.0
@@ -1218,10 +1218,10 @@ importers:
         specifier: ^8.0.0
         version: 8.3.2
       viem:
-        specifier: 'catalog:'
+        specifier: ^2.21.9
         version: 2.21.9(bufferutil@4.0.8)(typescript@5.2.2)(utf-8-validate@5.0.10)(zod@3.22.4)
       wagmi:
-        specifier: 'catalog:'
+        specifier: ^2.12.12
         version: 2.12.12(@tanstack/query-core@5.52.0)(@tanstack/react-query@5.52.1(react@18.2.0))(@types/react@18.2.37)(bufferutil@4.0.8)(immer@9.0.21)(react-dom@18.2.0(react@18.2.0))(react-native@0.73.6(@babel/core@7.23.9)(@babel/preset-env@7.23.3(@babel/core@7.23.9))(bufferutil@4.0.8)(react@18.2.0)(utf-8-validate@5.0.10))(react@18.2.0)(rollup@3.29.4)(typescript@5.2.2)(utf-8-validate@5.0.10)(viem@2.21.9(bufferutil@4.0.8)(typescript@5.2.2)(utf-8-validate@5.0.10)(zod@3.22.4))(zod@3.22.4)
       zod:
         specifier: ^3.22.3
@@ -1384,7 +1384,7 @@ importers:
         specifier: ^18.0.6
         version: 18.2.15
       next:
-        specifier: 'catalog:'
+        specifier: 14.2.10
         version: 14.2.10(@babel/core@7.23.3)(@opentelemetry/api@1.9.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       react:
         specifier: 18.2.0
@@ -8542,9 +8542,6 @@ packages:
   '@walletconnect/legacy-utils@2.0.0':
     resolution: {integrity: sha512-CPWxSVVXw0kgNCxvU126g4GiV3mzXmC8IPJ15twE46aJ1FX+RHEIfAzFMFz2F2+fEhBxL63A7dwNQKDXorRPcQ==}
 
-  '@walletconnect/logger@2.0.1':
-    resolution: {integrity: sha512-SsTKdsgWm+oDTBeNE/zHxxr5eJfZmE9/5yp/Ku+zJtcTAjELb3DXueWkDXmE9h8uHIbJzIb5wj5lPdzyrjT6hQ==}
-
   '@walletconnect/logger@2.1.2':
     resolution: {integrity: sha512-aAb28I3S6pYXZHQm5ESB+V6rDqIYfsnHaQyzFbwUUBFY4H0OXx/YtTl8lvhUNhMMfb9UxbwEBS253TlXUYJWSw==}
 
@@ -8572,9 +8569,6 @@ packages:
   '@walletconnect/relay-api@1.0.11':
     resolution: {integrity: sha512-tLPErkze/HmC9aCmdZOhtVmYZq1wKfWTJtygQHoWtgg722Jd4homo54Cs4ak2RUFUZIGO2RsOpIcWipaua5D5Q==}
 
-  '@walletconnect/relay-api@1.0.9':
-    resolution: {integrity: sha512-Q3+rylJOqRkO1D9Su0DPE3mmznbAalYapJ9qmzDgK28mYF9alcP3UwG/og5V7l7CFOqzCLi7B8BvcBUrpDj0Rg==}
-
   '@walletconnect/relay-auth@1.0.4':
     resolution: {integrity: sha512-kKJcS6+WxYq5kshpPaxGHdwf5y98ZwbfuS4EE/NkQzqrDFm5Cj+dP8LofzWvjrrLkZq7Afy7WrQMXdLy8Sx7HQ==}
 
@@ -8592,9 +8586,11 @@ packages:
 
   '@walletconnect/sign-client@2.7.0':
     resolution: {integrity: sha512-K99xa6GSFS04U+140yrIEi/VJJJ0Q1ov4jCaiqa9euILDKxlBsM7m5GR+9sq6oYyj18SluJY4CJTdeOXUJlarA==}
+    deprecated: Reliability and performance greatly improved - please see https://github.com/WalletConnect/walletconnect-monorepo/releases
 
   '@walletconnect/sign-client@2.9.0':
     resolution: {integrity: sha512-mEKc4LlLMebCe45qzqh+MX4ilQK4kOEBzLY6YJpG8EhyT45eX4JMNA7qQoYa9MRMaaVb/7USJcc4e3ZrjZvQmA==}
+    deprecated: Reliability and performance greatly improved - please see https://github.com/WalletConnect/walletconnect-monorepo/releases
 
   '@walletconnect/time@1.0.2':
     resolution: {integrity: sha512-uzdd9woDcJ1AaBZRhqy5rNC9laqWGErfc4dxA9a87mPdKOgWMD85mcFo9dIYIts/Jwocfwn07EC6EzclKubk/g==}
@@ -10503,9 +10499,6 @@ packages:
 
   elliptic@6.5.4:
     resolution: {integrity: sha512-iLhC6ULemrljPZb+QutR5TQGB+pdW6KGD5RSegS+8sorOZT+rdQFbsQFJgvN3eRqNALqJer4oQ16YvJHlU8hzQ==}
-
-  elliptic@6.5.5:
-    resolution: {integrity: sha512-7EjbcmUm17NQFu4Pmgmq2olYMj8nwMnpcddByChSUjArp8F5DQWcIcpriwO4ZToLNAJig0yiyjswfyGNje/ixw==}
 
   elliptic@6.5.7:
     resolution: {integrity: sha512-ESVCtTwiA+XhY3wyh24QqRGBoP3rEdDUl3EDUUo9tft074fi19IrdpH7hLCMMP3CIj7jb3W96rn8lt/BqIlt5Q==}
@@ -19205,7 +19198,7 @@ snapshots:
 
   '@confio/ics23@0.6.8':
     dependencies:
-      '@noble/hashes': 1.4.0
+      '@noble/hashes': 1.5.0
       protobufjs: 6.11.4
 
   '@cosmjs/amino@0.31.3':
@@ -19238,9 +19231,9 @@ snapshots:
       '@cosmjs/encoding': 0.31.3
       '@cosmjs/math': 0.31.3
       '@cosmjs/utils': 0.31.3
-      '@noble/hashes': 1.4.0
+      '@noble/hashes': 1.5.0
       bn.js: 5.2.1
-      elliptic: 6.5.4
+      elliptic: 6.5.7
       libsodium-wrappers-sumo: 0.7.13
 
   '@cosmjs/encoding@0.27.1':
@@ -20704,7 +20697,7 @@ snapshots:
 
   '@material-ui/styles@4.11.5(@types/react@18.2.37)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
     dependencies:
-      '@babel/runtime': 7.23.2
+      '@babel/runtime': 7.24.7
       '@emotion/hash': 0.8.0
       '@material-ui/types': 5.1.0(@types/react@18.2.37)
       '@material-ui/utils': 4.11.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
@@ -20727,7 +20720,7 @@ snapshots:
 
   '@material-ui/system@4.12.2(@types/react@18.2.37)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
     dependencies:
-      '@babel/runtime': 7.23.2
+      '@babel/runtime': 7.24.7
       '@material-ui/utils': 4.11.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       csstype: 2.6.21
       prop-types: 15.8.1
@@ -20742,7 +20735,7 @@ snapshots:
 
   '@material-ui/utils@4.11.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
     dependencies:
-      '@babel/runtime': 7.23.2
+      '@babel/runtime': 7.24.7
       prop-types: 15.8.1
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -20906,8 +20899,8 @@ snapshots:
   '@metamask/utils@8.4.0':
     dependencies:
       '@ethereumjs/tx': 4.2.0
-      '@noble/hashes': 1.4.0
-      '@scure/base': 1.1.7
+      '@noble/hashes': 1.5.0
+      '@scure/base': 1.1.9
       '@types/debug': 4.1.12
       debug: 4.3.4(supports-color@8.1.1)
       pony-cause: 2.1.10
@@ -22883,31 +22876,31 @@ snapshots:
     dependencies:
       '@noble/hashes': 1.2.0
       '@noble/secp256k1': 1.7.1
-      '@scure/base': 1.1.7
+      '@scure/base': 1.1.9
     optional: true
 
   '@scure/bip32@1.3.1':
     dependencies:
       '@noble/curves': 1.1.0
       '@noble/hashes': 1.3.3
-      '@scure/base': 1.1.7
+      '@scure/base': 1.1.9
 
   '@scure/bip32@1.3.2':
     dependencies:
       '@noble/curves': 1.2.0
       '@noble/hashes': 1.3.3
-      '@scure/base': 1.1.7
+      '@scure/base': 1.1.9
 
   '@scure/bip32@1.4.0':
     dependencies:
       '@noble/curves': 1.4.0
       '@noble/hashes': 1.4.0
-      '@scure/base': 1.1.7
+      '@scure/base': 1.1.9
 
   '@scure/bip39@1.1.1':
     dependencies:
       '@noble/hashes': 1.2.0
-      '@scure/base': 1.1.7
+      '@scure/base': 1.1.9
     optional: true
 
   '@scure/bip39@1.2.1':
@@ -23255,7 +23248,7 @@ snapshots:
     dependencies:
       '@babel/runtime': 7.24.7
       '@noble/curves': 1.4.0
-      '@noble/hashes': 1.4.0
+      '@noble/hashes': 1.5.0
       '@solana/buffer-layout': 4.0.1
       agentkeepalive: 4.5.0
       bigint-buffer: 1.1.5
@@ -25497,7 +25490,7 @@ snapshots:
 
   '@wagmi/connectors@0.3.16(@wagmi/core@0.10.17(@types/react@18.2.37)(bufferutil@4.0.8)(ethers@5.7.2(bufferutil@4.0.8)(utf-8-validate@5.0.10))(immer@9.0.21)(react@18.2.0)(typescript@5.2.2)(utf-8-validate@5.0.10)(zod@3.22.4))(bufferutil@4.0.8)(ethers@5.7.2(bufferutil@4.0.8)(utf-8-validate@5.0.10))(react@18.2.0)(typescript@5.2.2)(utf-8-validate@5.0.10)(zod@3.22.4)':
     dependencies:
-      '@coinbase/wallet-sdk': 3.9.1
+      '@coinbase/wallet-sdk': 3.9.3
       '@ledgerhq/connect-kit-loader': 1.1.2(patch_hash=xlsebypdiwsukm3c2ow7voujra)
       '@safe-global/safe-apps-provider': 0.15.2(bufferutil@4.0.8)(utf-8-validate@5.0.10)
       '@safe-global/safe-apps-sdk': 7.11.0(bufferutil@4.0.8)(utf-8-validate@5.0.10)
@@ -25728,7 +25721,7 @@ snapshots:
       '@walletconnect/jsonrpc-ws-connection': 1.0.14(bufferutil@4.0.8)(utf-8-validate@5.0.10)
       '@walletconnect/keyvaluestorage': 1.1.1
       '@walletconnect/logger': 2.1.2
-      '@walletconnect/relay-api': 1.0.9
+      '@walletconnect/relay-api': 1.0.11
       '@walletconnect/relay-auth': 1.0.4
       '@walletconnect/safe-json': 1.0.2
       '@walletconnect/time': 1.0.2
@@ -25828,12 +25821,12 @@ snapshots:
   '@walletconnect/core@2.7.0(bufferutil@4.0.8)(utf-8-validate@5.0.10)':
     dependencies:
       '@walletconnect/heartbeat': 1.2.1
-      '@walletconnect/jsonrpc-provider': 1.0.13
+      '@walletconnect/jsonrpc-provider': 1.0.14
       '@walletconnect/jsonrpc-utils': 1.0.8
       '@walletconnect/jsonrpc-ws-connection': 1.0.14(bufferutil@4.0.8)(utf-8-validate@5.0.10)
       '@walletconnect/keyvaluestorage': 1.1.1
-      '@walletconnect/logger': 2.0.1
-      '@walletconnect/relay-api': 1.0.9
+      '@walletconnect/logger': 2.1.2
+      '@walletconnect/relay-api': 1.0.11
       '@walletconnect/relay-auth': 1.0.4
       '@walletconnect/safe-json': 1.0.2
       '@walletconnect/time': 1.0.2
@@ -25867,7 +25860,7 @@ snapshots:
       '@walletconnect/jsonrpc-ws-connection': 1.0.12(bufferutil@4.0.8)(utf-8-validate@5.0.10)
       '@walletconnect/keyvaluestorage': 1.1.1
       '@walletconnect/logger': 2.1.2
-      '@walletconnect/relay-api': 1.0.10
+      '@walletconnect/relay-api': 1.0.11
       '@walletconnect/relay-auth': 1.0.4
       '@walletconnect/safe-json': 1.0.2
       '@walletconnect/time': 1.0.2
@@ -26018,9 +26011,9 @@ snapshots:
 
   '@walletconnect/ethereum-provider@2.7.0(@web3modal/standalone@2.4.3(react@18.2.0))(bufferutil@4.0.8)(utf-8-validate@5.0.10)':
     dependencies:
-      '@walletconnect/jsonrpc-http-connection': 1.0.7
-      '@walletconnect/jsonrpc-provider': 1.0.13
-      '@walletconnect/jsonrpc-types': 1.0.3
+      '@walletconnect/jsonrpc-http-connection': 1.0.8
+      '@walletconnect/jsonrpc-provider': 1.0.14
+      '@walletconnect/jsonrpc-types': 1.0.4
       '@walletconnect/jsonrpc-utils': 1.0.8
       '@walletconnect/sign-client': 2.7.0(bufferutil@4.0.8)(utf-8-validate@5.0.10)
       '@walletconnect/types': 2.7.0
@@ -26100,10 +26093,10 @@ snapshots:
       '@ethersproject/transactions': 5.7.0
       '@noble/ed25519': 1.7.3
       '@walletconnect/cacao': 1.0.2
-      '@walletconnect/core': 2.11.0(bufferutil@4.0.8)(utf-8-validate@5.0.10)
+      '@walletconnect/core': 2.16.1(bufferutil@4.0.8)(utf-8-validate@5.0.10)
       '@walletconnect/did-jwt': 2.0.3
-      '@walletconnect/types': 2.11.0
-      '@walletconnect/utils': 2.11.0
+      '@walletconnect/types': 2.16.1
+      '@walletconnect/utils': 2.16.1
       axios: 1.7.2(debug@4.3.4)
     transitivePeerDependencies:
       - '@azure/app-configuration'
@@ -26129,10 +26122,10 @@ snapshots:
       '@ethersproject/transactions': 5.7.0
       '@noble/ed25519': 1.7.3
       '@walletconnect/cacao': 1.0.2
-      '@walletconnect/core': 2.11.0(bufferutil@4.0.8)(utf-8-validate@5.0.10)
+      '@walletconnect/core': 2.16.1(bufferutil@4.0.8)(utf-8-validate@5.0.10)
       '@walletconnect/did-jwt': 2.0.3
-      '@walletconnect/types': 2.11.0
-      '@walletconnect/utils': 2.11.0
+      '@walletconnect/types': 2.16.1
+      '@walletconnect/utils': 2.16.1
       axios: 1.7.2(debug@4.3.4)
     transitivePeerDependencies:
       - '@azure/app-configuration'
@@ -26195,7 +26188,7 @@ snapshots:
   '@walletconnect/jsonrpc-utils@1.0.7':
     dependencies:
       '@walletconnect/environment': 1.0.1
-      '@walletconnect/jsonrpc-types': 1.0.3
+      '@walletconnect/jsonrpc-types': 1.0.4
       tslib: 1.14.1
 
   '@walletconnect/jsonrpc-utils@1.0.8':
@@ -26266,8 +26259,8 @@ snapshots:
 
   '@walletconnect/legacy-provider@2.0.0':
     dependencies:
-      '@walletconnect/jsonrpc-http-connection': 1.0.7
-      '@walletconnect/jsonrpc-provider': 1.0.13
+      '@walletconnect/jsonrpc-http-connection': 1.0.8
+      '@walletconnect/jsonrpc-provider': 1.0.14
       '@walletconnect/legacy-client': 2.0.0
       '@walletconnect/legacy-modal': 2.0.0
       '@walletconnect/legacy-types': 2.0.0
@@ -26277,7 +26270,7 @@ snapshots:
 
   '@walletconnect/legacy-types@2.0.0':
     dependencies:
-      '@walletconnect/jsonrpc-types': 1.0.3
+      '@walletconnect/jsonrpc-types': 1.0.4
 
   '@walletconnect/legacy-utils@2.0.0':
     dependencies:
@@ -26289,11 +26282,6 @@ snapshots:
       '@walletconnect/window-metadata': 1.0.1
       detect-browser: 5.3.0
       query-string: 6.14.1
-
-  '@walletconnect/logger@2.0.1':
-    dependencies:
-      pino: 7.11.0
-      tslib: 1.14.1
 
   '@walletconnect/logger@2.1.2':
     dependencies:
@@ -26400,11 +26388,6 @@ snapshots:
     dependencies:
       '@walletconnect/jsonrpc-types': 1.0.4
 
-  '@walletconnect/relay-api@1.0.9':
-    dependencies:
-      '@walletconnect/jsonrpc-types': 1.0.3
-      tslib: 1.14.1
-
   '@walletconnect/relay-auth@1.0.4':
     dependencies:
       '@stablelib/ed25519': 1.0.3
@@ -26507,7 +26490,7 @@ snapshots:
       '@walletconnect/events': 1.0.1
       '@walletconnect/heartbeat': 1.2.1
       '@walletconnect/jsonrpc-utils': 1.0.8
-      '@walletconnect/logger': 2.0.1
+      '@walletconnect/logger': 2.1.2
       '@walletconnect/time': 1.0.2
       '@walletconnect/types': 2.7.0
       '@walletconnect/utils': 2.7.0
@@ -26565,7 +26548,7 @@ snapshots:
       '@walletconnect/heartbeat': 1.2.1
       '@walletconnect/jsonrpc-types': 1.0.3
       '@walletconnect/keyvaluestorage': 1.1.1
-      '@walletconnect/logger': 2.0.1
+      '@walletconnect/logger': 2.1.2
       events: 3.3.0
     transitivePeerDependencies:
       - '@azure/app-configuration'
@@ -26629,9 +26612,9 @@ snapshots:
     dependencies:
       '@walletconnect/events': 1.0.1
       '@walletconnect/heartbeat': 1.2.1
-      '@walletconnect/jsonrpc-types': 1.0.3
+      '@walletconnect/jsonrpc-types': 1.0.4
       '@walletconnect/keyvaluestorage': 1.1.1
-      '@walletconnect/logger': 2.0.1
+      '@walletconnect/logger': 2.1.2
       events: 3.3.0
     transitivePeerDependencies:
       - '@azure/app-configuration'
@@ -26671,9 +26654,9 @@ snapshots:
 
   '@walletconnect/universal-provider@2.11.0(bufferutil@4.0.8)(utf-8-validate@5.0.10)':
     dependencies:
-      '@walletconnect/jsonrpc-http-connection': 1.0.7
+      '@walletconnect/jsonrpc-http-connection': 1.0.8
       '@walletconnect/jsonrpc-provider': 1.0.13
-      '@walletconnect/jsonrpc-types': 1.0.3
+      '@walletconnect/jsonrpc-types': 1.0.4
       '@walletconnect/jsonrpc-utils': 1.0.8
       '@walletconnect/logger': 2.1.2
       '@walletconnect/sign-client': 2.11.0(bufferutil@4.0.8)(utf-8-validate@5.0.10)
@@ -26755,11 +26738,11 @@ snapshots:
 
   '@walletconnect/universal-provider@2.7.0(bufferutil@4.0.8)(utf-8-validate@5.0.10)':
     dependencies:
-      '@walletconnect/jsonrpc-http-connection': 1.0.7
-      '@walletconnect/jsonrpc-provider': 1.0.13
-      '@walletconnect/jsonrpc-types': 1.0.3
+      '@walletconnect/jsonrpc-http-connection': 1.0.8
+      '@walletconnect/jsonrpc-provider': 1.0.14
+      '@walletconnect/jsonrpc-types': 1.0.4
       '@walletconnect/jsonrpc-utils': 1.0.8
-      '@walletconnect/logger': 2.0.1
+      '@walletconnect/logger': 2.1.2
       '@walletconnect/sign-client': 2.7.0(bufferutil@4.0.8)(utf-8-validate@5.0.10)
       '@walletconnect/types': 2.7.0
       '@walletconnect/utils': 2.7.0
@@ -26818,7 +26801,7 @@ snapshots:
       '@stablelib/random': 1.0.2
       '@stablelib/sha256': 1.0.1
       '@stablelib/x25519': 1.0.3
-      '@walletconnect/relay-api': 1.0.9
+      '@walletconnect/relay-api': 1.0.11
       '@walletconnect/safe-json': 1.0.2
       '@walletconnect/time': 1.0.2
       '@walletconnect/types': 2.11.0
@@ -26911,7 +26894,7 @@ snapshots:
       '@stablelib/sha256': 1.0.1
       '@stablelib/x25519': 1.0.3
       '@walletconnect/jsonrpc-utils': 1.0.8
-      '@walletconnect/relay-api': 1.0.9
+      '@walletconnect/relay-api': 1.0.11
       '@walletconnect/safe-json': 1.0.2
       '@walletconnect/time': 1.0.2
       '@walletconnect/types': 2.7.0
@@ -26941,7 +26924,7 @@ snapshots:
       '@stablelib/random': 1.0.2
       '@stablelib/sha256': 1.0.1
       '@stablelib/x25519': 1.0.3
-      '@walletconnect/relay-api': 1.0.10
+      '@walletconnect/relay-api': 1.0.11
       '@walletconnect/safe-json': 1.0.2
       '@walletconnect/time': 1.0.2
       '@walletconnect/types': 2.9.0
@@ -27520,7 +27503,7 @@ snapshots:
 
   axios-retry@3.9.1:
     dependencies:
-      '@babel/runtime': 7.23.9
+      '@babel/runtime': 7.24.7
       is-retry-allowed: 2.2.0
 
   axios@0.21.4:
@@ -27893,7 +27876,7 @@ snapshots:
       browserify-rsa: 4.1.0
       create-hash: 1.2.0
       create-hmac: 1.1.7
-      elliptic: 6.5.5
+      elliptic: 6.5.7
       hash-base: 3.0.4
       inherits: 2.0.4
       parse-asn1: 5.1.7
@@ -28482,7 +28465,7 @@ snapshots:
   create-ecdh@4.0.4:
     dependencies:
       bn.js: 4.12.0
-      elliptic: 6.5.4
+      elliptic: 6.5.7
 
   create-hash@1.2.0:
     dependencies:
@@ -29182,16 +29165,6 @@ snapshots:
       minimalistic-assert: 1.0.1
       minimalistic-crypto-utils: 1.0.1
 
-  elliptic@6.5.5:
-    dependencies:
-      bn.js: 4.12.0
-      brorand: 1.1.0
-      hash.js: 1.1.7
-      hmac-drbg: 1.0.1
-      inherits: 2.0.4
-      minimalistic-assert: 1.0.1
-      minimalistic-crypto-utils: 1.0.1
-
   elliptic@6.5.7:
     dependencies:
       bn.js: 4.12.0
@@ -29841,7 +29814,7 @@ snapshots:
   eth-lib@0.1.29(bufferutil@4.0.8)(utf-8-validate@5.0.10):
     dependencies:
       bn.js: 4.12.0
-      elliptic: 6.5.5
+      elliptic: 6.5.7
       nano-json-stream-parser: 0.1.2
       servify: 0.1.12
       ws: 3.3.3(bufferutil@4.0.8)(utf-8-validate@5.0.10)
@@ -29854,7 +29827,7 @@ snapshots:
   eth-lib@0.2.8:
     dependencies:
       bn.js: 4.12.0
-      elliptic: 6.5.5
+      elliptic: 6.5.7
       xhr-request-promise: 0.1.3
 
   eth-query@2.1.2:
@@ -29922,7 +29895,7 @@ snapshots:
       '@types/bn.js': 4.11.6
       bn.js: 4.12.0
       create-hash: 1.2.0
-      elliptic: 6.5.5
+      elliptic: 6.5.7
       ethereum-cryptography: 0.1.3
       ethjs-util: 0.1.6
       rlp: 2.2.7
@@ -31864,46 +31837,46 @@ snapshots:
 
   jss-plugin-camel-case@10.10.0:
     dependencies:
-      '@babel/runtime': 7.23.9
+      '@babel/runtime': 7.24.7
       hyphenate-style-name: 1.0.4
       jss: 10.10.0
 
   jss-plugin-default-unit@10.10.0:
     dependencies:
-      '@babel/runtime': 7.23.9
+      '@babel/runtime': 7.24.7
       jss: 10.10.0
 
   jss-plugin-global@10.10.0:
     dependencies:
-      '@babel/runtime': 7.23.9
+      '@babel/runtime': 7.24.7
       jss: 10.10.0
 
   jss-plugin-nested@10.10.0:
     dependencies:
-      '@babel/runtime': 7.23.9
+      '@babel/runtime': 7.24.7
       jss: 10.10.0
       tiny-warning: 1.0.3
 
   jss-plugin-props-sort@10.10.0:
     dependencies:
-      '@babel/runtime': 7.23.9
+      '@babel/runtime': 7.24.7
       jss: 10.10.0
 
   jss-plugin-rule-value-function@10.10.0:
     dependencies:
-      '@babel/runtime': 7.23.9
+      '@babel/runtime': 7.24.7
       jss: 10.10.0
       tiny-warning: 1.0.3
 
   jss-plugin-vendor-prefixer@10.10.0:
     dependencies:
-      '@babel/runtime': 7.23.9
+      '@babel/runtime': 7.24.7
       css-vendor: 2.0.8
       jss: 10.10.0
 
   jss@10.10.0:
     dependencies:
-      '@babel/runtime': 7.23.9
+      '@babel/runtime': 7.24.7
       csstype: 3.1.3
       is-in-browser: 1.1.3
       tiny-warning: 1.0.3
@@ -35002,7 +34975,7 @@ snapshots:
 
   secp256k1@4.0.3:
     dependencies:
-      elliptic: 6.5.5
+      elliptic: 6.5.7
       node-addon-api: 2.0.2
       node-gyp-build: 4.6.1
 
@@ -36034,7 +36007,7 @@ snapshots:
       bindings: 1.5.0
       bn.js: 4.12.0
       create-hmac: 1.1.7
-      elliptic: 6.5.4
+      elliptic: 6.5.7
       nan: 2.18.0
 
   tiny-warning@1.0.3: {}
@@ -36590,7 +36563,7 @@ snapshots:
       h3: 1.8.2
       ioredis: 5.3.2
       listhen: 1.5.5
-      lru-cache: 10.0.2
+      lru-cache: 10.4.3
       mri: 1.2.0
       node-fetch-native: 1.4.1
       ofetch: 1.3.3
@@ -37403,7 +37376,7 @@ snapshots:
   webauthn-p256@0.0.5:
     dependencies:
       '@noble/curves': 1.4.0
-      '@noble/hashes': 1.4.0
+      '@noble/hashes': 1.5.0
 
   webextension-polyfill@0.10.0: {}
 

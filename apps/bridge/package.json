@@ -38,14 +38,14 @@
     "ethers": "^5.0.0",
     "jotai": "^2.4.3",
     "lodash": "^4.17.21",
-    "next": "catalog:",
+    "next": "14.2.10",
     "next-themes": "^0.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "styled-components": "6.0.7",
     "styled-jsx": "5.1.1",
-    "viem": "catalog:",
-    "wagmi": "catalog:"
+    "viem": "^2.21.9",
+    "wagmi": "^2.12.12"
   },
   "devDependencies": {
     "@next/eslint-plugin-next": "14.2.3",
