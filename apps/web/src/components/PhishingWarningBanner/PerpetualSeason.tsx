@@ -25,7 +25,7 @@ export const PerpetualSeason: ICampaignBanner = () => {
         {t('300,000 $ARB')}
       </Text>
       <Text bold as="span" color="white" fontSize={['12px', '12px', '14px']}>
-        {t('on PancakeSwap Perpetuals v2!')}
+        {t('on  Volrex.Network  Perpetuals v2!')}
       </Text>
     </Box>
   )

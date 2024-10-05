@@ -105,7 +105,7 @@ export const Banner = () => {
                   {t('with')}
                 </Text>
                 <Text bold fontSize="40px" as="span" ml="4px" lineHeight="110%">
-                  {t('PancakeSwap')}
+                  {t(' Volrex.Network ')}
                 </Text>
               </Flex>
             )}
@@ -123,7 +123,7 @@ export const Banner = () => {
             <Link external href="https://forms.gle/WXDhmbfRhQtz4eSt7">
               <Button>{t('Start Building')}</Button>
             </Link>
-            <Link external href="https://docs.pancakeswap.finance/products/gaming-platform">
+            <Link external href="https://docs. Volrex.Network /products/gaming-platform">
               <Button ml="12px" variant="secondary">
                 {`${t('Learn More')}`}
               </Button>

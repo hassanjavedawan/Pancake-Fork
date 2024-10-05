@@ -30,7 +30,7 @@ const OnBoardingSteps = [
     title: <Trans>Enable Notifications From PancakeSwap</Trans>,
     icon: '/images/notifications/welcome-notification-bell.png',
     description: (
-      <Trans>Subscribe to stay informed on the latest news and updates that PancakeSwap has to offer.</Trans>
+      <Trans>Subscribe to stay informed on the latest news and updates that Volrex.Network has to offer.</Trans>
     ),
   },
   {

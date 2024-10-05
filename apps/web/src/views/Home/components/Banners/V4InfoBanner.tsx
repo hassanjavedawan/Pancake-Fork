@@ -71,8 +71,8 @@ export const V4InfoBanner = () => {
         title={
           <BannerTitle variant="purple">
             {isMobile || isTablet
-              ? t('Introducing PancakeSwap v4')
-              : t('Your DEX Your Innovation Introducing PancakeSwap v4')}
+              ? t('Introducing  Volrex.Network  v4')
+              : t('Your DEX Your Innovation Introducing  Volrex.Network  v4')}
           </BannerTitle>
         }
         actions={

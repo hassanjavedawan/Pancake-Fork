@@ -22,7 +22,7 @@ export const BENEFITS: Record<BenefitCardType, BenefitItem> = {
     btnText: <Trans>View Details</Trans>,
     desc: [
       <Trans>Enjoy the same veCAKE benefits on other networks.</Trans>,
-      <Trans>Explorer other PancakeSwap benefits.</Trans>,
+      <Trans>Explorer other Volrex.Network benefits.</Trans>,
     ],
     key: 'cross-chain-veCake',
   },

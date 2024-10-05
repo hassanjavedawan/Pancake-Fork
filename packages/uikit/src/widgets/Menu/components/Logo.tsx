@@ -1,3 +1,4 @@
+import { Text } from "@pancakeswap/uikit";
 import React, { useContext } from "react";
 import { keyframes, styled } from "styled-components";
 import Flex from "../../../components/Box/Flex";
@@ -55,11 +56,12 @@ const Logo: React.FC<React.PropsWithChildren<Props>> = ({ href }) => {
     <Flex alignItems="center">
       {isAbsoluteUrl ? (
         <StyledLink as="a" href={href} aria-label="Pancake home page">
-          {innerLogo}
+          {/* {innerLogo} */}
+          <Text fontSize="20px"> Volrex.Network </Text>
         </StyledLink>
       ) : (
         <StyledLink href={href} as={linkComponent} aria-label="Pancake home page">
-          {innerLogo}
+          <Text fontSize="20px"> Volrex.Network </Text>
         </StyledLink>
       )}
     </Flex>

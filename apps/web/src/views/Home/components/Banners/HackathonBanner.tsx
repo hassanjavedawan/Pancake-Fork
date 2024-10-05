@@ -75,7 +75,7 @@ export const V4HackathonBanner = () => {
         desc={
           !isMobile && (
             <BannerDesc style={{ whiteSpace: 'break-spaces' }} color="white">
-              {t('Build Hooks on PancakeSwap v4: $40,000 Total Prize Pool')}
+              {t('Build Hooks on  Volrex.Network  v4: $40,000 Total Prize Pool')}
             </BannerDesc>
           )
         }

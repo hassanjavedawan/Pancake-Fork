@@ -1,7 +1,7 @@
 {
   "name": "@pancakeswap/swap-sdk-evm",
   "version": "1.0.5",
-  "description": "An SDK for Pancakeswap EVM based chains",
+  "description": "An SDK for  Volrex.Network  EVM based chains",
   "repository": {
     "type": "git",
     "url": "https://github.com/pancakeswap/pancake-frontend.git",

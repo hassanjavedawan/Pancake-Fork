@@ -108,7 +108,7 @@ export const TgPredictionBotBanner = () => {
         }
         title={
           <BannerTitle variant={whiteVariant} marginTop={isSm ? '-6px' : '0px'}>
-            {t('Introducing PancakeSwap Prediction Telegram Bot')}
+            {t('Introducing  Volrex.Network  Prediction Telegram Bot')}
           </BannerTitle>
         }
         desc={isMobile ? null : <Desc />}

@@ -137,7 +137,7 @@ export const Infrastructure = () => {
         <Flex pt={['0', '0', '0', '0', '24px']} alignItems="center" flexDirection="column" justifyContent="center">
           <GradientLogo height="36px" width="36px" mb="24px" />
           <Heading maxWidth={['745px']} textAlign="center" scale="xl" mb="32px">
-            {t('Bring Your Game to Life on PancakeSwap')}
+            {t('Bring Your Game to Life on  Volrex.Network ')}
           </Heading>
           <StyledGameBenefitsListContainer>
             {GameBenefitsList.map((benefit, index) => (

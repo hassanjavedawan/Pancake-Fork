@@ -1,7 +1,7 @@
 {
   "name": "@pancakeswap/price-api-sdk",
   "version": "4.0.1",
-  "description": "SDK for pancakeswap price api",
+  "description": "SDK for Volrex.Network price api",
   "repository": {
     "type": "git",
     "url": "https://github.com/pancakeswap/pancake-frontend.git",

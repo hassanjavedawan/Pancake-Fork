@@ -256,7 +256,7 @@ const useEarnBlockData = () => {
       },
       {
         title: t('Position Manager'),
-        description: t('Automate your PancakeSwap v3 liquidity'),
+        description: t('Automate your  Volrex.Network  v3 liquidity'),
         ctaTitle: t('Stake Now'),
         image: `${ASSET_CDN}/web/landing/earn-pm.png`,
         defaultImage: `${ASSET_CDN}/web/landing/earn-pm-purple.png`,

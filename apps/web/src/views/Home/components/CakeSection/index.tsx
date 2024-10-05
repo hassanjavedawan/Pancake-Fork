@@ -2,10 +2,10 @@ import { useTranslation } from '@pancakeswap/localization'
 import { Button, Flex, Link, OpenNewIcon, StyledLink, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
 import { ASSET_CDN } from 'config/constants/endpoints'
 import useTheme from 'hooks/useTheme'
+import NextLink from 'next/link'
 import React, { memo, useCallback, useLayoutEffect, useRef } from 'react'
 import { css, keyframes, styled } from 'styled-components'
 import { useFourYearTotalVeCakeApr } from 'views/CakeStaking/hooks/useAPR'
-import NextLink from 'next/link'
 import { useDrawCanvas } from '../../hooks/useDrawCanvas'
 import { useDrawSequenceImages } from '../../hooks/useDrawSequence'
 import { checkIsIOS } from '../../hooks/useIsIOS'
@@ -474,7 +474,7 @@ const CakeSection: React.FC = () => {
           padding="0px 16px"
         >
           {t(
-            'Experience the power of community ownership, global governance, and explore infinite use cases within the PancakeSwap ecosystem',
+            'Experience the power of community ownership, global governance, and explore infinite use cases within the  Volrex.Network  ecosystem',
           )}
         </Text>
       </Flex>

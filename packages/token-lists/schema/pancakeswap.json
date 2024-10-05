@@ -2,7 +2,7 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "pancakeswap",
   "title": "PancakeSwap Token List",
-  "description": "Schema for lists of tokens compatible with the PancakeSwap Interface, including Uniswap standard and PancakeSwap Aptos",
+  "description": "Schema for lists of tokens compatible with the Volrex.Network Interface, including Uniswap standard and Volrex.Network Aptos",
   "definitions": {
     "Version": {
       "type": "object",

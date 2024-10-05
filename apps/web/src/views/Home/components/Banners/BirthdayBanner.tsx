@@ -68,7 +68,7 @@ export const BirthdayBanner = () => {
         badges={<PancakeSwapBadge />}
         title={
           <BannerTitle variant="purple" marginTop={isMd || isSm ? '-10px' : '0px'}>
-            {t("Pancake4ever! Celebrate PancakeSwap's 4th Birthday with us!")}
+            {t('Pancake4ever! Celebrate  Volrex.Network  4th Birthday with us!')}
           </BannerTitle>
         }
         actions={

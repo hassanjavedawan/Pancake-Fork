@@ -1,6 +1,6 @@
-# PancakeSwap V4 SDK
+# Volrex.Network V4 SDK
 
-PancakeSwap V4 Official SDK, used for PancakeSwap Interface and interacting with [PancakeSwap V4 smart contracts](https://github.com/pancakeswap/pancake-v4-core).
+PancakeSwap V4 Official SDK, used for Volrex.Network Interface and interacting with [PancakeSwap V4 smart contracts](https://github.com/pancakeswap/pancake-v4-core).
 
 ## Usage
 
@@ -11,7 +11,6 @@ TBD
 ### Bin Pool
 
 in Bin Pool, we use symbol `Y` and `X` to represent the two tokens in the pool. Like the `1` and `0` in CLAMM Pool.
-
 
 - [getBinPool](./src/functions/bin/getBinPool.ts): Get the bin pool with state
 - [getIdFromPrice](./src/functions/bin/getIdFromPrice.ts): Get the bin id from given price

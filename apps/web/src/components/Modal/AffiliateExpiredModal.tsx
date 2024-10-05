@@ -1,5 +1,5 @@
 import { useTranslation } from '@pancakeswap/localization'
-import { useModal, Text, LinkExternal } from '@pancakeswap/uikit'
+import { LinkExternal, Text, useModal } from '@pancakeswap/uikit'
 import { ReactNode, useCallback, useEffect } from 'react'
 import { useAccount } from 'wagmi'
 
@@ -39,7 +39,7 @@ export function AffiliateExpiredModal() {
           </Text>
           <Text mt="1.5rem">
             {t(
-              `Please be informed that the Affiliate who referred you and through whose referral link you signed up to trade is no longer part of PancakeSwap's Affiliate Program. As a result, effective immediately %time%, you will no longer receive any trading discounts from this Affiliate if they were previously enabled.`,
+              `Please be informed that the Affiliate who referred you and through whose referral link you signed up to trade is no longer part of  Volrex.Network  Affiliate Program. As a result, effective immediately %time%, you will no longer receive any trading discounts from this Affiliate if they were previously enabled.`,
               {
                 time: '5 Sep 2024',
               },

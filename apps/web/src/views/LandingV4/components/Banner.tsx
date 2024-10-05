@@ -154,7 +154,7 @@ export const Banner = () => {
               m={['16px 0', '16px 0', '16px 0', '16px 0', '24px 0']}
               textAlign={['center', 'center', 'center', 'center', 'left']}
             >
-              {t('Empower, Build and Innovate with PancakeSwap v4')}
+              {t('Empower, Build and Innovate with  Volrex.Network  v4')}
             </Text>
             <NextLinkFromReactRouter
               target="_blank"

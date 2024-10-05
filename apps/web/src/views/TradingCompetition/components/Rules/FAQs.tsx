@@ -1,7 +1,7 @@
-import { styled } from 'styled-components'
-import { Card, CardBody, CardHeader, Heading, Text, Flex } from '@pancakeswap/uikit'
 import { useTranslation } from '@pancakeswap/localization'
+import { Card, CardBody, CardHeader, Flex, Heading, Text } from '@pancakeswap/uikit'
 import FoldableText from 'components/FoldableSection/FoldableText'
+import { styled } from 'styled-components'
 
 const Wrapper = styled(Flex)`
   margin-top: 16px;
@@ -74,7 +74,7 @@ const FAQ = () => {
             <Text fontSize="14px" color="textSubtle">
               -{' '}
               {t(
-                'In the event of a disagreement concerning the final winning team or rank, PancakeSwap will have the final say.',
+                'In the event of a disagreement concerning the final winning team or rank,  Volrex.Network  will have the final say.',
               )}
             </Text>
             <Text fontSize="14px" color="textSubtle">

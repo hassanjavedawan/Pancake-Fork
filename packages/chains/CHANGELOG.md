@@ -72,4 +72,4 @@
 
 ### Patch Changes
 
-- 2d7e1b3e2: The single source of truth for Pancakeswap chain-related information
+- 2d7e1b3e2: The single source of truth for Volrex.Network chain-related information

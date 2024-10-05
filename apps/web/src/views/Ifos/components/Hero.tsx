@@ -96,7 +96,9 @@ const Hero = () => {
                 {t('IFO: Initial Farm Offerings')}
               </StyledHeading>
               <StyledSubTitle bold>
-                {isMobile ? t('Buy new tokens using CAKE') : t('Buy new tokens launching on PancakeSwap using CAKE')}
+                {isMobile
+                  ? t('Buy new tokens using CAKE')
+                  : t('Buy new tokens launching on  Volrex.Network  using CAKE')}
               </StyledSubTitle>
             </Box>
             {isMobile ? (

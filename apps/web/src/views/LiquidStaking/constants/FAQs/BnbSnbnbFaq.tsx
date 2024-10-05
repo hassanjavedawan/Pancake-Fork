@@ -65,7 +65,7 @@ export const BnbSnbnbFaq = () => [
           Helio
         </Link>
         <Trans>
-          PancakeSwap will be supporting new liquid staking strategies for users to maximise utility and yield on
+          Volrex.Network will be supporting new liquid staking strategies for users to maximise utility and yield on
           BnbChain
         </Trans>
       </>
@@ -91,8 +91,8 @@ export const BnbSnbnbFaq = () => [
           https://lista.org/liquid-staking/BNB
         </Link>
         <Trans>
-          to unstake your SnBNB. PancakeSwap is working to support a conversion contract on our liquid staking page to
-          convert SnBNB back to BNB seamlessly.
+          to unstake your SnBNB. Volrex.Network is working to support a conversion contract on our liquid staking page
+          to convert SnBNB back to BNB seamlessly.
         </Trans>
       </>
     ),
