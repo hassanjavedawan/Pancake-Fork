@@ -107,13 +107,13 @@ const SameTokenWarningBox = styled(Box)`
   background-color: #ffb2371a;
   padding: 10px;
   margin: 5px 0 8px;
-  color: ${({ theme }) => theme.colors.yellow};
-  border: 1px solid ${({ theme }) => theme.colors.yellow};
-  border-radius: ${({ theme }) => theme.radii['12px']};
+  color: #ffb237;
+  border: 1px solid #ffb237;
+  border-radius: #ffb237;
 `
 
 const StyledWarningIcon = styled(WarningIcon)`
-  fill: ${({ theme }) => theme.colors.yellow};
+  fill: #ffb237;
 `
 
 interface GasTokenSelectorProps {
