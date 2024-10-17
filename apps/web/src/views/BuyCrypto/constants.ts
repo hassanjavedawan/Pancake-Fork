@@ -32,6 +32,7 @@ export enum OnRampChainId {
   BASE_SEPOLIA = 84532,
   SEPOLIA = 11155111,
   BTC = 0,
+  FANTOM = 250,
 }
 export enum ONRAMP_PROVIDERS {
   MoonPay = 'MoonPay',
@@ -114,6 +115,8 @@ export const getNetworkFullName = (chainId: number | undefined): string => {
       return 'Base Mainnet'
     case OnRampChainId.BTC:
       return 'Bitcoin Network'
+    case OnRampChainId.FANTOM:
+      return 'Fantom Mainnet'
     default:
       return ''
   }

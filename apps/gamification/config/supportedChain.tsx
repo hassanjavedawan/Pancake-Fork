@@ -32,6 +32,7 @@ export const SUPPORTED_CHAIN = [
   ChainId.ARBITRUM_ONE,
   ChainId.BASE,
   ChainId.POLYGON_ZKEVM,
+  ChainId.FANTOM
   // ChainId.LINEA,
   // ChainId.OPBNB,
 ]

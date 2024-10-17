@@ -21,6 +21,7 @@ import {
   scrollSepolia,
   sepolia,
   zkSync,
+  fantom
 } from 'wagmi/chains'
 
 export const CHAIN_QUERY_NAME = chainNames
@@ -51,6 +52,7 @@ const bsc = {
     },
   },
 } satisfies Chain
+
 
 /**
  * Controls some L2 specific behavior, e.g. slippage tolerance, special UI behavior.
@@ -93,4 +95,5 @@ export const CHAINS: [Chain, ...Chain[]] = [
   opBNB,
   opBNBTestnet,
   scrollSepolia,
+  fantom
 ]

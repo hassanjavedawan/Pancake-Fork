@@ -40,6 +40,7 @@ export const chainIdToChainName = {
   8453: 'base',
   42161: 'arbitrum',
   59144: 'linea',
+  250: 'Fantom',
 } as const
 
 const fetchAllMerklConfig = async (): Promise<MerklConfigResponse> => {

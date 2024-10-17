@@ -18,6 +18,7 @@ import {
   sepolia,
   zkSync,
   zksyncSepoliaTestnet,
+  fantom,
 } from 'wagmi/chains'
 
 const ARBITRUM_NODES = [
@@ -64,6 +65,7 @@ export const SERVER_NODES = {
   ],
   [ChainId.ZKSYNC_TESTNET]: zksyncSepoliaTestnet.rpcUrls.default.http,
   [ChainId.LINEA]: linea.rpcUrls.default.http,
+  [ChainId.FANTOM]: ['https://fantom.publicnode.com'],
   [ChainId.LINEA_TESTNET]: [
     'https://rpc.goerli.linea.build',
     'https://linea-testnet.rpc.thirdweb.com',
@@ -97,6 +99,7 @@ export const PUBLIC_NODES: Record<ChainId, string[] | readonly string[]> = {
     'https://bsc-dataseed1.defibit.io',
     'https://bsc-dataseed1.binance.org',
   ].filter(notEmpty),
+  [ChainId.FANTOM]: ['https://fantom.publicnode.com'],
   [ChainId.BSC_TESTNET]: [
     getNodeRealUrl(ChainId.BSC_TESTNET, process.env.SERVER_NODE_REAL_API_ETH) || '',
     'https://data-seed-prebsc-1-s1.binance.org:8545',

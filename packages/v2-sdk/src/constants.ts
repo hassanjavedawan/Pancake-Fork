@@ -52,4 +52,5 @@ export const INIT_CODE_HASH_MAP = {
   [ChainId.SEPOLIA]: INIT_CODE_HASH_ETH,
   [ChainId.ARBITRUM_SEPOLIA]: INIT_CODE_HASH_ETH,
   [ChainId.BASE_SEPOLIA]: INIT_CODE_HASH_ETH,
+  [ChainId.FANTOM]: '0xe242e798f6cee26a9cb0bbf24653bf066e5356ffeac160907fe2cc108e238617',
 } as const satisfies Record<ChainId, Hash>

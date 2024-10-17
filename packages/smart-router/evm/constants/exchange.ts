@@ -72,6 +72,7 @@ export const V2_ROUTER_ADDRESS: ChainMap<string> = {
   [ChainId.SEPOLIA]: '0x8cFe327CEc66d1C090Dd72bd0FF11d690C33a2Eb',
   [ChainId.ARBITRUM_SEPOLIA]: '0x8cFe327CEc66d1C090Dd72bd0FF11d690C33a2Eb',
   [ChainId.BASE_SEPOLIA]: '0x8cFe327CEc66d1C090Dd72bd0FF11d690C33a2Eb',
+  [ChainId.FANTOM]: '0x16327E3FbDaCA3bcF7E38F5Af2599D2DDc33aE52',
 }
 
 export const STABLE_SWAP_INFO_ADDRESS: ChainMap<string> = {
@@ -95,6 +96,7 @@ export const STABLE_SWAP_INFO_ADDRESS: ChainMap<string> = {
   [ChainId.SEPOLIA]: '',
   [ChainId.ARBITRUM_SEPOLIA]: '',
   [ChainId.BASE_SEPOLIA]: '',
+  [ChainId.FANTOM]: '',
 }
 
 // used to construct intermediary pairs for trading

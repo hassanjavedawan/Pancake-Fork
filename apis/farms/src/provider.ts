@@ -4,6 +4,7 @@ import {
   arbitrum,
   bsc,
   bscTestnet,
+  fantom,
   goerli,
   mainnet,
   opBNB,
@@ -20,6 +21,7 @@ const requireCheck = [
   BSC_TESTNET_NODE,
   POLYGON_ZKEVM_NODE,
   ZKSYNC_NODE,
+  FANTOM_NODE,
   ARBITRUM_ONE_NODE,
   LINEA_NODE,
   BASE_NODE,
@@ -208,6 +210,18 @@ const zksyncClient = createPublicClient({
   pollingInterval: 6_000,
 })
 
+const fantomClient = createPublicClient({
+  chain: fantom as Chain,
+  transport: http(FANTOM_NODE),
+  batch: {
+    multicall: {
+      batchSize: 1024 * 200,
+      wait: 16,
+    },
+  },
+  pollingInterval: 6_000,
+})
+
 const arbitrumOneClient = createPublicClient({
   chain: arbitrum,
   transport: http(ARBITRUM_ONE_NODE),
@@ -292,6 +306,8 @@ export const viemProviders = ({ chainId }: { chainId?: ChainId }): PublicClient 
       return opBNBClient
     case ChainId.OPBNB_TESTNET:
       return opBNBTestnetClient
+    case ChainId.FANTOM:
+      return fantomClient;
     default:
       return bscClient
   }

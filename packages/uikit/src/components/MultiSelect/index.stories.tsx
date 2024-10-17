@@ -19,6 +19,7 @@ const chains = [
   { label: "Base", value: "Base", icon: "https://assets.pancakeswap.finance/web/chains/8453.png" },
   { label: "opBNB", value: "opbnb", icon: "https://assets.pancakeswap.finance/web/chains/204.png" },
   { label: "Aptos", value: "Aptos", icon: "https://aptos.pancakeswap.finance/images/apt.png" },
+  { label: "Fantom", value: "Fantom", icon: "https://aptos.pancakeswap.finance/images/fantom.png" },
 ];
 
 const Title = styled.div`
