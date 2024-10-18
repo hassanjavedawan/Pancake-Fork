@@ -4,10 +4,16 @@ import {
   base,
   bsc,
   mainnet as ethereum,
+  fantom,
+  optimism,
   polygonZkEvm,
+  moonbeam,
   // linea,
   // opBNB,
   zkSync,
+  celo,
+  gnosis,
+  coreDao,
 } from 'wagmi/chains'
 
 export const SUPPORT_ONLY_BSC = [ChainId.BSC]
@@ -19,6 +25,12 @@ export const targetChains = [
   arbitrum,
   polygonZkEvm,
   base,
+  fantom,
+  optimism,
+  moonbeam,
+  celo,
+  gnosis,
+  coreDao,
   // linea,
   // opBNB,
 ]
@@ -32,7 +44,14 @@ export const SUPPORTED_CHAIN = [
   ChainId.ARBITRUM_ONE,
   ChainId.BASE,
   ChainId.POLYGON_ZKEVM,
-  ChainId.FANTOM
+  ChainId.FANTOM,
+  ChainId.AVALANCHE,
+  ChainId.OPTIMISM,
+  ChainId.MOONBEAM,
+  ChainId.CELO,
+  ChainId.GNOSIS,
+  ChainId.COREDAO,
+
   // ChainId.LINEA,
   // ChainId.OPBNB,
 ]

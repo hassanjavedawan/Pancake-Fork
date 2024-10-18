@@ -14,7 +14,7 @@ interface NetworkMultiSelectorProps extends BoxProps {
 const options = targetChains.map((chain) => ({
   label: chainNameConverter(chain.name),
   value: chain.id.toString(),
-  icon: `${ASSET_CDN}/web/chains/${chain.id}.png`,
+  icon: `/images/chains/${chainId}.png`,
 }))
 
 export const defaultValueChains = options.map((i) => Number(i.value) as ChainId)

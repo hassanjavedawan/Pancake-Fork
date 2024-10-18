@@ -17,7 +17,13 @@ const evmChains = [
   { id: 59144, name: 'Linea', chainName: 'linea' },
   { id: 8453, name: 'Base', chainName: 'base' },
   { id: 204, name: 'opBNB Mainnet', chainName: 'opBNB' },
-  { id: 250, name: 'Fantom Mainnet', chainName: 'Fantom' },
+  { id: 250, name: 'Fantom Mainnet', chainName: 'fantom' },
+  { id: 43114, name: 'Avalanche C-Chain', chainName: 'avalanche' },
+  { id: 10, name: 'Optimism', chainName: 'eth' },
+  { id: 1284, name: 'Moonbeam', chainName: 'glmr' },
+  { id: 42220, name: 'Celo Mainnet', chainName: 'celo' },
+  { id: 100, name: 'Gnosis', chainName: 'xdai' },
+  { id: 1116, name: 'CoreDao', chainName: 'core' },
 ]
 
 const NetworkSelect = () => {
@@ -37,13 +43,7 @@ const NetworkSelect = () => {
           target="_blank"
           href={`${APEX_DOMAIN}?chain=${chain.chainName}`}
         >
-          <Image
-            src={`${ASSETS_CDN}/web/chains/${chain.id}.png`}
-            width={24}
-            height={24}
-            unoptimized
-            alt={`chain-${chain.id}`}
-          />
+          <Image src={`/images/chains/${chainId}.png`} width={24} height={24} unoptimized alt={`chain-${chain.id}`} />
           <Text color="text" pl="12px">
             {chain.name}
           </Text>

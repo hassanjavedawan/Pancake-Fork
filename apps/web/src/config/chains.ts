@@ -21,7 +21,13 @@ import {
   scrollSepolia,
   sepolia,
   zkSync,
-  fantom
+  fantom,
+  avalanche,
+  optimism,
+  moonbeam,
+  celo,
+  gnosis,
+  coreDao,
 } from 'wagmi/chains'
 
 export const CHAIN_QUERY_NAME = chainNames
@@ -53,7 +59,6 @@ const bsc = {
   },
 } satisfies Chain
 
-
 /**
  * Controls some L2 specific behavior, e.g. slippage tolerance, special UI behavior.
  * The expectation is that all of these networks have immediate transaction confirmation.
@@ -73,6 +78,11 @@ export const L2_CHAIN_IDS: ChainId[] = [
   ChainId.OPBNB_TESTNET,
   ChainId.ARBITRUM_SEPOLIA,
   ChainId.BASE_SEPOLIA,
+  ChainId.OPTIMISM,
+  ChainId.MOONBEAM,
+  ChainId.CELO,
+  ChainId.GNOSIS,
+  ChainId.COREDAO,
 ]
 
 export const CHAINS: [Chain, ...Chain[]] = [
@@ -95,5 +105,11 @@ export const CHAINS: [Chain, ...Chain[]] = [
   opBNB,
   opBNBTestnet,
   scrollSepolia,
-  fantom
+  fantom,
+  avalanche,
+  optimism,
+  moonbeam,
+  celo,
+  gnosis,
+  coreDao,
 ]

@@ -140,7 +140,7 @@ export const CurrencySearch: React.FC<CurrencySearchProps> = ({
         </Row>
         <AutoColumn gap="md">
           <AutoRow>
-            <Text fontSize="14px">{t('Select a Network')}</Text>
+            \<Text fontSize="14px">{t('Select a Network')}</Text>
           </AutoRow>
           <RowWrapper>
             {supportChainPicked.map((chain) => (

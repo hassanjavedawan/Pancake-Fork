@@ -41,6 +41,12 @@ export const chainIdToChainName = {
   42161: 'arbitrum',
   59144: 'linea',
   250: 'Fantom',
+  43114: 'Avalanche',
+  10: 'OP Mainnet',
+  1284: 'Moonbeam',
+  42220: 'Celo',
+  100: 'Gnosis',
+  1116: 'coreDao',
 } as const
 
 const fetchAllMerklConfig = async (): Promise<MerklConfigResponse> => {

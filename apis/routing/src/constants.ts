@@ -15,6 +15,12 @@ export const SUPPORTED_CHAINS = [
   ChainId.LINEA,
   ChainId.OPBNB,
   ChainId.FANTOM,
+  ChainId.AVALANCHE,
+  ChainId.OPTIMISM,
+  ChainId.MOONBEAM,
+  ChainId.CELO,
+  ChainId.GNOSIS,
+  ChainId.COREDAO,
 ] as const
 
 export type SupportedChainId = (typeof SUPPORTED_CHAINS)[number]

@@ -12,6 +12,12 @@ import {
   polygonZkEvm,
   zkSync,
   zkSyncTestnet,
+  avalanche,
+  optimism,
+  moonbeam,
+  celo,
+  gnosis,
+  coreDao,
 } from 'viem/chains'
 
 const requireCheck = [
@@ -307,7 +313,7 @@ export const viemProviders = ({ chainId }: { chainId?: ChainId }): PublicClient 
     case ChainId.OPBNB_TESTNET:
       return opBNBTestnetClient
     case ChainId.FANTOM:
-      return fantomClient;
+      return fantomClient
     default:
       return bscClient
   }

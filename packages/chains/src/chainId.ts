@@ -20,6 +20,12 @@ export enum ChainId {
   BASE_SEPOLIA = 84532,
   SEPOLIA = 11155111,
   FANTOM = 250,
+  AVALANCHE = 43114,
+  OPTIMISM = 10,
+  MOONBEAM = 1284,
+  CELO = 42220,
+  GNOSIS = 100,
+  COREDAO = 1116,
 }
 
 export const testnetChainIds = [

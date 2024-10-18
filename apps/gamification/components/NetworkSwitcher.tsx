@@ -156,6 +156,12 @@ export const SHORT_SYMBOL = {
   [ChainId.BASE_SEPOLIA]: 'Base Sepolia',
   [ChainId.ARBITRUM_SEPOLIA]: 'Arb Sepolia',
   [ChainId.FANTOM]: 'Fantom',
+  [ChainId.AVALANCHE]: 'AVAX',
+  [ChainId.OPTIMISM]: 'ETH',
+  [ChainId.MOONBEAM]: 'GLMR',
+  [ChainId.CELO]: 'CELO',
+  [ChainId.GNOSIS]: 'XDAI',
+  [ChainId.COREDAO]: 'CORE',
 } as const satisfies Record<ChainId, string>
 
 export const NetworkSwitcher = () => {
@@ -183,7 +189,7 @@ export const NetworkSwitcher = () => {
         mr="8px"
         placement="bottom"
         variant={isLoading ? 'pending' : isWrongNetwork ? 'danger' : 'default'}
-        avatarSrc={`${ASSET_CDN}/web/chains/${chainId}.png`}
+        avatarSrc={`/images/chains/${chainId}.png`}
         disabled={cannotChangeNetwork}
         text={
           isLoading ? (

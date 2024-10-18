@@ -19,7 +19,13 @@ const chains = [
   { label: "Base", value: "Base", icon: "https://assets.pancakeswap.finance/web/chains/8453.png" },
   { label: "opBNB", value: "opbnb", icon: "https://assets.pancakeswap.finance/web/chains/204.png" },
   { label: "Aptos", value: "Aptos", icon: "https://aptos.pancakeswap.finance/images/apt.png" },
-  { label: "Fantom", value: "Fantom", icon: "https://aptos.pancakeswap.finance/images/fantom.png" },
+  { label: "Fantom", value: "Fantom", icon: "https://aptos.pancakeswap.finance/images/250.png" },
+  { label: "Avalanche", value: "Avalanche", icon: "https://aptos.pancakeswap.finance/images/43114.png" },
+  { label: "optimism", value: "optimism", icon: "https://aptos.pancakeswap.finance/images/10.png" },
+  { label: "Moonbeam", value: "Moonbeam", icon: "https://aptos.pancakeswap.finance/images/1284.png" },
+  { label: "CELO", value: "celo", icon: "https://aptos.pancakeswap.finance/images/42220.png" },
+  { label: "Gnosis", value: "XDAI", icon: "https://aptos.pancakeswap.finance/images/100.png" },
+  { label: "CoreDao", value: "core", icon: "https://aptos.pancakeswap.finance/images/1116.png" },
 ];
 
 const Title = styled.div`

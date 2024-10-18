@@ -79,6 +79,8 @@ export const MAINNET_CHAINS = {
   arbitrum: 23,
   optimism: 24,
   base: 30,
+  gnosis: 100,
+  coreDao: 1116,
   wormchain: 3104,
   evmos: 4001,
   kujira: 4002,
