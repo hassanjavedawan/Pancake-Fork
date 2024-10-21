@@ -1,4 +1,4 @@
-import { Button, Flex, Text, useMatchBreakpoints, OpenNewIcon } from '@pancakeswap/uikit'
+import { Button, Flex, Text, useMatchBreakpoints, OpenNewIcon, LogoWithTextIcon } from '@pancakeswap/uikit'
 import { NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
 
 import { useTranslation } from '@pancakeswap/localization'
@@ -100,13 +100,8 @@ export const ZksyncBanner = () => {
       <S.Inner>
         <S.LeftWrapper>
           <Flex alignItems="center" mb="8px" style={{ gap: isMobile ? 10 : 14 }}>
-            <Image
-              src={pancakeSwapLogo}
-              alt="pancakeSwapLogo"
-              width={isMobile ? 100 : 132}
-              height={isMobile ? 15 : 20}
-              unoptimized
-            />
+            <LogoWithTextIcon color="white" />
+
             <Divider />
             <Image src={eraLogo} alt="eraLogo" width={isMobile ? 73 : 88} height={isMobile ? 14 : 16} />
           </Flex>
@@ -130,14 +125,14 @@ export const ZksyncBanner = () => {
             </NextLinkFromReactRouter>
           </Flex>
         </S.LeftWrapper>
-        <RightWrapper>
+        {/* <RightWrapper>
           {!isDesktop ? (
             <Image src={zkSyncBgMobile} alt="zkSyncBgMobile" width={270} height={239} placeholder="blur" />
           ) : (
             <Image src={zkSyncBg} alt="zkSyncBg" width={624} height={177} placeholder="blur" />
           )}
           {isDesktop && <Image src={zkSyncBunny} alt="zkSyncBunny" width={201} height={203} placeholder="blur" />}
-        </RightWrapper>
+        </RightWrapper> */}
       </S.Inner>
     </S.Wrapper>
   )

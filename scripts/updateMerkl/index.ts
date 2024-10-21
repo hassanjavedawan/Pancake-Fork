@@ -47,6 +47,7 @@ export const chainIdToChainName = {
   42220: 'Celo',
   100: 'Gnosis',
   1116: 'coreDao',
+  786: 'SGC',
 } as const
 
 const fetchAllMerklConfig = async (): Promise<MerklConfigResponse> => {

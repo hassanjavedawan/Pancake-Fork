@@ -242,7 +242,7 @@ const V3Banner = () => {
             </StyledButtonLeft>
           </NextLinkFromReactRouter>
         </S.LeftWrapper>
-        <RightWrapper>
+        {/* <RightWrapper>
           {!isMobile && <Image src={v3Board} alt="v3Board" width={141} height={111} placeholder="blur" />}
           {!isMobile && <Image src={v3BgCoinUp} alt="v3BgCoinUp" width={149} height={47} placeholder="blur" />}
           {!isMobile && <Image src={v3BgCoinDown} alt="v3BgCoinUp" width={187} height={75} placeholder="blur" />}
@@ -253,7 +253,7 @@ const V3Banner = () => {
           ) : (
             <Image src={v3AirdropBunny} alt="v3AirdropBunny" width={290} height={295} placeholder="blur" />
           )}
-        </RightWrapper>
+        </RightWrapper> */}
       </S.Inner>
     </S.Wrapper>
   )

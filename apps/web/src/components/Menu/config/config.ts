@@ -147,31 +147,31 @@ const config: (
         },
       ].map((item) => addMenuItemSupported(item, chainId)),
     },
-    {
-      label: t('Play'),
-      icon: GameIcon,
-      hideSubNav: true,
-      href: '/prediction',
-      items: [
-        {
-          label: t('Prediction (BETA)'),
-          href: '/prediction',
-          image: '/images/decorations/prediction.png',
-          supportChainIds: PREDICTION_SUPPORTED_CHAINS,
-        },
-        {
-          label: t('Lottery'),
-          href: '/lottery',
-          image: '/images/decorations/lottery.png',
-        },
-        {
-          label: t('Quests'),
-          href: 'https://quest.pancakeswap.finance/quests',
-          status: { text: t('New'), color: 'success' },
-          type: DropdownMenuItemType.EXTERNAL_LINK,
-        },
-      ].map((item) => addMenuItemSupported(item, chainId)),
-    },
+    // {
+    //   label: t('Play'),
+    //   icon: GameIcon,
+    //   hideSubNav: true,
+    //   href: '/prediction',
+    //   items: [
+    //     {
+    //       label: t('Prediction (BETA)'),
+    //       href: '/prediction',
+    //       image: '/images/decorations/prediction.png',
+    //       supportChainIds: PREDICTION_SUPPORTED_CHAINS,
+    //     },
+    //     {
+    //       label: t('Lottery'),
+    //       href: '/lottery',
+    //       image: '/images/decorations/lottery.png',
+    //     },
+    //     {
+    //       label: t('Quests'),
+    //       href: 'https://quest.pancakeswap.finance/quests',
+    //       status: { text: t('New'), color: 'success' },
+    //       type: DropdownMenuItemType.EXTERNAL_LINK,
+    //     },
+    //   ].map((item) => addMenuItemSupported(item, chainId)),
+    // },
     {
       label: '',
       href: '/info',

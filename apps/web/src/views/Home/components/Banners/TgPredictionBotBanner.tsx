@@ -1,5 +1,5 @@
 import { useTranslation } from '@pancakeswap/localization'
-import { Box, Flex, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { Box, Flex, LogoWithTextIcon, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
 import {
   BackgroundGraphic,
   BannerActionContainer,
@@ -103,7 +103,7 @@ export const TgPredictionBotBanner = () => {
       <BannerMain
         badges={
           <Flex>
-            <PancakeSwapBadge whiteText />
+            <LogoWithTextIcon color="white" />
           </Flex>
         }
         title={
@@ -115,7 +115,7 @@ export const TgPredictionBotBanner = () => {
         actions={<BannerActionContainer>{PlayNowAction}</BannerActionContainer>}
       />
 
-      <BannerGraphics>
+      {/* <BannerGraphics>
         <StyledBackgroundGraphic
           src={`${PATH}/bunny-lg.png`}
           sm={bgSmVariant}
@@ -127,7 +127,7 @@ export const TgPredictionBotBanner = () => {
         <Box position="absolute" width="100%" top={isMobile ? '10%' : '0'} left="3%">
           <FloatingGraphic src={floatingAsset} width={isMobile ? 70 : 100} height={isMobile ? 70 : 100} />
         </Box>
-      </BannerGraphics>
+      </BannerGraphics> */}
     </BannerContainer>
   )
 }

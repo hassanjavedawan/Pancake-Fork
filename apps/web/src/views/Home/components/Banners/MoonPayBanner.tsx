@@ -1,5 +1,15 @@
 import { useTranslation } from '@pancakeswap/localization'
-import { Flex, Link, OpenNewIcon, Text, useMatchBreakpoints, Button, Svg, SvgProps } from '@pancakeswap/uikit'
+import {
+  Flex,
+  Link,
+  OpenNewIcon,
+  Text,
+  useMatchBreakpoints,
+  Button,
+  Svg,
+  SvgProps,
+  LogoWithTextIcon,
+} from '@pancakeswap/uikit'
 import { ASSET_CDN } from 'config/constants/endpoints'
 import Image from 'next/legacy/image'
 import { memo } from 'react'
@@ -121,13 +131,8 @@ const MoonPayBanner = () => {
       <S.Inner>
         <S.LeftWrapper position="relative" style={{ zIndex: 2, justifyContent: isMobile ? 'flex-start' : 'center' }}>
           <Flex alignItems="center" mb="8px" style={{ gap: isMobile ? 4 : 10, overflow: 'visible' }}>
-            <Image
-              src={pancakeSwapLogo}
-              alt="pancakeSwapLogo"
-              width={isMobile ? 100 : 132}
-              height={isMobile ? 15 : 22}
-              unoptimized
-            />
+            <LogoWithTextIcon color="white" />
+
             <CrossSVG width={isMobile ? 9 : 15} />
             <StyledImage
               style={{ paddingTop: isMobile ? 2 : 4 }}
@@ -158,7 +163,7 @@ const MoonPayBanner = () => {
             </Button>
           </Link>
         </S.LeftWrapper>
-        <RightWrapper>
+        {/* <RightWrapper>
           {isDesktop ? (
             <Image src={moonpayCash} alt="liquidStakingBunny" width={72} height={55} placeholder="blur" />
           ) : (
@@ -171,7 +176,7 @@ const MoonPayBanner = () => {
               <Image src={moonpayBgMobile} alt="liquidStakingBunnyMobile" width={213} height={135} placeholder="blur" />
             )}
           </BgWrapper>
-        </RightWrapper>
+        </RightWrapper> */}
       </S.Inner>
     </S.Wrapper>
   )

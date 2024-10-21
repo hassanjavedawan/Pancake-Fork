@@ -94,9 +94,9 @@ export const BCakeMigrationBanner = () => {
           </BannerActionContainer>
         }
       />
-      <BannerGraphics>
+      {/* <BannerGraphics>
         <BackgroundGraphic src={bCakeMigrationImage.src} width={468} height={224} sm={bgSmVariant} xs={bgXsVariant} />
-      </BannerGraphics>
+      </BannerGraphics> */}
     </BannerContainer>
   )
 }

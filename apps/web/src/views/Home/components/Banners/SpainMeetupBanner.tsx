@@ -1,7 +1,7 @@
 import { memo, useMemo } from 'react'
 import styled from 'styled-components'
 import Image from 'next/image'
-import { Flex, FlexGap, useMatchBreakpoints, Link, Text } from '@pancakeswap/uikit'
+import { Flex, FlexGap, useMatchBreakpoints, Link, Text, LogoWithTextIcon } from '@pancakeswap/uikit'
 import { useTranslation } from '@pancakeswap/localization'
 import { useCountdown } from '@pancakeswap/hooks'
 
@@ -184,13 +184,8 @@ export const SpainMeetupBanner = memo(function SpainMeetupBanner() {
         </BgWrapper>
         <ContentWrapper gap="1rem" width="100%">
           <FlexGap gap={isMobile ? '1rem' : '0.5rem'} flexDirection="column">
-            <Image
-              src={pancakeSwapLogo}
-              alt="pancakeSwapLogo"
-              width={isMobile ? 100 : 132}
-              height={isMobile ? 15 : 22}
-              unoptimized
-            />
+            <LogoWithTextIcon color="white" />
+
             <StyledHeading data-text={t('PancakeSwap Meetup')}>{t('PancakeSwap Meetup')}</StyledHeading>
             <Flex ml={isMobile ? 0 : '6rem'}>
               <HeadLine data-text={t('Spain')}>{t('Spain')}</HeadLine>

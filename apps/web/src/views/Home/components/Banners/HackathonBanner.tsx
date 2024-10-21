@@ -1,5 +1,5 @@
 import { useTranslation } from '@pancakeswap/localization'
-import { Box, Flex, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { Box, Flex, LogoWithTextIcon, useMatchBreakpoints } from '@pancakeswap/uikit'
 import {
   BackgroundGraphic,
   BannerActionContainer,
@@ -67,7 +67,8 @@ export const V4HackathonBanner = () => {
       <BannerMain
         badges={
           <Flex alignItems="center" justifyContent="center" alignContent="center" height="20px" minWidth="220px">
-            <PancakeSwapBadge whiteText />
+            <LogoWithTextIcon color="white" />
+
             <StyledImage src={logoLarge} alt="top-logo-alt" />
           </Flex>
         }
@@ -101,7 +102,7 @@ export const V4HackathonBanner = () => {
         }
       />
 
-      <BannerGraphics>
+      {/* <BannerGraphics>
         <BackgroundGraphic
           src={`${HACKATHON_PATH}/bg-lg.png`}
           sm={bgSmVariant}
@@ -112,7 +113,7 @@ export const V4HackathonBanner = () => {
         <Box position="absolute" width="100%">
           <FloatingGraphic src={floatingAsset} width={99} height={99} />
         </Box>
-      </BannerGraphics>
+      </BannerGraphics> */}
     </BannerContainer>
   )
 }

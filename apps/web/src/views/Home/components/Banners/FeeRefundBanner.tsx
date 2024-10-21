@@ -1,5 +1,5 @@
 import { useTranslation } from '@pancakeswap/localization'
-import { Flex, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { Flex, LogoWithTextIcon, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
 import {
   BackgroundGraphic,
   BannerActionContainer,
@@ -77,7 +77,7 @@ export const FeeRefundBanner = () => {
       <BannerMain
         badges={
           <Flex>
-            <PancakeSwapBadge />
+            <LogoWithTextIcon color="white" />
           </Flex>
         }
         desc={isMobile ? null : <Desc />}
@@ -96,9 +96,9 @@ export const FeeRefundBanner = () => {
           </BannerActionContainer>
         }
       />
-      <BannerGraphics>
+      {/* <BannerGraphics>
         <BackgroundGraphic src={bgDesktop} width={468} height={224} sm={bgSmVariant} xs={bgXsVariant} />
-      </BannerGraphics>
+      </BannerGraphics> */}
     </BannerContainer>
   )
 }

@@ -251,7 +251,7 @@ const V3LaunchBanner = () => {
             </StyledButtonLeft>
           </NextLinkFromReactRouter>
         </S.LeftWrapper>
-        <RightWrapper>
+        {/* <RightWrapper>
           {!isMobile ? (
             <Image src={v3LaunchBg} alt="v3LaunchBg" width={595} height={192} unoptimized />
           ) : (
@@ -265,7 +265,7 @@ const V3LaunchBanner = () => {
           {!isMobile && <Image src={v3LaunchBnb} alt="v3LaunchBnb" width={204} height={123} unoptimized />}
           {!isMobile && <Image src={v3LaunchEth} alt="v3LaunchEth" width={208} height={172} unoptimized />}
           {!isMobile && <Image src={v3LaunchFlag} alt="v3LaunchFlag" width={150} height={180} unoptimized />}
-        </RightWrapper>
+        </RightWrapper> */}
       </S.Inner>
     </S.Wrapper>
   )

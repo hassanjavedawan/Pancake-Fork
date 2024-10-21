@@ -171,6 +171,7 @@ const SHORT_SYMBOL = {
   [ChainId.CELO]: 'CELO',
   [ChainId.GNOSIS]: 'XDAI',
   [ChainId.COREDAO]: 'CORE',
+  [ChainId.SGC]: 'SGC',
 } as const satisfies Record<ChainId, string>
 
 export const NetworkSwitcher = () => {

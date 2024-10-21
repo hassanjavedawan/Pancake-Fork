@@ -104,11 +104,11 @@ const Menu = (props) => {
         rightSide={
           <>
             <GlobalSettings mode={SettingsMode.GLOBAL} />
-            {enabled && (
+            {/* {enabled && (
               <Suspense fallback={null}>
                 <Notifications />
               </Suspense>
-            )}
+            )} */}
             <NetworkSwitcher />
             <UserMenu />
           </>

@@ -103,13 +103,13 @@ const PerpetualBanner = () => {
             </Button>
           </Link>
         </S.LeftWrapper>
-        <RightWrapper>
+        {/* <RightWrapper>
           {isDesktop ? (
             <Image src={perpetualImage} alt="PerpetualBanner" width={392} height={232} placeholder="blur" />
           ) : (
             <Image src={perpetualMobileImage} alt="PerpetualBanner" width={208} height={208} placeholder="blur" />
           )}
-        </RightWrapper>
+        </RightWrapper> */}
       </S.Inner>
     </S.Wrapper>
   )

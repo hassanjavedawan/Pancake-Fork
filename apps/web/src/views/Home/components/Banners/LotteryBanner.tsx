@@ -141,7 +141,7 @@ const LotteryBanner = () => {
             </Button>
           </NextLinkFromReactRouter>
         </S.LeftWrapper>
-        <RightWrapper>
+        {/* <RightWrapper>
           {isDesktop ? (
             <Image src={lotteryImage} alt="LotteryBanner" width={1112} height={192 + 32} placeholder="blur" />
           ) : (
@@ -154,7 +154,7 @@ const LotteryBanner = () => {
               placeholder="blur"
             />
           )}
-        </RightWrapper>
+        </RightWrapper> */}
       </S.Inner>
     </S.Wrapper>
   )

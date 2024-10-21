@@ -1,5 +1,5 @@
 import { useTranslation } from '@pancakeswap/localization'
-import { Flex, Link, OpenNewIcon, Text, useMatchBreakpoints, Button, Svg } from '@pancakeswap/uikit'
+import { Flex, Link, OpenNewIcon, Text, useMatchBreakpoints, Button, Svg, LogoWithTextIcon } from '@pancakeswap/uikit'
 import { ASSET_CDN } from 'config/constants/endpoints'
 import Image from 'next/legacy/image'
 import { memo } from 'react'
@@ -113,13 +113,8 @@ const LineaBanner = () => {
       <S.Inner>
         <S.LeftWrapper position="relative" style={{ zIndex: 2, justifyContent: isMobile ? 'flex-start' : 'center' }}>
           <Flex alignItems="center" mb="8px" style={{ gap: isMobile ? 4 : 10 }}>
-            <Image
-              src={pancakeSwapLogo}
-              alt="pancakeSwapLogo"
-              width={isMobile ? 100 : 132}
-              height={isMobile ? 15 : 22}
-              unoptimized
-            />
+            <LogoWithTextIcon color="white" />
+
             <CrossSVG />
             <Image src={lineaLogo} alt="lineaLogo" width={isMobile ? 54 : 70} height={isMobile ? 15 : 20} />
           </Flex>
@@ -143,7 +138,7 @@ const LineaBanner = () => {
             </Button>
           </Link>
         </S.LeftWrapper>
-        <RightWrapper>
+        {/* <RightWrapper>
           {isDesktop ? (
             <Image src={lineaBunny} alt="liquidStakingBunny" width={353} height={196} placeholder="blur" />
           ) : (
@@ -156,7 +151,7 @@ const LineaBanner = () => {
               <Image src={lineaBgMobile} alt="liquidStakingBunnyMobile" width={211} height={147} placeholder="blur" />
             )}
           </BgWrapper>
-        </RightWrapper>
+        </RightWrapper> */}
       </S.Inner>
     </S.Wrapper>
   )

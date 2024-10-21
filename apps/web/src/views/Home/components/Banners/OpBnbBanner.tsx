@@ -1,5 +1,15 @@
 import { useTranslation } from '@pancakeswap/localization'
-import { Flex, Link, OpenNewIcon, Text, useMatchBreakpoints, Button, Svg, SvgProps } from '@pancakeswap/uikit'
+import {
+  Flex,
+  Link,
+  OpenNewIcon,
+  Text,
+  useMatchBreakpoints,
+  Button,
+  Svg,
+  SvgProps,
+  LogoWithTextIcon,
+} from '@pancakeswap/uikit'
 import { ASSET_CDN } from 'config/constants/endpoints'
 import Image from 'next/legacy/image'
 import { memo } from 'react'
@@ -124,13 +134,8 @@ export const OpBnbBanner = memo(() => {
       <S.Inner>
         <S.LeftWrapper position="relative" style={{ zIndex: 3, justifyContent: isMobile ? 'flex-start' : 'center' }}>
           <Flex alignItems="center" mb={isMobile ? '0' : '0.5rem'} style={{ gap: isMobile ? 8 : 10 }}>
-            <Image
-              src={pancakeSwapLogo}
-              alt="pancakeSwapLogo"
-              width={isMobile ? 100 : 132}
-              height={isMobile ? 15 : 22}
-              unoptimized
-            />
+            <LogoWithTextIcon color="white" />
+
             <Divider />
             <OpBnbLogo width={33} height={33} />
           </Flex>
@@ -149,7 +154,7 @@ export const OpBnbBanner = memo(() => {
             </Button>
           </Link>
         </S.LeftWrapper>
-        <RightWrapper>
+        {/* <RightWrapper>
           {isDesktop ? (
             <>
               <Image src={opbnbBunny} alt="opbnbBunny" width={172} height={200} placeholder="blur" />
@@ -166,7 +171,7 @@ export const OpBnbBanner = memo(() => {
               <Image src={opbnbBgMobile} alt="opbnbBgMobile" width={358} height={181} placeholder="blur" />
             )}
           </BgWrapper>
-        </RightWrapper>
+        </RightWrapper> */}
       </S.Inner>
     </S.Wrapper>
   )

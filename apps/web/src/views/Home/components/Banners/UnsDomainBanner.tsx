@@ -198,7 +198,7 @@ const UnsDomainBanner = () => {
             </Link>
           </Flex>
         </S.LeftWrapper>
-        <RightWrapper>
+        {/* <RightWrapper>
           {!isMobile ? (
             <Image src={usnBunny} alt="usnBunny" width={206} height={234} unoptimized />
           ) : (
@@ -212,7 +212,7 @@ const UnsDomainBanner = () => {
               <Circle />
             </>
           )}
-        </RightWrapper>
+        </RightWrapper> */}
       </S.Inner>
     </S.Wrapper>
   )

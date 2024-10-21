@@ -1,5 +1,5 @@
 import { useTranslation } from '@pancakeswap/localization'
-import { Button, Text, useMatchBreakpoints, Box, OpenNewIcon } from '@pancakeswap/uikit'
+import { Button, Text, useMatchBreakpoints, Box, OpenNewIcon, LogoWithTextIcon } from '@pancakeswap/uikit'
 import { ASSET_CDN } from 'config/constants/endpoints'
 import Image from 'next/legacy/image'
 import { styled } from 'styled-components'
@@ -59,7 +59,7 @@ const EthBanner = () => {
       <S.Inner>
         <S.LeftWrapper>
           <Box marginTop="3px">
-            <Image src={ETHXPancakeSwap} alt="eth pancake" width={119} height={18} unoptimized />
+            <LogoWithTextIcon color="white" />
           </Box>
           <Title>{t('gm eth teams')}</Title>
           <Button
@@ -74,7 +74,7 @@ const EthBanner = () => {
             <OpenNewIcon color="invertedContrast" />
           </Button>
         </S.LeftWrapper>
-        <RightWrapper>
+        {/* <RightWrapper>
           <Image
             src={ETHBunny}
             alt="ethImage"
@@ -82,7 +82,7 @@ const EthBanner = () => {
             height={isMobile ? 250 : 231}
             unoptimized
           />
-        </RightWrapper>
+        </RightWrapper> */}
       </S.Inner>
     </S.Wrapper>
   )

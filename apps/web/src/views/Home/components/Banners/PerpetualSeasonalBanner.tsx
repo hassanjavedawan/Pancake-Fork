@@ -1,5 +1,5 @@
 import { useTranslation } from '@pancakeswap/localization'
-import { FlexGap, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { FlexGap, LogoWithTextIcon, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
 import Image from 'next/legacy/image'
 import {
   BackgroundGraphic,
@@ -61,7 +61,8 @@ export const PerpetualSeasonalBanner = () => {
       <BannerMain
         badges={
           <StyledFlexContainer gap="8px">
-            <PancakeSwapBadge whiteText />
+            <LogoWithTextIcon color="white" />
+
             {!(isMobile || isMd) ? (
               <Text bold color="white">
                 Perpetual v2
@@ -112,10 +113,10 @@ export const PerpetualSeasonalBanner = () => {
           </BannerActionContainer>
         }
       />
-      <BannerGraphics mb={['20px', '10px', '10px', '10px', '0']}>
+      {/* <BannerGraphics mb={['20px', '10px', '10px', '10px', '0']}>
         <BackgroundGraphic src={bgDesktop} width={468} height={224} sm={bgSmVariant} xs={bgXsVariant} />
         <FloatingGraphic src={floatingAsset} width={99} height={99} />
-      </BannerGraphics>
+      </BannerGraphics> */}
     </BannerContainer>
   )
 }

@@ -15,6 +15,7 @@ import {
   gnosis,
   coreDao,
 } from 'wagmi/chains'
+// import { sgc } from '../../web/src/config/chains'
 
 export const SUPPORT_ONLY_BSC = [ChainId.BSC]
 
@@ -31,6 +32,7 @@ export const targetChains = [
   celo,
   gnosis,
   coreDao,
+  // sgc,
   // linea,
   // opBNB,
 ]
@@ -51,7 +53,7 @@ export const SUPPORTED_CHAIN = [
   ChainId.CELO,
   ChainId.GNOSIS,
   ChainId.COREDAO,
-
+  ChainId.SGC,
   // ChainId.LINEA,
   // ChainId.OPBNB,
 ]

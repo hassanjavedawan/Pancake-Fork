@@ -59,6 +59,17 @@ const bsc = {
   },
 } satisfies Chain
 
+// export const sgc = {
+//   rpcUrls: {
+//     public: {
+//       http: ['https://walletnode.explorersgc.com/'],
+//     },
+//     default: {
+//       http: ['https://walletnode.explorersgc.com/'],
+//     },
+//   },
+// }
+
 /**
  * Controls some L2 specific behavior, e.g. slippage tolerance, special UI behavior.
  * The expectation is that all of these networks have immediate transaction confirmation.
@@ -83,6 +94,7 @@ export const L2_CHAIN_IDS: ChainId[] = [
   ChainId.CELO,
   ChainId.GNOSIS,
   ChainId.COREDAO,
+  ChainId.SGC,
 ]
 
 export const CHAINS: [Chain, ...Chain[]] = [
@@ -112,4 +124,5 @@ export const CHAINS: [Chain, ...Chain[]] = [
   celo,
   gnosis,
   coreDao,
+  // sgc,
 ]

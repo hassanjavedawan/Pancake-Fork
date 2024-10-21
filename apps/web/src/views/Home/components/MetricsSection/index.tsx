@@ -90,11 +90,23 @@ const Stats = () => {
         <MetricsCard
           width={isSm || isMd ? '100%' : 'auto'}
           title={t('Total Users:')}
-          value={addressCount}
+          // value={addressCount}
+          value={0}
           description={t('in the last 30 days')}
         />
-        <MetricsCard title={t('Total Trades:')} value={txCount} description={t('in the last 30 days')} />
-        <MetricsCard title={t('Total Value Locked:')} value={tvl} description="" prefix="$" />
+        <MetricsCard
+          title={t('Total Trades:')}
+          value={0}
+          // value={txCount}
+          description={t('in the last 30 days')}
+        />
+        <MetricsCard
+          title={t('Total Value Locked:')}
+          // value={tvl}
+          value={0}
+          description=""
+          prefix="$"
+        />
       </Flex>
       <ChainTags />
       <ImageLayer>

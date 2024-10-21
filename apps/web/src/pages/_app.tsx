@@ -187,7 +187,7 @@ const App = ({ Component, pageProps }: AppPropsWithLayout) => {
       <TransactionsDetailModal />
       {isShowScrollToTopButton && <ScrollToTopButtonV2 />}
       {shouldScreenWallet && <Blocklist />}
-      {isShowV4IconButton && <V4CakeIcon />}
+      {/* {isShowV4IconButton && <V4CakeIcon />} */}
       <ZKSyncAirdropModalWithAutoPopup />
       <AffiliateExpiredModal />
       <VercelToolbar />

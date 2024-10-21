@@ -26,6 +26,7 @@ const chains = [
   { label: "CELO", value: "celo", icon: "https://aptos.pancakeswap.finance/images/42220.png" },
   { label: "Gnosis", value: "XDAI", icon: "https://aptos.pancakeswap.finance/images/100.png" },
   { label: "CoreDao", value: "core", icon: "https://aptos.pancakeswap.finance/images/1116.png" },
+  { label: "SGC", value: "SGC", icon: "https://aptos.pancakeswap.finance/images/786.png" },
 ];
 
 const Title = styled.div`

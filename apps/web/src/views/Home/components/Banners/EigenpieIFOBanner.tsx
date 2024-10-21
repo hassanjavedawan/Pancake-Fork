@@ -1,6 +1,6 @@
 import { useCountdown } from '@pancakeswap/hooks'
 import { useTranslation } from '@pancakeswap/localization'
-import { Box, Flex, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { Box, Flex, LogoWithTextIcon, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
 import {
   BackgroundGraphic,
   BannerActionContainer,
@@ -139,7 +139,8 @@ export const EigenpieIFOBanner = () => {
       <BannerMain
         badges={
           <Flex alignItems="center" justifyContent="start" flexWrap="wrap">
-            <PancakeSwapBadge whiteText />
+            <LogoWithTextIcon color="white" />
+
             {!isMobile && (
               <div>
                 <StyledImage src={partnerLogo} alt="eigenpie-logo" />
@@ -193,7 +194,7 @@ export const EigenpieIFOBanner = () => {
         )}
       </DisclaimerText>
 
-      <BannerGraphics>
+      {/* <BannerGraphics>
         <BackgroundGraphic
           src={`${BASE_PATH}/bg-desktop.png`}
           xs={bgXsVariant}
@@ -202,7 +203,7 @@ export const EigenpieIFOBanner = () => {
           width={469}
           height={224}
         />
-      </BannerGraphics>
+      </BannerGraphics> */}
     </BannerContainer>
   )
 }

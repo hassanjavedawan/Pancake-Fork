@@ -59,13 +59,13 @@ const CompetitionBanner = () => {
             </Button>
           </NextLinkFromReactRouter>
         </S.LeftWrapper>
-        <RightWrapper>
+        {/* <RightWrapper>
           {isDesktop ? (
             <Image src={modImage} alt="CompetitionBanner" width={632} height={338} placeholder="blur" />
           ) : (
             <Image src={modMobileImage} alt="CompetitionBanner" width={206} height={201} placeholder="blur" />
           )}
-        </RightWrapper>
+        </RightWrapper> */}
       </S.Inner>
     </S.Wrapper>
   )

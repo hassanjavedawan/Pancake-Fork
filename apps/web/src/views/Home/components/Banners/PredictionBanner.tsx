@@ -105,7 +105,6 @@ export const PredictionBanner = () => {
       <BannerMain
         badges={
           <Flex alignItems="center">
-            <PancakeSwapBadge whiteText />
             <img src={coBrand} alt="Arbitrum" width={90} height={20} style={{ margin: '1px 0 0 6px' }} />
           </Flex>
         }
@@ -125,10 +124,10 @@ export const PredictionBanner = () => {
           </BannerActionContainer>
         }
       />
-      <BannerGraphics>
+      {/* <BannerGraphics>
         <BackgroundGraphic src={bgDesktop} width={468} height={224} sm={bgSmVariant} xs={bgXsVariant} />
         <FloatingGraphic src={floatingAsset} width={90} height={90} />
-      </BannerGraphics>
+      </BannerGraphics> */}
     </BannerContainer>
   )
 }

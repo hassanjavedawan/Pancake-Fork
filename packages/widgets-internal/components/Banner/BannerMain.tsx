@@ -24,7 +24,7 @@ function getContainerPadding({ isXs, isMobile }: BreakpointChecks) {
 
 const Container = styled(FlexGap).attrs({
   flexDirection: "column",
-  justifyContent: "space-between",
+  justifyContent: "center",
   gap: "6px",
 })<WithBreakPoints>`
   z-index: 2;

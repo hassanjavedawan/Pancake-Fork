@@ -1,5 +1,5 @@
 import { useTranslation } from '@pancakeswap/localization'
-import { ArrowForwardIcon, Box, Button, Flex, Link, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { ArrowForwardIcon, Box, Button, Flex, Link, LogoWithTextIcon, useMatchBreakpoints } from '@pancakeswap/uikit'
 import { ASSET_CDN } from 'config/constants/endpoints'
 import Image from 'next/legacy/image'
 import { memo } from 'react'
@@ -136,7 +136,7 @@ const PancakeProtectorBanner = () => {
       <S.Inner>
         <S.LeftWrapper position="relative" style={{ zIndex: 2 }}>
           <LogoBox>
-            <Image src={pancakeSwapLogo} alt="pancakeSwapLogo" width={119} height={18} unoptimized />
+            <LogoWithTextIcon color="white" />
           </LogoBox>
           <Header>{t('Join Pancake Protectors')}</Header>
           <StyledSubheading>
@@ -165,7 +165,7 @@ const PancakeProtectorBanner = () => {
             </Link>
           </Flex>
         </S.LeftWrapper>
-        <RightWrapper>
+        {/* <RightWrapper>
           {!isMobile ? (
             <Image src={pancakeProtectorBunny} alt="pancakeProtectorBunny" width={193} height={232} unoptimized />
           ) : (
@@ -184,7 +184,7 @@ const PancakeProtectorBanner = () => {
               />
             )}
           </BGWrapper>
-        </RightWrapper>
+        </RightWrapper> */}
       </S.Inner>
     </S.Wrapper>
   )

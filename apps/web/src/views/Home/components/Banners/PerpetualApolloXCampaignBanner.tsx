@@ -1,5 +1,15 @@
 import { useTranslation } from '@pancakeswap/localization'
-import { ArrowForwardIcon, Button, Link, Text, useMatchBreakpoints, useModal, Flex, Box } from '@pancakeswap/uikit'
+import {
+  ArrowForwardIcon,
+  Button,
+  Link,
+  Text,
+  useMatchBreakpoints,
+  useModal,
+  Flex,
+  Box,
+  LogoWithTextIcon,
+} from '@pancakeswap/uikit'
 import USCitizenConfirmModal from 'components/Modal/USCitizenConfirmModal'
 import { ASSET_CDN } from 'config/constants/endpoints'
 import { useActiveChainId } from 'hooks/useActiveChainId'
@@ -169,17 +179,7 @@ const PerpetualBanner = () => {
       <S.Inner>
         <S.LeftWrapper position="relative" style={{ zIndex: 2 }}>
           <Box height={isMobile ? '20px' : '26px'} mt={isMobile ? '-10px' : '0px'}>
-            <Image
-              src={apolloXCampaignTitle}
-              alt="apolloXCampaignTitle"
-              width={266}
-              height={26}
-              unoptimized
-              style={{
-                transform: `scale(${isMobile ? 0.8 : 1})`,
-                transformOrigin: 'top left',
-              }}
-            />
+            <LogoWithTextIcon color="white" />
           </Box>
           <Header>{t('Trade now to win $5000 in rewards')}</Header>
           <StyledSubheading data-text={t('25 winners every day until May 1st!')}>
@@ -229,7 +229,7 @@ const PerpetualBanner = () => {
             </Link>
           </Flex>
         </S.LeftWrapper>
-        <RightWrapper>
+        {/* <RightWrapper>
           {isDesktop ? (
             <Image src={apolloXCampaignBunny} alt="apolloXCampaignBunny" width={212} height={246} unoptimized />
           ) : (
@@ -240,7 +240,7 @@ const PerpetualBanner = () => {
           ) : (
             <Image src={apolloXCampaignBgMobile} alt="apolloXCampaignBgMobile" width={200} height={176} unoptimized />
           )}
-        </RightWrapper>
+        </RightWrapper> */}
       </S.Inner>
     </S.Wrapper>
   )

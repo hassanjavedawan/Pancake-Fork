@@ -1,5 +1,5 @@
 import { useTranslation } from '@pancakeswap/localization'
-import { Button, Flex, Link, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { Button, Flex, Link, LogoWithTextIcon, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
 
 import { PancakeSwapBadge } from '@pancakeswap/widgets-internal'
 import { ASSET_CDN } from 'config/constants/endpoints'
@@ -195,7 +195,8 @@ const WebNotificationBanner = () => {
     >
       <S.Inner>
         <S.LeftWrapper position="relative" style={{ zIndex: 2 }}>
-          <PancakeSwapBadge />
+          <LogoWithTextIcon color="white" />
+
           <StyledSubheading data-text={t('Web3 Notifications Now Live!')}>
             {t('Web3 Notifications Now Live!')}
           </StyledSubheading>
@@ -220,7 +221,7 @@ const WebNotificationBanner = () => {
             </Link>
           </Flex>
         </S.LeftWrapper>
-        <RightWrapper>
+        {/* <RightWrapper>
           {isDesktop ? (
             <Image src={webNotificationBunny} alt="webNotificationBunny" width={183} height={231} />
           ) : (
@@ -239,7 +240,7 @@ const WebNotificationBanner = () => {
           <Image src={liquidStakingBunnyBg3} alt="liquidStakingBunnyBg3" width={33} height={31} unoptimized />
           <Image src={liquidStakingBunnyBg4} alt="liquidStakingBunnyBg4" width={21} height={20} unoptimized />
           {isDesktop && <Image src={webNotificationCheck} alt="webNotificationCheck" width={81} height={80} />}
-        </RightWrapper>
+        </RightWrapper> */}
       </S.Inner>
     </S.Wrapper>
   )

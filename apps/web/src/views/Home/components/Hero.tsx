@@ -259,7 +259,7 @@ const Hero = () => {
             </NextLinkFromReactRouter>
           </Flex>
         </Flex>
-        <Flex
+        {/* <Flex
           height={['100%', null, null, '100%']}
           width={['100%', null, null, '100%']}
           flex={[null, null, null, '1']}
@@ -298,7 +298,7 @@ const Hero = () => {
               )}
             </CakeBox>
           </BunnyWrapper>
-        </Flex>
+        </Flex> */}
       </Flex>
     </>
   )

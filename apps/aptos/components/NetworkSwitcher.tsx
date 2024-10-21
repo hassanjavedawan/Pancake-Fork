@@ -24,6 +24,7 @@ const evmChains = [
   { id: 42220, name: 'Celo Mainnet', chainName: 'celo' },
   { id: 100, name: 'Gnosis', chainName: 'xdai' },
   { id: 1116, name: 'CoreDao', chainName: 'core' },
+  { id: 786, name: 'SGC', chainName: 'sgc' },
 ]
 
 const NetworkSelect = () => {

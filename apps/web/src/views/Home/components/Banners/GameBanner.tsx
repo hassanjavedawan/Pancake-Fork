@@ -1,5 +1,5 @@
 import { useTranslation } from '@pancakeswap/localization'
-import { Box, Flex, Link, OpenNewIcon, Text, useMatchBreakpoints, Button } from '@pancakeswap/uikit'
+import { Box, Flex, Link, OpenNewIcon, Text, useMatchBreakpoints, Button, LogoWithTextIcon } from '@pancakeswap/uikit'
 import { ASSET_CDN } from 'config/constants/endpoints'
 import Image from 'next/legacy/image'
 import { memo } from 'react'
@@ -129,13 +129,7 @@ const GameBanner = () => {
       <S.Inner>
         <S.LeftWrapper position="relative" style={{ zIndex: 3, justifyContent: isMobile ? 'flex-start' : 'center' }}>
           <Flex alignItems="center" mb="8px" style={{ gap: isMobile ? 8 : 10 }}>
-            <Image
-              src={pancakeSwapLogo}
-              alt="pancakeSwapLogo"
-              width={isMobile ? 100 : 132}
-              height={isMobile ? 15 : 22}
-              unoptimized
-            />
+            <LogoWithTextIcon color="white" />
           </Flex>
           <Header data-text={isMobile ? t('Gaming Marketplace') : t('PancakeSwap Gaming Marketplace')}>
             {isMobile ? t('Gaming Marketplace') : t('PancakeSwap Gaming Marketplace')}
@@ -185,7 +179,7 @@ const GameBanner = () => {
             </Button>
           </Link>
         </S.LeftWrapper>
-        <RightWrapper>
+        {/* <RightWrapper>
           <Image src={gameCube} alt="gameCube" width={52} height={52} placeholder="blur" />
           {isDesktop ? (
             <Image src={gameDesktopBunny} alt="gameDesktopBunny" width={264.5} height={192} placeholder="blur" />
@@ -195,7 +189,7 @@ const GameBanner = () => {
           <BgWrapper>
             {isDesktop && <Image src={gameDesktopBg} alt="gameBg" width={1126} height={192} placeholder="blur" />}
           </BgWrapper>
-        </RightWrapper>
+        </RightWrapper> */}
       </S.Inner>
     </S.Wrapper>
   )

@@ -70,7 +70,7 @@ const AptosBanner = () => {
             <OpenNewIcon color="invertedContrast" />
           </Button>
         </S.LeftWrapper>
-        <RightWrapper>
+        {/* <RightWrapper>
           <Image
             src={Aptos}
             alt="aptosImage"
@@ -78,7 +78,7 @@ const AptosBanner = () => {
             height={isMobile ? 250 : 231}
             placeholder="blur"
           />
-        </RightWrapper>
+        </RightWrapper> */}
       </S.Inner>
     </S.Wrapper>
   )

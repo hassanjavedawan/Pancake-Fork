@@ -1,5 +1,5 @@
 import { useTranslation } from '@pancakeswap/localization'
-import { FlexGap, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { FlexGap, LogoWithTextIcon, useMatchBreakpoints } from '@pancakeswap/uikit'
 import {
   BackgroundGraphic,
   BannerActionContainer,
@@ -69,7 +69,8 @@ export const ZksyncAirDropBanner = () => {
         <BannerMain
           badges={
             <StyledFlexContainer gap="8px">
-              <PancakeSwapBadge whiteText />
+              <LogoWithTextIcon color="white" />
+
               <Image src={zksyncLogo} alt="zkLogo" width={108} height={24} />
             </StyledFlexContainer>
           }
@@ -104,14 +105,14 @@ export const ZksyncAirDropBanner = () => {
             </BannerActionContainer>
           }
         />
-        <BannerGraphics
+        {/* <BannerGraphics
           mb={['20px', '10px', '10px', '10px', '0']}
           style={{ zIndex: 3 }}
           paintBoardProps={{ style: { overflow: isXs ? 'hidden' : 'visible' } }}
         >
           <BackgroundGraphic src={bgDesktop} width={468} height={224} sm={bgSmVariant} xs={bgXsVariant} />
           <FloatingGraphic src={floatingAsset} width={isMobile ? 100 : 80} height={isMobile ? 100 : 80} />
-        </BannerGraphics>
+        </BannerGraphics> */}
       </BannerContainer>
       <ClaimZksyncAirdropModal isOpen={isOpen} onDismiss={onDismiss} />
     </>

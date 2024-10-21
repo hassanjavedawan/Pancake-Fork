@@ -1,5 +1,5 @@
 import { useTranslation } from '@pancakeswap/localization'
-import { Box, Flex, Image, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { Box, Flex, Image, LogoWithTextIcon, useMatchBreakpoints } from '@pancakeswap/uikit'
 import {
   BackgroundGraphic,
   BannerActionContainer,
@@ -68,7 +68,7 @@ export const NemesisDownfallBanner = () => {
       <BannerMain
         badges={
           <Flex>
-            <PancakeSwapBadge whiteText />
+            <LogoWithTextIcon color="white" />
             <Box style={{ alignSelf: 'center' }} ml="8px" width={isMobile ? 54 : 98} height={isMobile ? 11 : 20}>
               <Image src={logo} alt="logo" width={isMobile ? 54 : 98} height={isMobile ? 11 : 20} />
             </Box>
@@ -88,10 +88,10 @@ export const NemesisDownfallBanner = () => {
           </BannerActionContainer>
         }
       />
-      <BannerGraphics mb={['20px', '10px', '10px', '10px', '0']}>
+      {/* <BannerGraphics mb={['20px', '10px', '10px', '10px', '0']}>
         <BackgroundGraphic src={bgDesktop} width={468} height={224} sm={bgSmVariant} xs={bgXsVariant} />
         <FloatingGraphic src={floatingAsset} width={99} height={99} />
-      </BannerGraphics>
+      </BannerGraphics> */}
     </BannerContainer>
   )
 }

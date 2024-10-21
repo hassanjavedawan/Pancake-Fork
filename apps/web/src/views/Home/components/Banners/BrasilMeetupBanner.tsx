@@ -1,6 +1,6 @@
 import { useCountdown } from '@pancakeswap/hooks'
 import { useTranslation } from '@pancakeswap/localization'
-import { Box, FlexGap, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { Box, FlexGap, LogoWithTextIcon, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
 import { memo, useMemo } from 'react'
 import styled from 'styled-components'
 
@@ -109,7 +109,7 @@ export const BrasilMeetupBanner = memo(function BrasilMeetupBanner() {
   return (
     <BannerContainer background="linear-gradient(180deg, #DDCC26 0%, #389C1F 100%)">
       <BannerMain
-        badges={<PancakeSwapBadge />}
+        badges={<LogoWithTextIcon color="white" />}
         title={
           <BannerTitle variant="purple" marginTop={isMd ? '-10px' : '0px'}>
             {t('PancakeSwap Meetup')}
@@ -130,7 +130,7 @@ export const BrasilMeetupBanner = memo(function BrasilMeetupBanner() {
         }
       />
 
-      <BannerGraphics>
+      {/* <BannerGraphics>
         <BackgroundGraphic
           src={`${ASSET_CDN}/web/banners/brasil/brasil-meetup-bunny.png`}
           width={isMobile ? 160 : isTablet ? 225 : 320}
@@ -148,7 +148,7 @@ export const BrasilMeetupBanner = memo(function BrasilMeetupBanner() {
             height={isMobile ? 68 : isTablet ? 84 : 101}
           />
         </Box>
-      </BannerGraphics>
+      </BannerGraphics> */}
     </BannerContainer>
   )
 })

@@ -97,7 +97,7 @@ export const AlloraBanner = () => {
         }
       />
 
-      <BannerGraphics>
+      {/* <BannerGraphics>
         <BackgroundGraphic
           src={`${ALLORA_PATH}/bg-lg.png`}
           sm={bgSmVariant}
@@ -108,7 +108,7 @@ export const AlloraBanner = () => {
         <Box position="absolute" width="100%" left="3%">
           <FloatingGraphic src={floatingAsset} width={99} height={99} />
         </Box>
-      </BannerGraphics>
+      </BannerGraphics> */}
     </BannerContainer>
   )
 }

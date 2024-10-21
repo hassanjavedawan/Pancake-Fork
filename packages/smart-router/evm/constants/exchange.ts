@@ -79,6 +79,7 @@ export const V2_ROUTER_ADDRESS: ChainMap<string> = {
   [ChainId.AVALANCHE]: '0x3C351E1afdd1b1BC44e931E12D4E05D6125eaeCa',
   [ChainId.CELO]: '0x5615CDAb10dc425a742d643d949a7F474C01abc4',
   [ChainId.GNOSIS]: '0x1c232f01118cb8b424793ae03f870aa7d0ac7f77',
+  [ChainId.SGC]: '',
 }
 
 export const STABLE_SWAP_INFO_ADDRESS: ChainMap<string> = {
@@ -108,6 +109,7 @@ export const STABLE_SWAP_INFO_ADDRESS: ChainMap<string> = {
   [ChainId.CELO]: '',
   [ChainId.GNOSIS]: '',
   [ChainId.COREDAO]: '',
+  [ChainId.SGC]: '',
 }
 
 // used to construct intermediary pairs for trading

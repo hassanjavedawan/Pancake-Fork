@@ -1,5 +1,5 @@
 import { useTranslation } from '@pancakeswap/localization'
-import { Box, Flex, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { Box, Flex, LogoWithTextIcon, useMatchBreakpoints } from '@pancakeswap/uikit'
 import {
   BackgroundGraphic,
   BannerActionContainer,
@@ -76,7 +76,8 @@ export const OortTradingBanner = () => {
       <BannerMain
         badges={
           <Flex alignItems="center" justifyContent="center" alignContent="center" height="20px" minWidth="220px">
-            <PancakeSwapBadge />
+            <LogoWithTextIcon color="white" />
+
             <StyledImage src={`${OORT_PATH}/oort-logo.png`} alt="top-logo-alt" />
           </Flex>
         }
@@ -116,7 +117,7 @@ export const OortTradingBanner = () => {
         }
       />
 
-      <BannerGraphics>
+      {/* <BannerGraphics>
         <BackgroundGraphic
           src={`${OORT_PATH}/bunnies-lg.png`}
           sm={bgSmVariant}
@@ -127,7 +128,7 @@ export const OortTradingBanner = () => {
         <Box position="absolute" width="100%" left={isMobile ? '10%' : '3%'}>
           <FloatingGraphic src={floatingAsset} width={99} height={99} />
         </Box>
-      </BannerGraphics>
+      </BannerGraphics> */}
     </BannerContainer>
   )
 }

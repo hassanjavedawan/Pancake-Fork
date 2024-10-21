@@ -1,5 +1,5 @@
 import { useTranslation } from '@pancakeswap/localization'
-import { Flex, Link, OpenNewIcon, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { Flex, Link, LogoWithTextIcon, OpenNewIcon, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
 import { ASSET_CDN } from 'config/constants/endpoints'
 import Image from 'next/legacy/image'
 import { memo } from 'react'
@@ -111,13 +111,8 @@ const ArbitrumOneBanner = () => {
       <S.Inner>
         <S.LeftWrapper position="relative" style={{ zIndex: 2, justifyContent: isMobile ? 'flex-start' : 'center' }}>
           <Flex alignItems="center" mb="8px" style={{ gap: isMobile ? 10 : 14 }}>
-            <Image
-              src={pancakeSwapLogo}
-              alt="pancakeSwapLogo"
-              width={isMobile ? 100 : 132}
-              height={isMobile ? 15 : 20}
-              unoptimized
-            />
+            <LogoWithTextIcon color="white" />
+
             <Divider />
             <Image src={arbLogo} alt="arbLogo" width={isMobile ? 81 : 113} height={isMobile ? 20 : 28} />
           </Flex>
@@ -141,7 +136,7 @@ const ArbitrumOneBanner = () => {
             <OpenNewIcon color="white" />
           </Link>
         </S.LeftWrapper>
-        <RightWrapper>
+        {/* <RightWrapper>
           {isDesktop ? (
             <Image src={arbBunny} alt="liquidStakingBunny" width={151} height={200} placeholder="blur" />
           ) : (
@@ -154,7 +149,7 @@ const ArbitrumOneBanner = () => {
               <Image src={arbBgMobile} alt="liquidStakingBunnyMobile" width={240} height={176} placeholder="blur" />
             )}
           </BgWrapper>
-        </RightWrapper>
+        </RightWrapper> */}
       </S.Inner>
     </S.Wrapper>
   )

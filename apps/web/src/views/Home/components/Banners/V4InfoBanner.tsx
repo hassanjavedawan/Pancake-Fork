@@ -82,10 +82,10 @@ export const V4InfoBanner = () => {
           </BannerActionContainer>
         }
       />
-      <BannerGraphics>
+      {/* <BannerGraphics>
         <BackgroundGraphic src={bgDesktop} width={468} height={224} sm={bgSmVariant} xs={bgXsVariant} />
         <FloatingGraphic src={floatingAsset} width={99} height={99} />
-      </BannerGraphics>
+      </BannerGraphics> */}
     </BannerContainer>
   )
 }

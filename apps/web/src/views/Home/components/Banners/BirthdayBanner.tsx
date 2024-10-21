@@ -1,5 +1,5 @@
 import { useTranslation } from '@pancakeswap/localization'
-import { Box, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { Box, LogoWithTextIcon, useMatchBreakpoints } from '@pancakeswap/uikit'
 import {
   BackgroundGraphic,
   BannerActionContainer,
@@ -65,7 +65,7 @@ export const BirthdayBanner = () => {
   return (
     <BannerContainer background="radial-gradient(110.52% 235.12% at 100% 103.33%, #C4FBFF 0%, #2BD1DE 61.43%)">
       <BannerMain
-        badges={<PancakeSwapBadge />}
+        badges={<LogoWithTextIcon color="white" />}
         title={
           <BannerTitle variant="purple" marginTop={isMd || isSm ? '-10px' : '0px'}>
             {t('Pancake4ever! Celebrate  Volrex.Network  4th Birthday with us!')}
@@ -83,7 +83,7 @@ export const BirthdayBanner = () => {
         }
       />
 
-      <BannerGraphics>
+      {/* <BannerGraphics>
         <BackgroundGraphic
           src={`${BIRTHDAY_PATH}/bg-lg.png`}
           sm={bgSmVariant}
@@ -94,7 +94,7 @@ export const BirthdayBanner = () => {
         <Box position="absolute" width="100%" left="3%">
           <FloatingGraphic src={floatingAsset} width={99} height={99} />
         </Box>
-      </BannerGraphics>
+      </BannerGraphics> */}
     </BannerContainer>
   )
 }

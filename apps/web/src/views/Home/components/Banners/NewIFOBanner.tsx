@@ -1,5 +1,5 @@
 import { useTranslation } from '@pancakeswap/localization'
-import { Box, Button, Flex, Link, OpenNewIcon, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { Box, Button, Flex, Link, LogoWithTextIcon, OpenNewIcon, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
 
 import { useCountdown } from '@pancakeswap/hooks'
 import { ASSET_CDN } from 'config/constants/endpoints'
@@ -205,7 +205,7 @@ const NewIFOBanner = () => {
             alignItems="center"
             style={{ gap: isMobile ? 4 : 16 }}
           >
-            <Image src={partnerCakePie} alt="pancakeswap-logo" width={121} height={25} />
+            <LogoWithTextIcon color="white" />
             <Divider />
             <Image src={cakeLogo} alt="liquidStakingTitle" width={20} height={20} />
             <Image src={partnerBnbChain} alt="liquidStakingTitle" width={104} height={24} />
@@ -233,10 +233,10 @@ const NewIFOBanner = () => {
           <BackGroundCircle2 />
           <BackGroundCircle3 />
         </BackGroundLayer>
-        <RightWrapper>
+        {/* <RightWrapper>
           {!isMobile ? <Image src={cakePie} alt="cake-pie" /> : <Image src={cakePieMobile} alt="cake-pie-mobile" />}
           <Image src={board} alt="ifo-board" />
-        </RightWrapper>
+        </RightWrapper> */}
       </S.Inner>
     </S.Wrapper>
   )

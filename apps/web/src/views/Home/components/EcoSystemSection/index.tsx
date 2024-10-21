@@ -169,6 +169,14 @@ const useTradeBlockData = () => {
   return useMemo(() => {
     return [
       {
+        title: t('Buy Crypto'),
+        description: t('Buy crypto with your preferred currency and payment method'),
+        ctaTitle: t('Buy Now'),
+        image: `${ASSET_CDN}/web/landing/trade-buy-crypto.png`,
+        defaultImage: `${ASSET_CDN}/web/landing/trade-buy-crypto-purple.png`,
+        path: '/buy-crypto',
+      },
+      {
         title: t('Swap'),
         description: t('Trade crypto instantly across multiple chains'),
         ctaTitle: t('Trade Now'),
@@ -176,22 +184,7 @@ const useTradeBlockData = () => {
         defaultImage: `${ASSET_CDN}/web/landing/trade-swap-purple.png`,
         path: '/swap',
       },
-      {
-        title: t('Liquidity'),
-        description: t('Fund liquidity pools, earn trading fees'),
-        ctaTitle: t('Add Now'),
-        image: `${ASSET_CDN}/web/landing/trade-liquidity.png`,
-        defaultImage: `${ASSET_CDN}/web/landing/trade-liquidity-purple.png`,
-        path: '/liquidity/positions',
-      },
-      {
-        title: t('Bridge'),
-        description: t('Seamlessly transfer assets across chains'),
-        ctaTitle: t('Bridge Now'),
-        image: `${ASSET_CDN}/web/landing/trade-bridge.png`,
-        defaultImage: `${ASSET_CDN}/web/landing/trade-bridge-purple.png`,
-        path: 'https://bridge.pancakeswap.finance/',
-      },
+
       {
         title: t('Perpetual'),
         description: t('Trade endlessly without expiration dates'),
@@ -207,12 +200,20 @@ const useTradeBlockData = () => {
         },
       },
       {
-        title: t('Buy Crypto'),
-        description: t('Buy crypto with your preferred currency and payment method'),
-        ctaTitle: t('Buy Now'),
-        image: `${ASSET_CDN}/web/landing/trade-buy-crypto.png`,
-        defaultImage: `${ASSET_CDN}/web/landing/trade-buy-crypto-purple.png`,
-        path: '/buy-crypto',
+        title: t('Bridge'),
+        description: t('Seamlessly transfer assets across chains'),
+        ctaTitle: t('Bridge Now'),
+        image: `${ASSET_CDN}/web/landing/trade-bridge.png`,
+        defaultImage: `${ASSET_CDN}/web/landing/trade-bridge-purple.png`,
+        path: 'https://bridge.pancakeswap.finance/',
+      },
+      {
+        title: t('Liquidity'),
+        description: t('Fund liquidity pools, earn trading fees'),
+        ctaTitle: t('Add Now'),
+        image: `${ASSET_CDN}/web/landing/trade-liquidity.png`,
+        defaultImage: `${ASSET_CDN}/web/landing/trade-liquidity-purple.png`,
+        path: '/liquidity/positions',
       },
     ]
   }, [t, push, perpetualUrl, onUSCitizenModalPresent, userNotUsCitizenAcknowledgement])
@@ -223,6 +224,14 @@ const useEarnBlockData = () => {
   return useMemo(() => {
     return [
       {
+        title: t('Liquid Staking'),
+        description: t('Earn rewards while retaining asset flexibility'),
+        ctaTitle: t('Add Now'),
+        image: `${ASSET_CDN}/web/landing/earn-liquidity-staking.png`,
+        defaultImage: `${ASSET_CDN}/web/landing/earn-liquidity-staking-purple.png`,
+        path: '/liquid-staking',
+      },
+      {
         title: t('Farm'),
         description: t('Stake LP tokens, harvest CAKE'),
         ctaTitle: t('Stake Now'),
@@ -231,20 +240,13 @@ const useEarnBlockData = () => {
         path: '/liquidity/pools',
       },
       {
-        title: t('Pools'),
-        description: t('Stake CAKE, earn various rewards'),
+        title: t('Position Manager'),
+        description: t('Automate your  Volrex.Network  v3 liquidity'),
         ctaTitle: t('Stake Now'),
-        image: `${ASSET_CDN}/web/landing/earn-pools.png`,
-        defaultImage: `${ASSET_CDN}/web/landing/earn-pools-purple.png`,
-        path: '/pools',
-      },
-      {
-        title: t('Liquid Staking'),
-        description: t('Earn rewards while retaining asset flexibility'),
-        ctaTitle: t('Add Now'),
-        image: `${ASSET_CDN}/web/landing/earn-liquidity-staking.png`,
-        defaultImage: `${ASSET_CDN}/web/landing/earn-liquidity-staking-purple.png`,
-        path: '/liquid-staking',
+        image: `${ASSET_CDN}/web/landing/earn-pm.png`,
+        defaultImage: `${ASSET_CDN}/web/landing/earn-pm-purple.png`,
+        path: '/position-managers',
+        className: 'adjust-height',
       },
       {
         title: t('Simple Staking'),
@@ -255,13 +257,12 @@ const useEarnBlockData = () => {
         path: '/simple-staking',
       },
       {
-        title: t('Position Manager'),
-        description: t('Automate your  Volrex.Network  v3 liquidity'),
+        title: t('Pools'),
+        description: t('Stake CAKE, earn various rewards'),
         ctaTitle: t('Stake Now'),
-        image: `${ASSET_CDN}/web/landing/earn-pm.png`,
-        defaultImage: `${ASSET_CDN}/web/landing/earn-pm-purple.png`,
-        path: '/position-managers',
-        className: 'adjust-height',
+        image: `${ASSET_CDN}/web/landing/earn-pools.png`,
+        defaultImage: `${ASSET_CDN}/web/landing/earn-pools-purple.png`,
+        path: '/pools',
       },
     ]
   }, [t])
@@ -379,14 +380,14 @@ const EcoSystemSection: React.FC = () => {
           flexDirection={isMobile || isMd ? 'column' : 'row'}
           alignItems={isMobile || isMd ? undefined : 'center'}
         >
-          <Image
+          {/* <Image
             style={{ marginLeft: isMobile ? -32 : -72 }}
             src={`${ASSET_CDN}/web/landing/trade-bunny.png`}
             alt="trade-bunny"
             width={340}
             height={340}
             unoptimized
-          />
+          /> */}
           <Flex flexDirection="column">
             <Title>{t('Trade')}</Title>
             <FeatureBoxesWrapper>
@@ -414,14 +415,14 @@ const EcoSystemSection: React.FC = () => {
           flexDirection={isMobile || isMd ? 'column' : 'row-reverse'}
           alignItems={isMobile || isMd ? undefined : 'center'}
         >
-          <Image
+          {/* <Image
             style={{ marginRight: isMobile || isMd ? 'auto' : -72, marginLeft: isMobile || isMd ? 0 : 'auto' }}
             src={`${ASSET_CDN}/web/landing/earn-bunny.png`}
             alt="earn-bunny"
             width={296}
             height={360}
             unoptimized
-          />
+          /> */}
           <Flex flexDirection="column">
             <Title>{t('Earn')}</Title>
             <FeatureBoxesWrapper>
@@ -448,14 +449,14 @@ const EcoSystemSection: React.FC = () => {
           flexDirection={isMobile || isMd ? 'column' : 'row'}
           alignItems={isMobile || isMd ? undefined : 'center'}
         >
-          <Image
+          {/* <Image
             style={{ marginLeft: isMobile ? -32 : -72 }}
             src={`${ASSET_CDN}/web/landing/game-nft-bunny.png`}
             alt="game-nft-bunny"
             width={344}
             height={360}
             unoptimized
-          />
+          /> */}
           <Flex flexDirection="column">
             <Title>{t('Game & NFT')}</Title>
             <FeatureBoxesWrapper>

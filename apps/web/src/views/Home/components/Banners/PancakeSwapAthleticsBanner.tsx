@@ -1,5 +1,5 @@
 import { useTranslation, type TranslateFunction } from '@pancakeswap/localization'
-import { Flex, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { Flex, LogoWithTextIcon, useMatchBreakpoints } from '@pancakeswap/uikit'
 import {
   BackgroundGraphic,
   BannerActionContainer,
@@ -96,7 +96,8 @@ export const AthleticsBanner = () => {
       <BannerMain
         badges={
           <Flex alignItems="center" justifyContent="center" alignContent="center" height="20px">
-            <PancakeSwapBadge compact={width < 450} />
+            <LogoWithTextIcon color="white" />
+
             <StyledImage src={`${ATHLETICS_PATH}/athletics-rings.png`} alt="rings-alt" hidden={isMobile} />
             <StyledImage src={`${ATHLETICS_PATH}/athletics-top-logo.png`} alt="top-logo-alt" />
           </Flex>
@@ -116,7 +117,7 @@ export const AthleticsBanner = () => {
         }
       />
 
-      <BannerGraphics>
+      {/* <BannerGraphics>
         <BackgroundGraphic
           src={`${ATHLETICS_PATH}/athletics-bunnies-lg.png`}
           sm={bgSmVariant}
@@ -124,7 +125,7 @@ export const AthleticsBanner = () => {
           width={469}
           height={224}
         />
-      </BannerGraphics>
+      </BannerGraphics> */}
     </BannerContainer>
   )
 }

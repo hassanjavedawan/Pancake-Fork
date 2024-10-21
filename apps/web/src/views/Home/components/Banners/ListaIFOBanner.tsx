@@ -1,5 +1,5 @@
 import { useTranslation } from '@pancakeswap/localization'
-import { useMatchBreakpoints } from '@pancakeswap/uikit'
+import { LogoWithTextIcon, useMatchBreakpoints } from '@pancakeswap/uikit'
 import {
   BackgroundGraphic,
   BannerActionContainer,
@@ -48,7 +48,7 @@ export const ListaIFOBanner = () => {
       style={{ backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}
     >
       <BannerMain
-        badges={<PancakeSwapBadge />}
+        badges={<LogoWithTextIcon color="white" />}
         desc={
           <BannerCountdown
             targetTimestamp={activeIfo?.plannedStartTime || 0}
@@ -61,9 +61,9 @@ export const ListaIFOBanner = () => {
         title={<BannerTitle variant="listaBlue">{t('LISTA IFO')}</BannerTitle>}
         actions={<BannerActionContainer>{getStarted}</BannerActionContainer>}
       />
-      <BannerGraphics>
+      {/* <BannerGraphics>
         <BackgroundGraphic src={bgDesktop} width={468} height={224} sm={bgSmVariant} xs={bgXsVariant} />
-      </BannerGraphics>
+      </BannerGraphics> */}
     </BannerContainer>
   )
 }

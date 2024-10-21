@@ -55,13 +55,19 @@ const Logo: React.FC<React.PropsWithChildren<Props>> = ({ href }) => {
   return (
     <Flex alignItems="center">
       {isAbsoluteUrl ? (
-        <StyledLink as="a" href={href} aria-label="Pancake home page">
+        <StyledLink as="a" href={href} aria-label="SGCDEX.Finance">
           {/* {innerLogo} */}
-          <Text fontSize="20px"> Volrex.Network </Text>
+          <Text fontSize="20px" fontWeight="bold">
+            {" "}
+            SGCDEX.Finance{" "}
+          </Text>
         </StyledLink>
       ) : (
-        <StyledLink href={href} as={linkComponent} aria-label="Pancake home page">
-          <Text fontSize="20px"> Volrex.Network </Text>
+        <StyledLink href={href} as={linkComponent} aria-label="SGCDEX.Finance">
+          <Text fontSize="20px" fontWeight="bold">
+            {" "}
+            SGCDEX.Finance{" "}
+          </Text>
         </StyledLink>
       )}
     </Flex>

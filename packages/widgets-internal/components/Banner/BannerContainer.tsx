@@ -12,9 +12,9 @@ type ContainerProps = PropsWithChildren<{
 const Container = styled(FlexGap).attrs({
   flexDirection: "row",
   gap: "0",
-  justifyContent: "space-between",
+  justifyContent: "center",
 })<WithBackground>`
-  border-radius: 32px;
+  border-radius: 12px;
   max-width: 100%;
   height: 192px;
 

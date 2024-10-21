@@ -26,6 +26,7 @@ export enum ChainId {
   CELO = 42220,
   GNOSIS = 100,
   COREDAO = 1116,
+  SGC = 786,
 }
 
 export const testnetChainIds = [

@@ -98,10 +98,10 @@ export const OptionsBanner = () => {
           </BannerActionContainer>
         }
       />
-      <BannerGraphics>
+      {/* <BannerGraphics>
         <BackgroundGraphic src={bgDesktop} width={468} height={224} sm={bgSmVariant} xs={bgXsVariant} />
         <Floating src={floatingAsset} width={99} height={99} />
-      </BannerGraphics>
+      </BannerGraphics> */}
     </BannerContainer>
   )
 }

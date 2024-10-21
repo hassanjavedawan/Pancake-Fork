@@ -1,5 +1,5 @@
 import { useTranslation } from '@pancakeswap/localization'
-import { Flex } from '@pancakeswap/uikit'
+import { Flex, LogoWithTextIcon } from '@pancakeswap/uikit'
 import {
   BackgroundGraphic,
   BannerActionContainer,
@@ -50,7 +50,8 @@ export const FourMemeBanner = () => {
       <BannerMain
         badges={
           <Flex alignItems="center">
-            <PancakeSwapBadge whiteText />
+            <LogoWithTextIcon color="white" />
+
             <img src={fourLogo} alt="Four Meme" width={60} height={15} style={{ margin: '1px 0 0 6px' }} />
           </Flex>
         }
@@ -63,9 +64,9 @@ export const FourMemeBanner = () => {
           </BannerActionContainer>
         }
       />
-      <BannerGraphics>
+      {/* <BannerGraphics>
         <BackgroundGraphic src={bgDesktop} width={468} height={224} sm={bgSmVariant} xs={bgXsVariant} />
-      </BannerGraphics>
+      </BannerGraphics> */}
     </BannerContainer>
   )
 }

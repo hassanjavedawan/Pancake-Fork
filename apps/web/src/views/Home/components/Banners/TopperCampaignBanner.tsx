@@ -1,5 +1,5 @@
 import { useTranslation } from '@pancakeswap/localization'
-import { Box, Flex, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { Box, Flex, LogoWithTextIcon, useMatchBreakpoints } from '@pancakeswap/uikit'
 import {
   BackgroundGraphic,
   BannerActionContainer,
@@ -79,7 +79,8 @@ export const TopperCampaignBanner = () => {
       <BannerMain
         badges={
           <Flex alignItems="center" justifyContent="center" alignContent="center" minWidth="205px">
-            <PancakeSwapBadge whiteText />
+            <LogoWithTextIcon color="white" />
+
             <StyledImage src={`${TOPPER_PATH}/topper-badge-md.png`} alt="top-logo-alt" width="78px" height="23px" />
           </Flex>
         }
@@ -110,7 +111,7 @@ export const TopperCampaignBanner = () => {
         }
       />
 
-      <BannerGraphics>
+      {/* <BannerGraphics>
         <StyledBackgroundGraphic
           src={`${TOPPER_PATH}/bunny-lg.png`}
           sm={bgSmVariant}
@@ -122,7 +123,7 @@ export const TopperCampaignBanner = () => {
         <Box position="absolute" width="100%" left="3%">
           <FloatingGraphic src={floatingAsset} width={99} height={99} />
         </Box>
-      </BannerGraphics>
+      </BannerGraphics> */}
     </BannerContainer>
   )
 }

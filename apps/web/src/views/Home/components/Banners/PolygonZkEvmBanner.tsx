@@ -1,4 +1,4 @@
-import { Button, Flex, Text, useMatchBreakpoints, OpenNewIcon } from '@pancakeswap/uikit'
+import { Button, Flex, Text, useMatchBreakpoints, OpenNewIcon, LogoWithTextIcon } from '@pancakeswap/uikit'
 import { NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
 
 import { useTranslation } from '@pancakeswap/localization'
@@ -133,13 +133,7 @@ export const PolygonZkEvmBanner = () => {
       <S.Inner>
         <S.LeftWrapper>
           <Flex alignItems="center" mb="8px">
-            <Image
-              src={pancakeSwapLogo}
-              alt="pancakeSwapLogo"
-              width={isMobile ? 90 : 132}
-              height={isMobile ? 13 : 20}
-              unoptimized
-            />
+            <LogoWithTextIcon color="white" />
           </Flex>
           <Title data-text={title}>{title}</Title>
           {isDesktop && (
@@ -161,7 +155,7 @@ export const PolygonZkEvmBanner = () => {
             </NextLinkFromReactRouter>
           </Flex>
         </S.LeftWrapper>
-        <RightWrapper>
+        {/* <RightWrapper>
           <BGWrapper>
             {isMobile ? (
               <Image src={polygonZkBgMobile} alt="Background" width={338} height={176} unoptimized />
@@ -174,7 +168,7 @@ export const PolygonZkEvmBanner = () => {
           ) : (
             <Image src={polygonZkBunny} alt="GalxeTraverseBunny" width={335} height={268} placeholder="blur" />
           )}
-        </RightWrapper>
+        </RightWrapper> */}
       </S.Inner>
     </S.Wrapper>
   )
