@@ -1,8 +1,8 @@
-import { FlexGap } from "@pancakeswap/uikit";
+import { FlexGap, LogoWithTextIcon } from "@pancakeswap/uikit";
 import Image from "next/legacy/image";
 import { VerticalDivider } from "../VerticalDivider";
 import { BadgeLogo } from "./Badge";
-import { PancakeSwapBadge } from "./PancakeSwapBadge";
+// import { PancakeSwapBadge } from "./PancakeSwapBadge";
 
 export type CoBrandBadgeProps = {
   whiteText?: boolean;
@@ -16,7 +16,6 @@ export type CoBrandBadgeProps = {
 };
 
 export const CoBrandBadge: React.FC<React.PropsWithChildren<CoBrandBadgeProps>> = ({
-  whiteText,
   compact,
   coBrandLogo,
   coBrand,
@@ -28,7 +27,7 @@ export const CoBrandBadge: React.FC<React.PropsWithChildren<CoBrandBadgeProps>> 
   if (compact) {
     return (
       <FlexGap gap="4px">
-        <PancakeSwapBadge whiteText={whiteText} compact />
+        <LogoWithTextIcon color="white" />
         <VerticalDivider bg={dividerBg ?? ""} />
         <BadgeLogo src={coBrandLogo} alt={coBrandAlt} />
       </FlexGap>
@@ -37,7 +36,8 @@ export const CoBrandBadge: React.FC<React.PropsWithChildren<CoBrandBadgeProps>> 
 
   return (
     <FlexGap gap="8px" alignItems="center">
-      <PancakeSwapBadge whiteText={whiteText} />
+      <LogoWithTextIcon color="white" />
+
       <VerticalDivider bg={dividerBg ?? ""} />
       {cWidth && cHeight ? <Image src={coBrand} alt={coBrandAlt} width={cWidth} height={cHeight} unoptimized /> : null}
     </FlexGap>

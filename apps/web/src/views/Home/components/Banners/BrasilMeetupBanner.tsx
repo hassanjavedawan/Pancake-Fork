@@ -112,7 +112,7 @@ export const BrasilMeetupBanner = memo(function BrasilMeetupBanner() {
         badges={<LogoWithTextIcon color="white" />}
         title={
           <BannerTitle variant="purple" marginTop={isMd ? '-10px' : '0px'}>
-            {t('PancakeSwap Meetup')}
+            {t('SGC Meetup')}
           </BannerTitle>
         }
         desc={<Countdown />}

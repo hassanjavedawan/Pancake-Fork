@@ -4,13 +4,13 @@ import {
   FavoriteBorderIcon,
   Flex,
   Link,
-  LogoIcon,
   OpenNewIcon,
   Text,
   VerifiedIcon,
   useMatchBreakpoints,
 } from '@pancakeswap/uikit'
 import useTheme from 'hooks/useTheme'
+import Image from 'next/legacy/image'
 import { useMemo } from 'react'
 import { styled } from 'styled-components'
 import { useLatestArticle } from '../../hooks/useAllArticle'
@@ -72,12 +72,12 @@ export const useTweetsData = () => {
   return useMemo(() => {
     return [
       {
-        tweet: `Get Your Uniswap Interface Fees Refunded on PancakeSwap, up to $8M!
+        tweet: `Get Your Uniswap Interface Fees Refunded on SGCDEX, up to $8M!
 
-Match your Ethereum Uniswap volume 1:1 on Ethereum PancakeSwap, and we’ll refund ALL your interface fees paid.
-Trade now: https://pancakeswap.finance/swap?chain=eth&utm_source=twitter&utm_medium=Ethereum&utm_campaign=Swap&utm_id=InterfacefeeRefund
+Match your Ethereum Uniswap volume 1:1 on Ethereum SGCDEX, and we’ll refund ALL your interface fees paid.
+Trade now: 
 `,
-        link: 'https://x.com/PancakeSwap/status/1791076335462314097',
+        link: '',
         date: 'May 16',
         like: '1k',
         impression: '295.5k',
@@ -116,17 +116,24 @@ export const TwitterCards: React.FC = () => {
         {t('Top Tweet of the week')}
       </Text>
       <LogoBox>
-        <LogoIcon width={30} />
+        <Image
+          alt="chain"
+          style={{ maxHeight: '200px' }}
+          src="/images/chains/786.png"
+          width={100}
+          height={100}
+          unoptimized
+        />
       </LogoBox>
       <Flex alignItems="center">
         <Text mt="10px" fontSize={14} bold>
-          PancakeSwap🥞Ev3ryone&#39;s Favourite D3X
+          SGCDEX Ev3ryone&#39;s Favourite D3X
         </Text>
         <VerifiedIcon ml="3px" mt="9px" color={theme.colors.secondary} />
       </Flex>
       <Flex style={{ gap: 0 }} alignItems="center" justifyContent="center">
         <StyledText fontSize={14} color={theme.colors.textSubtle}>
-          @PancakeSwap
+          @SGCDEX
         </StyledText>
         <Divider />
         <Text fontSize={14} color={theme.colors.textSubtle}>

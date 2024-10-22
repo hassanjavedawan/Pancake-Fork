@@ -88,8 +88,8 @@ export const PaymasterBanner = () => {
               ? t('Pay gas with 10+ ERC-20 tokens')
               : t('Pay gas on zkSync Era  Volrex.Network  with 10+ ERC-20 tokens')} */}
             {isMobile || isTablet
-              ? t('Enjoy Gas-Free Transactions on zkSync PancakeSwap')
-              : t('Enjoy Gas-Free Transactions on zkSync Era PancakeSwap')}
+              ? t('Enjoy Gas-Free Transactions on zkSync SGCDEX')
+              : t('Enjoy Gas-Free Transactions on zkSync Era SGCDEX')}
           </BannerTitle>
         }
         actions={

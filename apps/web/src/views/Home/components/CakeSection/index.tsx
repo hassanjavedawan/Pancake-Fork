@@ -3,6 +3,8 @@ import { Button, Flex, Link, OpenNewIcon, StyledLink, Text, useMatchBreakpoints 
 import { ASSET_CDN } from 'config/constants/endpoints'
 import useTheme from 'hooks/useTheme'
 import NextLink from 'next/link'
+import Image from 'next/legacy/image'
+
 import React, { memo, useCallback, useLayoutEffect, useRef } from 'react'
 import { css, keyframes, styled } from 'styled-components'
 import { useFourYearTotalVeCakeApr } from 'views/CakeStaking/hooks/useAPR'
@@ -508,7 +510,15 @@ const CakeSection: React.FC = () => {
           </CakeSectionLeftBox>
           <CakeSectionCenterBox>
             <CakeBox ref={cakeBoxRef}>
-              <CakeCanvas width={width} height={height} ref={canvasRef} />
+              {/* <CakeCanvas width={width} height={height} ref={canvasRef} /> */}
+              <Image
+                alt="chain"
+                style={{ maxHeight: `${height}px` }}
+                src="/images/chains/786.png"
+                width={width}
+                height={height}
+                unoptimized
+              />
             </CakeBox>
           </CakeSectionCenterBox>
           <CakeSectionRightBox>

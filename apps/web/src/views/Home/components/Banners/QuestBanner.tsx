@@ -51,7 +51,7 @@ export const QuestBanner = () => {
         badges={<LogoWithTextIcon color="white" />}
         title={
           <BannerTitle variant="yellow" marginTop={isMd ? '-10px' : '0px'}>
-            {t('PancakeSwap Quest-Beta Now Live')}
+            {t('SGC Quest-Beta Now Live')}
           </BannerTitle>
         }
         desc={

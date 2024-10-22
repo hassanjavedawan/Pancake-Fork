@@ -1,5 +1,5 @@
 import { useTranslation } from '@pancakeswap/localization'
-import { useMatchBreakpoints } from '@pancakeswap/uikit'
+import { LogoWithTextIcon, useMatchBreakpoints } from '@pancakeswap/uikit'
 import {
   BackgroundGraphic,
   BannerActionContainer,
@@ -67,7 +67,7 @@ export const V4InfoBanner = () => {
   return (
     <BannerContainer background="radial-gradient(112.67% 197.53% at 30.75% 3.72%, #9AEDFF 0%, #CCC2FE 76.19%, #C6A3FF 100%), linear-gradient(180deg, rgba(231, 253, 255, 0.2) 0%, rgba(242, 241, 255, 0.2) 100%)">
       <BannerMain
-        badges={<PancakeSwapBadge />}
+        badges={<LogoWithTextIcon color="white" />}
         title={
           <BannerTitle variant="purple">
             {isMobile || isTablet

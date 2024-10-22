@@ -5,12 +5,13 @@ import { ASSET_CDN } from 'config/constants/endpoints'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import useTheme from 'hooks/useTheme'
 import { IdType, useUserNotUsCitizenAcknowledgement } from 'hooks/useUserIsUsCitizenAcknowledgement'
-import Image, { StaticImageData } from 'next/image'
+import Image from 'next/legacy/image'
+
 import { useRouter } from 'next/router'
 import { useMemo } from 'react'
 import { styled } from 'styled-components'
 import { getPerpetualUrl } from 'utils/getPerpetualUrl'
-import GradientLogo from '../GradientLogoSvg'
+// import GradientLogo from '../GradientLogoSvg'
 
 export const CardWrapper = styled.div`
   border-radius: 24px;
@@ -274,7 +275,7 @@ const useNftGameBlockData = () => {
     return [
       {
         title: t('Gaming Marketplace'),
-        description: t('Play, Build and Connect on PancakeSwap'),
+        description: t('Play, Build and Connect on SGCDEX'),
         ctaTitle: t('Play Now'),
         image: `${ASSET_CDN}/web/landing/game-pancake-protectors.png`,
         defaultImage: `${ASSET_CDN}/web/landing/game-pancake-protectors-purple.png`,
@@ -304,8 +305,8 @@ const useNftGameBlockData = () => {
 const FeatureBox: React.FC<{
   title: string
   description: string
-  image: StaticImageData | string
-  defaultImage: StaticImageData | string
+  image: string
+  defaultImage: string
   width: number
   ctaTitle: string
   className?: string
@@ -352,7 +353,7 @@ const EcoSystemSection: React.FC = () => {
 
   return (
     <Flex justifyContent="center" alignItems="center" flexDirection="column" pt={isMobile ? '24px' : '60px'}>
-      <GradientLogo height="48px" width="48px" mb="24px" />
+      {/* <GradientLogo height="48px" width="48px" mb="24px" /> */}
       <Text textAlign="center" p="0px 20px">
         <Text
           fontSize={['32px', null, null, '40px']}
