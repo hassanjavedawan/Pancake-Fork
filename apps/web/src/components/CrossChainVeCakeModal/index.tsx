@@ -270,7 +270,7 @@ export const CrossChainVeCakeModal: React.FC<{
                 <Flex flexDirection="column">
                   <Heading scale="md">{modalTitle ?? t('veCAKE Sync')}</Heading>
                   <Text fontSize={14} color="textSubtle">
-                    {t('Sync your veCAKE and Pancake Profile across all supported networks.')}
+                    {t('Sync your veCAKE andSGCDEXProfile across all supported networks.')}
                   </Text>
                 </Flex>
               </ModalTitle>
@@ -359,7 +359,7 @@ const InfoBox = () => {
     <StyleUl>
       <li>{t('Once synced, your veCAKE on the selected network will stay in sync with BNB Chain.')}</li>
       <li>{t('You will need to sync again after extending or adding more CAKE to your CAKE Staking position.')}</li>
-      <li>{t('Your Pancake Profile will be synced along with your veCAKE.')}</li>
+      <li>{t('YourSGCDEXProfile will be synced along with your veCAKE.')}</li>
     </StyleUl>
   )
 }

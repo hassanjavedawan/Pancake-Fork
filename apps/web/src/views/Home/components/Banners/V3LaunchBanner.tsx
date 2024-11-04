@@ -240,7 +240,7 @@ const V3LaunchBanner = () => {
           </TextBox>
           <NextLinkFromReactRouter
             target="_blank"
-            to="https://blog.pancakeswap.finance/articles/introducing-pancake-swap-v3-a-more-efficient-and-user-friendly-dex-on-bnb-chain-and-ethereum"
+            to="https://blog.sgcdex.finance/articles/introducing-pancake-swap-v3-a-more-efficient-and-user-friendly-dex-on-bnb-chain-and-ethereum"
             rel='"noopener noreferrer'
           >
             <StyledButtonLeft scale={isMobile ? 'sm' : 'md'}>

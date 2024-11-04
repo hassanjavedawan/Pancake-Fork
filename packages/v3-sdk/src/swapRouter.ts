@@ -1,15 +1,15 @@
-import { encodeFunctionData, Hex } from 'viem'
 import { BigintIsh, Currency, CurrencyAmount, Percent, TradeType, validateAndParseAddress } from '@pancakeswap/sdk'
+import { encodeFunctionData, Hex } from 'viem'
 
 import invariant from 'tiny-invariant'
 import { swapRouterABI } from './abi/SwapRouter'
-import { Trade } from './entities/trade'
 import { ADDRESS_ZERO } from './constants'
+import { Trade } from './entities/trade'
+import { Multicall } from './multicall'
+import { FeeOptions, Payments } from './payments'
 import { PermitOptions, SelfPermit } from './selfPermit'
 import { encodeRouteToPath } from './utils'
 import { MethodParameters, toHex } from './utils/calldata'
-import { Multicall } from './multicall'
-import { FeeOptions, Payments } from './payments'
 
 /**
  * Options for producing the arguments to send calls to the router.
@@ -47,7 +47,7 @@ export interface SwapOptions {
 }
 
 /**
- * Represents the Pancake V3 SwapRouter, and has static methods for helping execute trades.
+ * Represents theSGCDEXV3 SwapRouter, and has static methods for helping execute trades.
  */
 export abstract class SwapRouter {
   // public static INTERFACE: Interface = new Interface(ISwapRouter)

@@ -38,7 +38,7 @@ const Pottery: React.FC<React.PropsWithChildren> = () => {
               style={{ display: 'inline-block' }}
               m="0 4px"
               external
-              href="https://blog.pancakeswap.finance/articles/idefinitely-halt-of-pancake-swap-pottery-beta-product"
+              href="https://blog.sgcdex.finance/articles/idefinitely-halt-of-pancake-swap-pottery-beta-product"
             >
               {t('here')}
             </Link>

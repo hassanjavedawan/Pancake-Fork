@@ -122,7 +122,7 @@ const ChangeProfilePicPage: React.FC<React.PropsWithChildren<ChangeProfilePicPag
             {t('Sorry! You don’t have any eligible Collectibles in your wallet to use!')}
           </Text>
           <Text as="p" color="textSubtle" mb="24px">
-            {t('Make sure you have a Pancake Collectible in your wallet and try again!')}
+            {t('Make sure you have aSGCDEXCollectible in your wallet and try again!')}
             <Link href="/profile/pancake-collectibles">
               <StyledLink color="primary">{t('See the list >')}</StyledLink>
             </Link>

@@ -30,7 +30,7 @@ const networkLogo = `${BASE_PATH}/arbitrum-badge.png`
 
 const primaryLink = '/ifo?chain=arb&utm_source=Homepage&utm_medium=website&utm_campaign=Eigenpie&utm_id=IFO'
 const learnMoreLink =
-  'https://blog.pancakeswap.finance/articles/pancake-swap-launches-first-ifo-on-arbitrum-featuring-eigenpie?utm_source=Homepage&utm_medium=website&utm_campaign=Eigenpie&utm_id=IFO'
+  'https://blog.sgcdex.finance/articles/pancake-swap-launches-first-ifo-on-arbitrum-featuring-eigenpie?utm_source=Homepage&utm_medium=website&utm_campaign=Eigenpie&utm_id=IFO'
 
 const bgXsVariant: GraphicDetail = {
   src: `${BASE_PATH}/bg-mobile.png`,

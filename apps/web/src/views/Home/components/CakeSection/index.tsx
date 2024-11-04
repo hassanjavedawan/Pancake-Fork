@@ -463,7 +463,7 @@ const CakeSection: React.FC = () => {
           fontSize={['32px', null, null, '40px']}
           lineHeight="110%"
         >
-          {t('CAKE')}
+          {t('Volrex.Network')}
         </Text>
       </Text>
       <Flex justifyContent="center">
@@ -481,14 +481,14 @@ const CakeSection: React.FC = () => {
         </Text>
       </Flex>
       <Flex justifyContent="center" style={{ gap: 14 }}>
-        <NextLink href="/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82&chainId=56">
-          <Button variant="primary">{t('Buy CAKE')}</Button>
+        <NextLink href="/swap">
+          <Button variant="primary">{t('Buy SGC')}</Button>
         </NextLink>
-        <Link href="https://docs.pancakeswap.finance/governance-and-tokenomics/cake-tokenomics">
+        {/* <Link href="https://docs.sgcdex.finance/governance-and-tokenomics/cake-tokenomics">
           <Button pl="0" endIcon={<OpenNewIcon color="primary" />} variant="text">
             {t('Learn')}
           </Button>
-        </Link>
+        </Link> */}
       </Flex>
       <Flex flexDirection={['column']} mb="40px">
         <CakeSectionMainBox>
@@ -514,7 +514,7 @@ const CakeSection: React.FC = () => {
               <Image
                 alt="chain"
                 style={{ maxHeight: `${height}px` }}
-                src="/images/chains/786.png"
+                src="/images/logo.png"
                 width={width}
                 height={height}
                 unoptimized

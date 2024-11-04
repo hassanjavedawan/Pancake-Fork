@@ -737,7 +737,7 @@
 
 ### Minor Changes
 
-- a784ca6ed: Pancake Multicall release
+- a784ca6ed:SGCDEXMulticall release
 
 ### Patch Changes
 

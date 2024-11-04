@@ -123,7 +123,7 @@ const LineaBanner = () => {
           <Link
             style={{ textDecoration: 'none' }}
             external
-            href="https://blog.pancakeswap.finance/articles/pancake-swap-v3-on-linea"
+            href="https://blog.sgcdex.finance/articles/pancake-swap-v3-on-linea"
           >
             <Button scale={isMobile ? 'sm' : 'md'}>
               <Text

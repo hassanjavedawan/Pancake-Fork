@@ -32,9 +32,9 @@ const OORT_PATH = `${ASSET_CDN}/web/banners/oort`
 const floatingAsset = `${ASSET_CDN}/web/banners/oort/oort-coin.png`
 
 const tradeNowLink =
-  'https://pancakeswap.finance/swap?outputCurrency=0x5651fA7a726B9Ec0cAd00Ee140179912B6E73599&utm_source=PCSWebsite&utm_medium=HomePageBanner&utm_campaign=SwapOORT&utm_id=OORTTradingCompetition'
+  'https://sgcdex.finance/swap?outputCurrency=0x5651fA7a726B9Ec0cAd00Ee140179912B6E73599&utm_source=PCSWebsite&utm_medium=HomePageBanner&utm_campaign=SwapOORT&utm_id=OORTTradingCompetition'
 const learnMoreLink =
-  'https://blog.pancakeswap.finance/articles/join-the-oort-trading-competition-on-pancake-swap-to-win-50-000?utm_source=PCSWebsite&utm_medium=HomePageBanner&utm_campaign=SwapOORT&utm_id=OORTTradingCompetition'
+  'https://blog.sgcdex.finance/articles/join-the-oort-trading-competition-on-pancake-swap-to-win-50-000?utm_source=PCSWebsite&utm_medium=HomePageBanner&utm_campaign=SwapOORT&utm_id=OORTTradingCompetition'
 
 const bgSmVariant: GraphicDetail = {
   src: `${OORT_PATH}/bunnies-md.png`,

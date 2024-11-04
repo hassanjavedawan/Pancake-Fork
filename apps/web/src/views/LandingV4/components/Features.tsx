@@ -315,7 +315,7 @@ export const Features = () => {
           <Box display={['none', 'none', 'none', 'none', 'block']}>
             <NextLinkFromReactRouter
               target="_blank"
-              to="https://developer.pancakeswap.finance/?utm_source=v4landingpage&utm_medium=banner&utm_campaign=v4landingpage&utm_id=v4landingpage"
+              to="https://developer.sgcdex.finance/?utm_source=v4landingpage&utm_medium=banner&utm_campaign=v4landingpage&utm_id=v4landingpage"
             >
               <Button width="fit-content" mt={['32px', '32px', '32px', '32px', '32px', '56px']}>
                 <Text color="white" bold mr="4px">

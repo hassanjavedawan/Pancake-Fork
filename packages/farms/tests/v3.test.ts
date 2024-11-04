@@ -9,14 +9,14 @@ import { supportedChainIdV3 } from '../src'
 import { CommonPrice, getFarmsPrices } from '../src/fetchFarmsV3'
 
 const tokenListMap = {
-  [ChainId.BSC]: 'https://tokens.pancakeswap.finance/pancakeswap-extended.json',
-  [ChainId.ETHEREUM]: 'https://tokens.pancakeswap.finance/pancakeswap-eth-default.json',
-  [ChainId.ZKSYNC]: 'https://tokens.pancakeswap.finance/pancakeswap-zksync-default.json',
-  [ChainId.POLYGON_ZKEVM]: 'https://tokens.pancakeswap.finance/pancakeswap-polygon-zkevm-default.json',
-  [ChainId.ARBITRUM_ONE]: 'https://tokens.pancakeswap.finance/pancakeswap-arbitrum-default.json',
-  [ChainId.LINEA]: 'https://tokens.pancakeswap.finance/pancakeswap-linea-default.json',
-  [ChainId.BASE]: 'https://tokens.pancakeswap.finance/pancakeswap-base-default.json',
-  [ChainId.OPBNB]: 'https://tokens.pancakeswap.finance/pancakeswap-opbnb-default.json',
+  [ChainId.BSC]: 'https://tokens.sgcdex.finance/pancakeswap-extended.json',
+  [ChainId.ETHEREUM]: 'https://tokens.sgcdex.finance/pancakeswap-eth-default.json',
+  [ChainId.ZKSYNC]: 'https://tokens.sgcdex.finance/pancakeswap-zksync-default.json',
+  [ChainId.POLYGON_ZKEVM]: 'https://tokens.sgcdex.finance/pancakeswap-polygon-zkevm-default.json',
+  [ChainId.ARBITRUM_ONE]: 'https://tokens.sgcdex.finance/pancakeswap-arbitrum-default.json',
+  [ChainId.LINEA]: 'https://tokens.sgcdex.finance/pancakeswap-linea-default.json',
+  [ChainId.BASE]: 'https://tokens.sgcdex.finance/pancakeswap-base-default.json',
+  [ChainId.OPBNB]: 'https://tokens.sgcdex.finance/pancakeswap-opbnb-default.json',
 } as const
 
 describe('Config farms V3', async () => {

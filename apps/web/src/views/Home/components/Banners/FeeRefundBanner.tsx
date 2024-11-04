@@ -47,7 +47,7 @@ const BannerDesc = styled(Text)`
 const startTradeLink =
   '/swap?chain=eth&utm_source=homepagebanner&utm_medium=Ethereum&utm_campaign=Swap&utm_id=InterfacefeeRefund'
 const learnMoreLink =
-  'https://blog.pancakeswap.finance/articles/get-your-uniswap-interface-fees-refunded-on-pancake-swap-up-to-8-m?utm_source=homepagebanner&utm_medium=Ethereum&utm_campaign=Swap&utm_id=InterfacefeeRefund'
+  'https://blog.sgcdex.finance/articles/get-your-uniswap-interface-fees-refunded-on-pancake-swap-up-to-8-m?utm_source=homepagebanner&utm_medium=Ethereum&utm_campaign=Swap&utm_id=InterfacefeeRefund'
 
 const Desc = () => {
   const { t } = useTranslation()

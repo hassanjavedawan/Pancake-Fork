@@ -41,7 +41,7 @@ const StyledButtonLinkAction = styled(ButtonLinkAction)`
 const playNowLink =
   'https://pancakeswap.games/?utm_source=nemesis%20FE%20banner&utm_medium=Banner&utm_campaign=nemesis%20FE%20banner&utm_id=nemesis%20FE%20banner'
 const learnMoreLink =
-  'https://blog.pancakeswap.finance/articles/introducing-nemesis-downfall-pancake-swap-s-latest-game-fi-release'
+  'https://blog.sgcdex.finance/articles/introducing-nemesis-downfall-pancake-swap-s-latest-game-fi-release'
 
 export const NemesisDownfallBanner = () => {
   const { t } = useTranslation()

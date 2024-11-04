@@ -124,7 +124,7 @@
 
 ### Patch Changes
 
-- a784ca6ed: Pancake Multicall release
+- a784ca6ed:SGCDEXMulticall release
   - @pancakeswap/awgmi@0.1.14
   - @pancakeswap/localization@5.0.2
   - @pancakeswap/token-lists@0.0.8

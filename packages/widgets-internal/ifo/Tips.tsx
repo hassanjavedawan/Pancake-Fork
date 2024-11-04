@@ -61,7 +61,7 @@ export function MigrateVeCakeTips(props: SpaceProps) {
             {t("To participate, you need to migrate your fixed-term CAKE staking position to veCAKE.")}
           </MessageText>
           <LinkMessageText bold>
-            <Link href="https://pancakeswap.finance">
+            <Link href="https://sgcdex.finance">
               {t("Learn more")} {">>"}
             </Link>
           </LinkMessageText>
@@ -84,7 +84,7 @@ export function InsufficientNativeVeCakeTips(props: SpaceProps) {
             )}
           </MessageText>
           <LinkMessageText bold>
-            <Link href="https://docs.pancakeswap.finance/products/vecake/migrate-from-cake-pool#10ffc408-be58-4fa8-af56-be9f74d03f42">
+            <Link href="https://docs.sgcdex.finance/products/vecake/migrate-from-cake-pool#10ffc408-be58-4fa8-af56-be9f74d03f42">
               {t("Learn more")} {">>"}
             </Link>
           </LinkMessageText>

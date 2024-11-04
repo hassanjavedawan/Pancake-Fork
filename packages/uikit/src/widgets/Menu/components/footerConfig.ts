@@ -7,115 +7,115 @@ export const footerLinks: (t: ContextApi["t"]) => FooterLinkType[] = (t) => [
     items: [
       {
         label: t("Trade"),
-        href: "https://pancakeswap.finance/swap",
+        href: "https://sgcdex.finance/swap",
       },
       {
         label: t("Earn"),
-        href: "https://pancakeswap.finance/liquidity/pools",
+        href: "https://sgcdex.finance/liquidity/pools",
       },
       {
         label: t("Play"),
-        href: "https://pancakeswap.finance/prediction",
+        href: "https://sgcdex.finance/prediction",
       },
-      {
-        label: t("veCAKE"),
-        href: "https://pancakeswap.finance/cake-staking",
-      },
-      {
-        label: t("Merchandise"),
-        href: "https://merch.pancakeswap.finance/",
-      },
+      // {
+      //   label: t("veCAKE"),
+      //   href: "https://sgcdex.finance/cake-staking",
+      // },
+      // {
+      //   label: t("Merchandise"),
+      //   href: "https://merch.sgcdex.finance/",
+      // },
     ],
   },
   {
     label: "Business",
     items: [
-      {
-        label: t("CAKE Incentives"),
-        href: "https://docs.pancakeswap.finance/ecosystem-and-partnerships/business-partnerships/syrup-pools-and-farms",
-      },
+      // {
+      //   label: t("CAKE Incentives"),
+      //   href: "https://docs.sgcdex.finance/ecosystem-and-partnerships/business-partnerships/syrup-pools-and-farms",
+      // },
       {
         label: t("Staking Pools"),
-        href: "https://pancakeswap.finance/pools",
+        href: "https://sgcdex.finance/pools",
       },
-      {
-        label: t("Token Launches"),
-        href: "https://docs.pancakeswap.finance/ecosystem-and-partnerships/business-partnerships/initial-farm-offerings-ifos",
-      },
-      {
-        label: t("Brand Assets"),
-        href: "https://docs.pancakeswap.finance/ecosystem-and-partnerships/brand",
-      },
+      // {
+      //   label: t("Token Launches"),
+      //   href: "https://docs.sgcdex.finance/ecosystem-and-partnerships/business-partnerships/initial-farm-offerings-ifos",
+      // },
+      // {
+      //   label: t("Brand Assets"),
+      //   href: "https://docs.sgcdex.finance/ecosystem-and-partnerships/brand",
+      // },
     ],
   },
-  {
-    label: t("Developers"),
-    items: [
-      {
-        label: t("Contributing"),
-        href: "https://docs.pancakeswap.finance/developers/contributing",
-      },
-      {
-        label: t("Github"),
-        href: "https://github.com/pancakeswap",
-      },
-      {
-        label: t("Bug Bounty"),
-        href: "https://docs.pancakeswap.finance/developers/bug-bounty",
-      },
-      {
-        label: t("V4"),
-        href: "https://pancakeswap.finance/v4",
-      },
-    ],
-  },
+  // {
+  //   label: t("Developers"),
+  //   items: [
+  //     {
+  //       label: t("Contributing"),
+  //       href: "https://docs.sgcdex.finance/developers/contributing",
+  //     },
+  //     {
+  //       label: t("Github"),
+  //       href: "https://github.com/pancakeswap",
+  //     },
+  //     {
+  //       label: t("Bug Bounty"),
+  //       href: "https://docs.sgcdex.finance/developers/bug-bounty",
+  //     },
+  //     {
+  //       label: t("V4"),
+  //       href: "https://sgcdex.finance/v4",
+  //     },
+  //   ],
+  // },
   {
     label: t("Support"),
     items: [
       {
         label: t("Get Help"),
-        href: "https://docs.pancakeswap.finance/contact-us/customer-support",
+        href: "https://docs.sgcdex.finance/contact-us/customer-support",
       },
       {
         label: t("Troubleshooting"),
-        href: "https://docs.pancakeswap.finance/readme/help/troubleshooting",
+        href: "https://docs.sgcdex.finance/readme/help/troubleshooting",
       },
       {
         label: t("Documentation"),
-        href: "https://docs.pancakeswap.finance/",
+        href: "https://docs.sgcdex.finance/",
       },
       {
         label: t("Audits"),
-        href: "https://docs.pancakeswap.finance/readme/audits",
+        href: "https://docs.sgcdex.finance/readme/audits",
       },
       {
         label: t("Legacy products"),
-        href: "https://docs.pancakeswap.finance/products/legacy-products",
+        href: "https://docs.sgcdex.finance/products/legacy-products",
       },
     ],
   },
   {
     label: t("About"),
     items: [
-      {
-        label: t("Tokenomics"),
-        href: "https://docs.pancakeswap.finance/governance-and-tokenomics/cake-tokenomics",
-      },
-      {
-        label: t("CAKE Emission Projection"),
-        href: "https://analytics.pancakeswap.finance/",
-      },
+      // {
+      //   label: t("Tokenomics"),
+      //   href: "https://docs.sgcdex.finance/governance-and-tokenomics/cake-tokenomics",
+      // },
+      // {
+      //   label: t("CAKE Emission Projection"),
+      //   href: "https://analytics.sgcdex.finance/",
+      // },
       {
         label: t("Blog"),
-        href: "https://blog.pancakeswap.finance/",
+        href: "https://blog.sgcdex.finance/",
       },
       {
         label: t("Careers"),
-        href: "https://docs.pancakeswap.finance/team/become-a-chef",
+        href: "https://docs.sgcdex.finance/team/become-a-chef",
       },
       {
         label: t("Terms Of Service"),
-        href: "https://pancakeswap.finance/terms-of-service",
+        href: "https://docs.sgcdex.finance/terms-of-service",
       },
     ],
   },

@@ -37,9 +37,9 @@ const bgXsVariant: GraphicDetail = {
 }
 
 const startTradingLink =
-  'https://perp.pancakeswap.finance/en/futures/v2/BTCUSD?chain=Arbitrum&utm_source=homepagebanner&utm_medium=website&utm_campaign=PerpARBIncentives&utm_id=ARBincentives'
+  'https://perp.sgcdex.finance/en/futures/v2/BTCUSD?chain=Arbitrum&utm_source=homepagebanner&utm_medium=website&utm_campaign=PerpARBIncentives&utm_id=ARBincentives'
 const learnMoreLink =
-  'https://blog.pancakeswap.finance/articles/trade-on-arbitrum-pancake-swap-perpetual-v2-to-win-300-000-arb?utm_source=homepagebanner&utm_medium=website&utm_campaign=PerpARBIncentives&utm_id=ARBincentives'
+  'https://blog.sgcdex.finance/articles/trade-on-arbitrum-pancake-swap-perpetual-v2-to-win-300-000-arb?utm_source=homepagebanner&utm_medium=website&utm_campaign=PerpARBIncentives&utm_id=ARBincentives'
 
 const StyledFlexContainer = styled(FlexGap)`
   align-items: center;

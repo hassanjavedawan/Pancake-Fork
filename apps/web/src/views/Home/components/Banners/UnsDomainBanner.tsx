@@ -187,7 +187,7 @@ const UnsDomainBanner = () => {
             </Link>
             <Devider />
             <Link
-              href="https://blog.pancakeswap.finance/articles/unlocking-the-power-of-web3-domains-pancake-swap-integrates-with-unstoppable-domains"
+              href="https://blog.sgcdex.finance/articles/unlocking-the-power-of-web3-domains-pancake-swap-integrates-with-unstoppable-domains"
               external
               style={{ textDecoration: 'none' }}
             >

@@ -40,7 +40,7 @@ export function DoubleCurrencyLogo({
         {showChainLogo && currency0 ? (
           <Image
             alt={`chain-${currency0.chainId}`}
-            src={`https://assets.pancakeswap.finance/web/chains/${currency0.chainId}.png`}
+            src={`https://assets.sgcdex.finance/web/chains/${currency0.chainId}.png`}
             style={{ maxHeight: chainLogoSize, margin: "8px" }}
             width={chainLogoSize}
             height={chainLogoSize}

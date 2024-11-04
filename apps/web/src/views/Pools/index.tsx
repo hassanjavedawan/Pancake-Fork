@@ -77,7 +77,7 @@ const Pools: React.FC<React.PropsWithChildren> = () => {
                     {t('Looking for v1 CAKE syrup pools?')}
                   </Text>
                   <FinishedTextLink
-                    href="https://v1-farms.pancakeswap.finance/pools/history"
+                    href="https://v1-farms.sgcdex.finance/pools/history"
                     fontSize={['16px', null, '20px']}
                     color="failure"
                   >

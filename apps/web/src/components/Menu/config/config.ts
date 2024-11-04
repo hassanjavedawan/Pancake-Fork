@@ -1,14 +1,12 @@
 import { ContextApi } from '@pancakeswap/localization'
 import { SUPPORTED_CHAIN_IDS as POOL_SUPPORTED_CHAINS } from '@pancakeswap/pools'
 import { SUPPORTED_CHAIN_IDS as POSITION_MANAGERS_SUPPORTED_CHAINS } from '@pancakeswap/position-managers'
-import { SUPPORTED_CHAIN_IDS as PREDICTION_SUPPORTED_CHAINS } from '@pancakeswap/prediction'
 import {
   BridgeIcon,
   DropdownMenuItems,
   DropdownMenuItemType,
   EarnFillIcon,
   EarnIcon,
-  GameIcon,
   MenuItemsType,
   MoreIcon,
   SwapFillIcon,
@@ -115,19 +113,19 @@ const config: (
     },
     {
       label: t('Bridge'),
-      href: 'https://bridge.pancakeswap.finance',
+      href: 'https://bridge.sgcdex.finance',
       icon: BridgeIcon,
       type: DropdownMenuItemType.EXTERNAL_LINK,
       image: '/images/decorations/pe2.png',
       items: [
         {
           label: t('Stargate'),
-          href: 'https://bridge.pancakeswap.finance/stargate',
+          href: 'https://bridge.sgcdex.finance/stargate',
           type: DropdownMenuItemType.EXTERNAL_LINK,
         },
         {
           label: t('Axelar'),
-          href: 'https://bridge.pancakeswap.finance/axelar',
+          href: 'https://bridge.sgcdex.finance/axelar',
           type: DropdownMenuItemType.EXTERNAL_LINK,
         },
         {
@@ -137,12 +135,12 @@ const config: (
         },
         {
           label: t('Wormhole'),
-          href: 'https://bridge.pancakeswap.finance/wormhole',
+          href: 'https://bridge.sgcdex.finance/wormhole',
           type: DropdownMenuItemType.EXTERNAL_LINK,
         },
         {
           label: t('Aptos'),
-          href: 'https://docs.pancakeswap.finance/readme/get-started-aptos/aptos-coin-guide',
+          href: 'https://docs.sgcdex.finance/readme/get-started-aptos/aptos-coin-guide',
           type: DropdownMenuItemType.EXTERNAL_LINK,
         },
       ].map((item) => addMenuItemSupported(item, chainId)),
@@ -166,7 +164,7 @@ const config: (
     //     },
     //     {
     //       label: t('Quests'),
-    //       href: 'https://quest.pancakeswap.finance/quests',
+    //       href: 'https://quest.sgcdex.finance/quests',
     //       status: { text: t('New'), color: 'success' },
     //       type: DropdownMenuItemType.EXTERNAL_LINK,
     //     },
@@ -208,12 +206,12 @@ const config: (
         },
         {
           label: t('Blog'),
-          href: 'https://blog.pancakeswap.finance',
+          href: 'https://blog.sgcdex.finance',
           type: DropdownMenuItemType.EXTERNAL_LINK,
         },
         {
           label: t('Docs'),
-          href: 'https://docs.pancakeswap.finance',
+          href: 'https://docs.sgcdex.finance',
           type: DropdownMenuItemType.EXTERNAL_LINK,
         },
         {

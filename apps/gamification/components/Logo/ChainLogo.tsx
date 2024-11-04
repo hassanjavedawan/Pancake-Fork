@@ -1,6 +1,6 @@
-import { HelpIcon } from '@pancakeswap/uikit'
-import { ASSET_CDN } from 'config/constants/endpoints'
-import Image from 'next/image'
+import { HelpIcon, Image } from '@pancakeswap/uikit'
+// import { ASSET_CDN } from 'config/constants/endpoints'
+
 import { memo } from 'react'
 import { isChainSupported } from 'utils/wagmi'
 
@@ -14,7 +14,6 @@ export const ChainLogo = memo(
           src={`/images/chains/${chainId}.png`}
           width={width}
           height={height}
-          unoptimized
         />
       )
     }

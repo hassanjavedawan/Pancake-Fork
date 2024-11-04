@@ -19,15 +19,15 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
       },
       {
         label: t('Play'),
-        href: 'https://pancakeswap.finance/prediction',
+        href: 'https://sgcdex.finance/prediction',
       },
       {
         label: t('veCAKE'),
-        href: 'https://pancakeswap.finance/cake-staking',
+        href: 'https://sgcdex.finance/cake-staking',
       },
       {
         label: t('Merchandise'),
-        href: 'https://merch.pancakeswap.finance/',
+        href: 'https://merch.sgcdex.finance/',
       },
     ],
   },
@@ -35,20 +35,20 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
     label: 'Business',
     items: [
       {
-        label: t('CAKE Incentives'),
-        href: 'https://docs.pancakeswap.finance/ecosystem-and-partnerships/business-partnerships/syrup-pools-and-farms',
+        label: t('SGCDEX Incentives'),
+        href: 'https://docs.sgcdex.finance/ecosystem-and-partnerships/business-partnerships/syrup-pools-and-farms',
       },
       {
         label: t('Staking Pools'),
-        href: 'https://pancakeswap.finance/pools',
+        href: 'https://sgcdex.finance/pools',
       },
       {
         label: t('Token Launches'),
-        href: 'https://docs.pancakeswap.finance/ecosystem-and-partnerships/business-partnerships/initial-farm-offerings-ifos',
+        href: 'https://docs.sgcdex.finance/ecosystem-and-partnerships/business-partnerships/initial-farm-offerings-ifos',
       },
       {
         label: t('Brand Assets'),
-        href: 'https://docs.pancakeswap.finance/ecosystem-and-partnerships/brand',
+        href: 'https://docs.sgcdex.finance/ecosystem-and-partnerships/brand',
       },
     ],
   },
@@ -57,7 +57,7 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
     items: [
       {
         label: t('Contributing'),
-        href: 'https://docs.pancakeswap.finance/developers/contributing',
+        href: 'https://docs.sgcdex.finance/developers/contributing',
       },
       {
         label: t('Github'),
@@ -65,11 +65,11 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
       },
       {
         label: t('Bug Bounty'),
-        href: 'https://docs.pancakeswap.finance/developers/bug-bounty',
+        href: 'https://docs.sgcdex.finance/developers/bug-bounty',
       },
       {
         label: t('V4'),
-        href: 'https://pancakeswap.finance/v4',
+        href: 'https://sgcdex.finance/v4',
       },
     ],
   },
@@ -78,23 +78,23 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
     items: [
       {
         label: t('Get Help'),
-        href: 'https://docs.pancakeswap.finance/contact-us/customer-support',
+        href: 'https://docs.sgcdex.finance/contact-us/customer-support',
       },
       {
         label: t('Troubleshooting'),
-        href: 'https://docs.pancakeswap.finance/readme/help/troubleshooting',
+        href: 'https://docs.sgcdex.finance/readme/help/troubleshooting',
       },
       {
         label: t('Documentation'),
-        href: 'https://docs.pancakeswap.finance/',
+        href: 'https://docs.sgcdex.finance/',
       },
       {
         label: t('Audits'),
-        href: 'https://docs.pancakeswap.finance/readme/audits',
+        href: 'https://docs.sgcdex.finance/readme/audits',
       },
       {
         label: t('Legacy products'),
-        href: 'https://docs.pancakeswap.finance/products/legacy-products',
+        href: 'https://docs.sgcdex.finance/products/legacy-products',
       },
     ],
   },
@@ -103,23 +103,23 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
     items: [
       {
         label: t('Tokenomics'),
-        href: 'https://docs.pancakeswap.finance/governance-and-tokenomics/cake-tokenomics',
+        href: 'https://docs.sgcdex.finance/governance-and-tokenomics/cake-tokenomics',
       },
       {
         label: t('CAKE Emission Projection'),
-        href: 'https://analytics.pancakeswap.finance/',
+        href: 'https://analytics.sgcdex.finance/',
       },
       {
         label: t('Blog'),
-        href: 'https://blog.pancakeswap.finance/',
+        href: 'https://blog.sgcdex.finance/',
       },
       {
         label: t('Careers'),
-        href: 'https://docs.pancakeswap.finance/team/become-a-chef',
+        href: 'https://docs.sgcdex.finance/team/become-a-chef',
       },
       {
         label: t('Terms Of Service'),
-        href: 'https://pancakeswap.finance/terms-of-service',
+        href: 'https://sgcdex.finance/terms-of-service',
       },
     ],
   },

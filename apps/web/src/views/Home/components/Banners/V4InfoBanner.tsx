@@ -46,7 +46,7 @@ const StyledButtonLinkAction = styled(ButtonLinkAction)`
 const whitepaperLink =
   'https://github.com/pancakeswap/pancake-v4-core/blob/main/docs/whitepaper-en.pdf?utm_source=homepagebanner&utm_medium=banner&utm_campaign=homepagebanner&utm_id=v4whitepaper'
 const learnMoreLink =
-  'https://developer.pancakeswap.finance/?utm_source=homepagebanner&utm_medium=banner&utm_campaign=homepagebanner&utm_id=Startbuilding'
+  'https://developer.sgcdex.finance/?utm_source=homepagebanner&utm_medium=banner&utm_campaign=homepagebanner&utm_id=Startbuilding'
 
 export const V4InfoBanner = () => {
   const { t } = useTranslation()

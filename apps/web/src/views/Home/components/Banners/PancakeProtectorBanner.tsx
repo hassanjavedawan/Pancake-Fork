@@ -138,13 +138,13 @@ const PancakeProtectorBanner = () => {
           <LogoBox>
             <LogoWithTextIcon color="white" />
           </LogoBox>
-          <Header>{t('Join Pancake Protectors')}</Header>
+          <Header>{t('JoinSGCDEXProtectors')}</Header>
           <StyledSubheading>
             {isDesktop && t('Exclusive Perks for  Volrex.Network  Bunnies and Squads')}
           </StyledSubheading>
           <Flex alignItems="center" style={{ gap: isMobile ? 4 : 16 }}>
             <Link
-              href="https://blog.pancakeswap.finance/articles/pancake-protectors-is-here-discover-the-power-of-cake-and-perks-for-pancake-squads-and-bunnies"
+              href="https://blog.sgcdex.finance/articles/pancake-protectors-is-here-discover-the-power-of-cake-and-perks-for-pancake-squads-and-bunnies"
               style={{ textDecoration: 'none' }}
               external
             >

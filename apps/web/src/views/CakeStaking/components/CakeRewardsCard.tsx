@@ -204,7 +204,7 @@ export const CakeRewardsCard = ({ onDismiss }) => {
                             'Please note that after locking or updating, your shares will only update upon revenue distributions.',
                           )}
                         </Text>
-                        <LinkExternal href="https://docs.pancakeswap.finance/products/revenue-sharing/faq#50b7c683-feb0-47f6-809f-39c1a0976bb5">
+                        <LinkExternal href="https://docs.sgcdex.finance/products/revenue-sharing/faq#50b7c683-feb0-47f6-809f-39c1a0976bb5">
                           <Text bold color="primary">
                             {t('Learn More')}
                           </Text>
@@ -403,11 +403,7 @@ export const CakeRewardsCard = ({ onDismiss }) => {
                 </Message>
               )}
               <ClaimButton availableClaim={availableClaim} onDismiss={onDismiss} />
-              <LinkExternal
-                external
-                m="8px auto auto auto"
-                href="https://docs.pancakeswap.finance/products/revenue-sharing"
-              >
+              <LinkExternal external m="8px auto auto auto" href="https://docs.sgcdex.finance/products/revenue-sharing">
                 {t('Learn More')}
               </LinkExternal>
             </Box>

@@ -51,7 +51,7 @@ export function ActivateProfileButton({ saleFinished }: Props) {
         isOpen={isOpen}
         supportedChains={supportedChainIds}
         title={t('Create Profile')}
-        description={t('Create your Pancake Profile on %chain%', {
+        description={t('Create yourSGCDEXProfile on %chain%', {
           chain: chainNames,
         })}
         buttonText={t('Switch chain to create profile')}

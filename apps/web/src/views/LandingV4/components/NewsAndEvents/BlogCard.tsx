@@ -87,7 +87,7 @@ export const BlogCard: React.FC<React.PropsWithChildren<BlogCardProps>> = ({
     <StyledBlogCard
       {...props}
       external
-      href={article?.newsOutBoundLink || `https://blog.pancakeswap.finance/articles/${slug}`}
+      href={article?.newsOutBoundLink || `https://blog.sgcdex.finance/articles/${slug}`}
       onMouseEnter={() => setIsHover(true)}
       onMouseLeave={() => setIsHover(false)}
     >

@@ -39,7 +39,7 @@ const bg = `
 
 const ATHLETICS_PATH = `${ASSET_CDN}/web/banners/athletics`
 const learnMoreLink =
-  'https://blog.pancakeswap.finance/articles/join-the-pancakeswap-athletic-games-win-usdt-merch-and-special-nfts?utm_source=Homepage&utm_medium=Banner&utm_campaign=AthleticGames&utm_id=AthleticGames'
+  'https://blog.sgcdex.finance/articles/join-the-pancakeswap-athletic-games-win-usdt-merch-and-special-nfts?utm_source=Homepage&utm_medium=Banner&utm_campaign=AthleticGames&utm_id=AthleticGames'
 
 const bgSmVariant: GraphicDetail = {
   src: `${ATHLETICS_PATH}/athletics-bunnies-md.png`,

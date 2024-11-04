@@ -63,8 +63,8 @@ export const cardConfig = (
       // Sale type 2 is basic sale
       if (meta?.version >= 3.1 && !isBasicSale(meta?.saleType)) {
         const MSG_MAP = {
-          needQualifiedNFT: t('Set PancakeSquad NFT as Pancake Profile avatar.'),
-          needQualifiedPoints: t('Reach a certain Pancake Profile Points threshold.'),
+          needQualifiedNFT: t('Set PancakeSquad NFT asSGCDEXProfile avatar.'),
+          needQualifiedPoints: t('Reach a certainSGCDEXProfile Points threshold.'),
         }
 
         const msgs = Object.keys(meta)

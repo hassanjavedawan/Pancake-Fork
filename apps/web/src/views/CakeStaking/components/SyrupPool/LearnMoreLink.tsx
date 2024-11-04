@@ -16,7 +16,7 @@ export const LearnMoreLink: React.FC<{ withArrow?: boolean }> = ({ withArrow }) 
         fontSize: 14,
         marginLeft: 3,
       }}
-      href="https://docs.pancakeswap.finance/products/vecake/migrate-from-cake-pool"
+      href="https://docs.sgcdex.finance/products/vecake/migrate-from-cake-pool"
       target="_blank"
       rel="noreferrer noopener"
     >

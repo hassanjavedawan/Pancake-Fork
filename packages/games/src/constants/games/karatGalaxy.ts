@@ -6,7 +6,7 @@ export const karatGalaxy: GameType = {
   title: 'Karat Galaxy',
   subTitle: 'Embark on a Cosmic Karat Quest: Shoot, mine, win!',
   description:
-    'Join an interstellar adventure where mining, NFTs, DeFi, and fun unite.  Power up with KARAT and turn CAKE tokens into gold coins, unlocking exciting in-game adventures. Enjoy exclusive bonuses with Pancake Squad and Bunny NFTs. Battle, mine, win, and conquer the cosmos.',
+    'Join an interstellar adventure where mining, NFTs, DeFi, and fun unite.  Power up with KARAT and turn CAKE tokens into gold coins, unlocking exciting in-game adventures. Enjoy exclusive bonuses withSGCDEXSquad and Bunny NFTs. Battle, mine, win, and conquer the cosmos.',
   publishDate: 1698044972, // Timestamp in seconds
   genre: GenreType.FPS,
   trendingTags: [

@@ -148,7 +148,7 @@ const MoonPayBanner = () => {
           <Link
             style={{ textDecoration: 'none' }}
             external
-            href="https://blog.pancakeswap.finance/articles/0-provider-fee-on-crypto-purchases-via-mercuryo"
+            href="https://blog.sgcdex.finance/articles/0-provider-fee-on-crypto-purchases-via-mercuryo"
           >
             <Button scale={isMobile ? 'sm' : 'md'}>
               <Text

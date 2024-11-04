@@ -1,21 +1,21 @@
-import {
-  keccak256,
-  Address,
-  encodeAbiParameters,
-  parseAbiParameters,
-  Hash,
-  GetCreate2AddressOptions,
-  Hex,
-  toBytes,
-  pad,
-  isBytes,
-  slice,
-  concat,
-  getAddress,
-  ByteArray,
-} from 'viem'
-import { Token } from '@pancakeswap/sdk'
 import { ChainId } from '@pancakeswap/chains'
+import { Token } from '@pancakeswap/sdk'
+import {
+  Address,
+  ByteArray,
+  concat,
+  encodeAbiParameters,
+  getAddress,
+  GetCreate2AddressOptions,
+  Hash,
+  Hex,
+  isBytes,
+  keccak256,
+  pad,
+  parseAbiParameters,
+  slice,
+  toBytes,
+} from 'viem'
 import { FeeAmount, POOL_INIT_CODE_HASHES } from '../constants'
 
 function getCreate2Address(
@@ -42,7 +42,7 @@ function getCreate2AddressZkSync(from: Address, salt: `0x${string}`, initCodeHas
 
 /**
  * Computes a pool address
- * @param deployerAddress The Pancake V3 deployer address
+ * @param deployerAddress TheSGCDEXV3 deployer address
  * @param tokenA The first token of the pair, irrespective of sort order
  * @param tokenB The second token of the pair, irrespective of sort order
  * @param fee The fee tier of the pool

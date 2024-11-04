@@ -38,7 +38,7 @@ const bgXsVariant: GraphicDetail = {
 }
 
 const learnMoreLink =
-  'https://blog.pancakeswap.finance/articles/pancake-swap-airdrops-2-4-million-zk-tokens-to-the-community'
+  'https://blog.sgcdex.finance/articles/pancake-swap-airdrops-2-4-million-zk-tokens-to-the-community'
 
 const StyledFlexContainer = styled(FlexGap)`
   align-items: center;

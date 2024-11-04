@@ -50,7 +50,7 @@ interface CardArticleProps {
 export const CardArticle: React.FC<React.PropsWithChildren<CardArticleProps>> = ({ article }) => {
   return (
     <StyledArticle flexDirection="column">
-      <NextLink passHref href={`https://blog.pancakeswap.finance/articles/${article?.slug}`}>
+      <NextLink passHref href={`https://blog.sgcdex.finance/articles/${article?.slug}`}>
         <Flex>
           <Box
             borderRadius={8}

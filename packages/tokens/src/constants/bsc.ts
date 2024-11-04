@@ -223,7 +223,7 @@ export const bscTokens = {
     18,
     'SYRUP',
     'SyrupBar Token',
-    'https://pancakeswap.finance/',
+    'https://sgcdex.finance/',
   ),
   pha: new ERC20Token(
     ChainId.BSC,
@@ -2961,8 +2961,8 @@ export const bscTokens = {
     '0x346575fC7f07E6994D76199E41D13dC1575322E1',
     18,
     'DLP',
-    'WBNB-RDNT Pancake LP',
-    'https://pancakeswap.finance',
+    'WBNB-RDNTSGCDEXLP',
+    'https://sgcdex.finance',
   ),
   mdlp: new ERC20Token(
     ChainId.BSC,

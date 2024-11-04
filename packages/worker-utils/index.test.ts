@@ -3,12 +3,12 @@ import { CORS_ALLOW, isOriginAllowed } from './index'
 
 describe('worker-utils', () => {
   it.each([
-    ['https://pancakeswap.finance', true],
+    ['https://sgcdex.finance', true],
     ['https://pancakeswap.com', true],
-    ['https://aptospancakeswap.finance', false],
-    ['https://aptos.pancakeswap.finance', true],
-    ['https://pancakeswap.finance.com', false],
-    ['http://pancakeswap.finance', false],
+    ['https://aptossgcdex.finance', false],
+    ['https://aptos.sgcdex.finance', true],
+    ['https://sgcdex.finance.com', false],
+    ['http://sgcdex.finance', false],
     ['https://pancake.run', false],
     ['https://test.pancake.run', true],
     ['http://localhost:3000', true],

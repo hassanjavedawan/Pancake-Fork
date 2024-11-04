@@ -92,7 +92,7 @@ export const TopperCampaignBanner = () => {
         actions={
           <BannerActionContainer>
             <Action
-              href="https://pancakeswap.finance/buy-crypto"
+              href="https://sgcdex.finance/buy-crypto"
               display="flex"
               icon="arrowForward"
               alignItems="center"
@@ -100,7 +100,7 @@ export const TopperCampaignBanner = () => {
               color="rgba(255, 229, 191, 1)"
             />
             <Action
-              href="https://blog.pancakeswap.finance/articles/pancake-swap-integrates-with-topper-to-expand-crypto-access"
+              href="https://blog.sgcdex.finance/articles/pancake-swap-integrates-with-topper-to-expand-crypto-access"
               icon="openNew"
               display={isMobile ? 'none' : 'flex'}
               alignItems="center"

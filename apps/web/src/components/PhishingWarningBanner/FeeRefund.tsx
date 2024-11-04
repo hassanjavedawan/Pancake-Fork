@@ -27,7 +27,7 @@ export const FeeRefund: ICampaignBanner = () => {
             external
             fontSize={['12px', '12px', '14px']}
             style={{ display: 'inline-flex', alignItems: 'center', whiteSpace: 'nowrap' }}
-            href="https://blog.pancakeswap.finance/articles/get-your-uniswap-interface-fees-refunded-on-pancake-swap-up-to-8-m?utm_source=infostripe&utm_medium=Ethereum&utm_campaign=Swap&utm_id=InterfacefeeRefund"
+            href="https://blog.sgcdex.finance/articles/get-your-uniswap-interface-fees-refunded-on-pancake-swap-up-to-8-m?utm_source=infostripe&utm_medium=Ethereum&utm_campaign=Swap&utm_id=InterfacefeeRefund"
           >
             {t('Learn More')}
             <ArrowForwardIcon width="14px" mt="2px" color="primary" />
@@ -68,7 +68,7 @@ export const FeeRefund: ICampaignBanner = () => {
         external
         fontSize={['12px', '12px', '14px']}
         style={{ display: 'inline-flex', alignItems: 'center', whiteSpace: 'nowrap' }}
-        href="https://blog.pancakeswap.finance/articles/get-your-uniswap-interface-fees-refunded-on-pancake-swap-up-to-8-m?utm_source=infostripe&utm_medium=Ethereum&utm_campaign=Swap&utm_id=InterfacefeeRefund"
+        href="https://blog.sgcdex.finance/articles/get-your-uniswap-interface-fees-refunded-on-pancake-swap-up-to-8-m?utm_source=infostripe&utm_medium=Ethereum&utm_campaign=Swap&utm_id=InterfacefeeRefund"
       >
         {t('Learn More')}
       </Link>

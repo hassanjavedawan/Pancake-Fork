@@ -107,7 +107,7 @@ const Menu = () => {
         <Box mr="16px">
           <ThemeSwitcher isDark={theme.isDark} toggleTheme={() => setTheme(theme.isDark ? 'light' : 'dark')} />
         </Box>
-        <Link external href="https://pancakeswap.finance/">
+        <Link external href="https://sgcdex.finance/">
           <Button scale="sm">{t('Launch App')}</Button>
         </Link>
       </Flex>

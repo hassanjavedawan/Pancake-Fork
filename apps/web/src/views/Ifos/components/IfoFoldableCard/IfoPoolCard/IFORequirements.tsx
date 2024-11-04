@@ -12,7 +12,7 @@ const NotOkNFT = ({ admissionProfile }) => {
 
   const keyword = '%Pancake Squad NFT%'
 
-  const rawText = t(`Set %Pancake Squad NFT% as Pancake Profile avatar`)
+  const rawText = t(`Set %Pancake Squad NFT% asSGCDEXProfile avatar`)
 
   return (
     <TransWithElement
@@ -22,7 +22,7 @@ const NotOkNFT = ({ admissionProfile }) => {
         <>
           <LinkExternal
             style={{ display: 'inline' }}
-            href={`https://pancakeswap.finance/nfts/collections/${admissionProfile}`}
+            href={`https://sgcdex.finance/nfts/collections/${admissionProfile}`}
           >
             {t('Pancake Squad NFT')}
           </LinkExternal>
@@ -48,10 +48,7 @@ const NotOkProfilePoints = ({ pointThreshold }) => {
       element={
         <>
           <br />
-          <LinkExternal
-            style={{ display: 'inline' }}
-            href={`https://pancakeswap.finance/profile/${account}/achievements/`}
-          >
+          <LinkExternal style={{ display: 'inline' }} href={`https://sgcdex.finance/profile/${account}/achievements/`}>
             {t('Pancake Profile')}
           </LinkExternal>
         </>

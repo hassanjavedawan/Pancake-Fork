@@ -48,7 +48,7 @@ const StyledButtonLinkAction = styled(ButtonLinkAction)`
 
 const tryItNowLink = 'https://pancakeswap.stryke.xyz'
 const learnMoreLink =
-  'https://blog.pancakeswap.finance/articles/introducing-clamm-options-trading-on-pancake-swap-in-collaboration-with-stryke-formerly-dopex'
+  'https://blog.sgcdex.finance/articles/introducing-clamm-options-trading-on-pancake-swap-in-collaboration-with-stryke-formerly-dopex'
 
 export const OptionsBanner = () => {
   const { t } = useTranslation()

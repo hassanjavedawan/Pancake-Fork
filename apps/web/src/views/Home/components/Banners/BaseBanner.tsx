@@ -152,7 +152,7 @@ const BaseBanner = () => {
           <Link
             style={{ textDecoration: 'none' }}
             external
-            href="https://blog.pancakeswap.finance/articles/pancake-swap-v3-on-base"
+            href="https://blog.sgcdex.finance/articles/pancake-swap-v3-on-base"
           >
             <Button variant="text" pl="0px" pt="0px" scale={isMobile ? 'sm' : 'md'}>
               <Text textTransform={isMobile ? 'uppercase' : 'capitalize'} bold fontSize="16px" color="#000000">

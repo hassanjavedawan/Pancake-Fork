@@ -168,7 +168,7 @@ export const BlogCard: React.FC = () => {
     <Wrapper
       onClick={() => {
         window.open(
-          `https://blog.pancakeswap.finance/articles/${articlesData?.data?.[0]?.slug ?? ''}`,
+          `https://blog.sgcdex.finance/articles/${articlesData?.data?.[0]?.slug ?? ''}`,
           '_blank',
           'noopener noreferrer',
         )

@@ -24,7 +24,7 @@ export const PoolsBanner = ({ additionLink }: { additionLink?: React.ReactNode }
               </FarmH2>
               <Row flexWrap="wrap" gap="16px">
                 <LinkExternal
-                  href="https://docs.pancakeswap.finance/products/yield-farming/how-to-use-farms"
+                  href="https://docs.sgcdex.finance/products/yield-farming/how-to-use-farms"
                   showExternalIcon={false}
                 >
                   <Button p="0" variant="text">

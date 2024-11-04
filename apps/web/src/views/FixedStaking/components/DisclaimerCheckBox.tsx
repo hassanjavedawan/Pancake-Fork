@@ -21,7 +21,7 @@ export function DisclaimerCheckBox({
             display: 'inline',
             fontSize: '14px',
           }}
-          href="https://docs.pancakeswap.finance/products/simple-staking/terms-and-conditions"
+          href="https://docs.sgcdex.finance/products/simple-staking/terms-and-conditions"
           target="_blank"
         >
           the Terms & Conditions.

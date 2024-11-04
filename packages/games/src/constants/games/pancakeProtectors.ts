@@ -4,9 +4,9 @@ export const pancakeProtectors: GameType = {
   id: 'pancake-protectors',
   projectName: 'Mobox',
   title: 'Pancake Protector',
-  subTitle: 'Unlock the Power of CAKE and Perks for Pancake Squad and Bunnies Holders',
+  subTitle: 'Unlock the Power of CAKE and Perks forSGCDEXSquad and Bunnies Holders',
   description:
-    'PancakeSwap and Mobox joined forces to launch a tower-defense and PvP game tailored for GameFi players, as well as CAKE, Pancake Squad, and Bunnies holders.',
+    'PancakeSwap and Mobox joined forces to launch a tower-defense and PvP game tailored for GameFi players, as well as CAKE,SGCDEXSquad, and Bunnies holders.',
   publishDate: 1698044972,
   genre: GenreType.TowerDefense,
   trendingTags: [
@@ -62,11 +62,11 @@ export const pancakeProtectors: GameType = {
   playlist: [
     {
       videoId: '80j7QpNqKcI',
-      title: 'Unleashing the Power of Pancake Protectors: A Web3 Gaming Adventure on PancakeSwap',
+      title: 'Unleashing the Power ofSGCDEXProtectors: A Web3 Gaming Adventure on PancakeSwap',
     },
     {
       videoId: '--UcFQ64sjY',
-      title: 'Pancake Protectors is here! Discover the power of CAKE and perks for Pancake Squads and Bunnies',
+      title: 'Pancake Protectors is here! Discover the power of CAKE and perks forSGCDEXSquads and Bunnies',
     },
     {
       videoId: '-KViZLhrVE4',
@@ -74,7 +74,7 @@ export const pancakeProtectors: GameType = {
     },
     {
       videoId: '0L8bPhzT-xU',
-      title: 'Pancake Protectors is here! Discover the power of CAKE and perks for Pancake Squads and Bunnies',
+      title: 'Pancake Protectors is here! Discover the power of CAKE and perks forSGCDEXSquads and Bunnies',
     },
     {
       videoId: '3gbxF8-eBAg',

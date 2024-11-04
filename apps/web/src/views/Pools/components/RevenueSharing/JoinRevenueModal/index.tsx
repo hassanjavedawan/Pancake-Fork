@@ -114,7 +114,7 @@ const JoinRevenueModal: React.FunctionComponent<React.PropsWithChildren<JoinReve
           </Text>
           <InlineLink
             fontSize={12}
-            href="https://docs.pancakeswap.finance/products/revenue-sharing/faq#cae64522-4729-43a2-8fa8-6bbd2567dcea"
+            href="https://docs.sgcdex.finance/products/revenue-sharing/faq#cae64522-4729-43a2-8fa8-6bbd2567dcea"
             external
           >
             {t('Learn More')}

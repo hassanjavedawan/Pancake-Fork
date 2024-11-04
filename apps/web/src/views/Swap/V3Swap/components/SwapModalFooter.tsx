@@ -192,7 +192,7 @@ export const SwapModalFooter = memo(function SwapModalFooter({
                       style={{ display: 'inline' }}
                       ml="4px"
                       external
-                      href="https://docs.pancakeswap.finance/products/pancakeswap-exchange/faq#what-will-be-the-trading-fee-breakdown-for-v3-exchange"
+                      href="https://docs.sgcdex.finance/products/pancakeswap-exchange/faq#what-will-be-the-trading-fee-breakdown-for-v3-exchange"
                     >
                       {t('Fee Breakdown and Tokenomics')}
                     </Link>

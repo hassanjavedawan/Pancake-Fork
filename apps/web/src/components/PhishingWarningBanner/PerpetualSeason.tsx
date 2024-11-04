@@ -43,7 +43,7 @@ export const PerpetualSeason: ICampaignBanner = () => {
             external
             fontSize={['12px', '12px', '14px']}
             style={{ display: 'inline-flex', alignItems: 'center', whiteSpace: 'nowrap' }}
-            href="https://blog.pancakeswap.finance/articles/trade-on-arbitrum-pancake-swap-perpetual-v2-to-win-300-000-arb?utm_source=infostripe&utm_medium=website&utm_campaign=PerpARBIncentives&utm_id=ARBincentives"
+            href="https://blog.sgcdex.finance/articles/trade-on-arbitrum-pancake-swap-perpetual-v2-to-win-300-000-arb?utm_source=infostripe&utm_medium=website&utm_campaign=PerpARBIncentives&utm_id=ARBincentives"
           >
             {t('Learn More')}
             <ArrowForwardIcon width="14px" mt="2px" color="primary" />
@@ -61,7 +61,7 @@ export const PerpetualSeason: ICampaignBanner = () => {
           color="primary"
           fontSize={['12px', '12px', '14px']}
           style={{ display: 'flex', alignItems: 'center', whiteSpace: 'nowrap' }}
-          href="https://perp.pancakeswap.finance/en/futures/v2/BTCUSD?chain=Arbitrum&utm_source=infostripe&utm_medium=website&utm_campaign=PerpARBIncentives&utm_id=ARBincentives"
+          href="https://perp.sgcdex.finance/en/futures/v2/BTCUSD?chain=Arbitrum&utm_source=infostripe&utm_medium=website&utm_campaign=PerpARBIncentives&utm_id=ARBincentives"
         >
           {t('Start Trading')}
           <ArrowForwardIcon width="14px" color="primary" style={{ marginRight: '-8px' }} />
@@ -71,7 +71,7 @@ export const PerpetualSeason: ICampaignBanner = () => {
           external
           fontSize={['12px', '12px', '14px']}
           style={{ display: 'inline-flex', alignItems: 'center', whiteSpace: 'nowrap' }}
-          href="https://blog.pancakeswap.finance/articles/trade-on-arbitrum-pancake-swap-perpetual-v2-to-win-300-000-arb?utm_source=infostripe&utm_medium=website&utm_campaign=PerpARBIncentives&utm_id=ARBincentives"
+          href="https://blog.sgcdex.finance/articles/trade-on-arbitrum-pancake-swap-perpetual-v2-to-win-300-000-arb?utm_source=infostripe&utm_medium=website&utm_campaign=PerpARBIncentives&utm_id=ARBincentives"
         >
           {t('Learn More')}
         </Link>

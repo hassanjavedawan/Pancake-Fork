@@ -59,7 +59,7 @@ const Heading = () => {
       {isMobile ? (
         <Link
           external
-          href="https://docs.pancakeswap.finance/products/vecake/how-to-get-vecake"
+          href="https://docs.sgcdex.finance/products/vecake/how-to-get-vecake"
           style={{ textDecoration: 'none', zIndex: 1 }}
         >
           <Button width="48px" height="48px" variant="subtle" ml={staking ? 0 : '16px'}>

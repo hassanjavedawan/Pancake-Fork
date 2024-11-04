@@ -12,18 +12,16 @@ const NoProfile = () => {
   return (
     <>
       <Text bold mb="8px">
-        {t('You have no active Pancake Profile.')}
+        {t('You have no activeSGCDEXProfile.')}
       </Text>
-      <Text mb="32px">{t('Create a Pancake Profile to start earning from trades')}</Text>
+      <Text mb="32px">{t('Create aSGCDEXProfile to start earning from trades')}</Text>
       <Box>
         <Image src="/images/trading-reward/create-profile.png" width={420} height={128} alt="create-profile" />
       </Box>
       {chainId !== ChainId.BSC && (
         <Box maxWidth={365} mt="24px">
           <Message variant="primary">
-            <MessageText>
-              {t('To create Pancake Profile, you will need to switch your network to BNB Chain.')}
-            </MessageText>
+            <MessageText>{t('To createSGCDEXProfile, you will need to switch your network to BNB Chain.')}</MessageText>
           </Message>
         </Box>
       )}

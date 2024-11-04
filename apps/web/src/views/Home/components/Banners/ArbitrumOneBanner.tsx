@@ -122,7 +122,7 @@ const ArbitrumOneBanner = () => {
           <Link
             style={{ textDecoration: 'none' }}
             external
-            href="https://blog.pancakeswap.finance/articles/pancake-swap-v3-on-arbitrum-one"
+            href="https://blog.sgcdex.finance/articles/pancake-swap-v3-on-arbitrum-one"
           >
             <Text
               textTransform={isMobile ? 'uppercase' : 'capitalize'}

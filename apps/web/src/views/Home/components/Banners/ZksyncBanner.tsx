@@ -114,7 +114,7 @@ export const ZksyncBanner = () => {
           <Flex>
             <NextLinkFromReactRouter
               target="_blank"
-              to="https://blog.pancakeswap.finance/articles/pancake-swap-v3-on-zk-sync-era"
+              to="https://blog.sgcdex.finance/articles/pancake-swap-v3-on-zk-sync-era"
             >
               <StyledButtonLeft scale={['xs', 'sm', 'md']} style={{ borderRadius: isMobile && '20px' }}>
                 <Text bold fontSize={['12px', '16px']} mr="4px">

@@ -11,7 +11,7 @@ export const bridgeInfo: BridgeInfo[] = [
   {
     platform: 'Pancake Bridge',
     symbol: 'CAKE',
-    url: 'https://bridge.pancakeswap.finance/aptos',
+    url: 'https://bridge.sgcdex.finance/aptos',
   },
   {
     platform: 'LayerZero Bridge',

@@ -32,7 +32,7 @@ export function useHandleWithdrawSubmission({
       <>
         {t('Please come back to check later at a certain amount of time')}
         <Link
-          href="https://docs.pancakeswap.finance/products/simple-staking/faq#what-happens-in-the-withdrawal-process-when-withdrawal-approval-is-pending"
+          href="https://docs.sgcdex.finance/products/simple-staking/faq#what-happens-in-the-withdrawal-process-when-withdrawal-approval-is-pending"
           target="_blank"
         >
           {t('Learn more')}

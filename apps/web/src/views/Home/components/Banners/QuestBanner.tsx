@@ -66,14 +66,14 @@ export const QuestBanner = () => {
         actions={
           <BannerActionContainer>
             <Action
-              href="https://quest.pancakeswap.finance/quests/a2eeefe4f49b4947a1a14bbff344bbb3"
+              href="https://quest.sgcdex.finance/quests/a2eeefe4f49b4947a1a14bbff344bbb3"
               icon="arrowForward"
               alignItems="center"
               text={t('Create Your Profile')}
               color="#280D5F"
             />
             <Action
-              href="https://blog.pancakeswap.finance/articles/introducing-pancake-swap-quest-beta-your-ultimate-de-fi-quest-platform"
+              href="https://blog.sgcdex.finance/articles/introducing-pancake-swap-quest-beta-your-ultimate-de-fi-quest-platform"
               display={width < 700 ? 'none' : 'flex'}
               icon="openNew"
               alignItems="center"

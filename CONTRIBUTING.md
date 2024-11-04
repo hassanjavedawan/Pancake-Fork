@@ -1,4 +1,4 @@
-# Contributing to the Pancake ecosystem 🥞
+# Contributing to theSGCDEXecosystem 🥞
 
 Thanks for taking the time to contribute !
 

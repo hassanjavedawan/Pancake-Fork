@@ -101,7 +101,7 @@ const CakeStaking = () => {
                 width="100%"
                 onClick={() => {
                   window.open(
-                    'https://docs.pancakeswap.finance/products/vecake/bridge-your-vecake',
+                    'https://docs.sgcdex.finance/products/vecake/bridge-your-vecake',
                     '_blank',
                     'noopener noreferrer',
                   )

@@ -91,7 +91,7 @@ export const V4HackathonBanner = () => {
               color="white"
             />
             <Action
-              href="https://blog.pancakeswap.finance/articles/announcing-the-v4-hookathon-pancake-swap-x-brevis-hackathon"
+              href="https://blog.sgcdex.finance/articles/announcing-the-v4-hookathon-pancake-swap-x-brevis-hackathon"
               icon="openNew"
               display="flex"
               alignItems="center"

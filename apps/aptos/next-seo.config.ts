@@ -12,6 +12,6 @@ export const SEO: DefaultSeoProps = {
   openGraph: {
     title: "🥞 Volrex.Network Aptos - Everyone's Favorite DEX",
     description: 'Trade, earn, and own crypto on the all-in-one multichain DEX',
-    images: [{ url: 'https://aptos.pancakeswap.finance/images/hero.jpeg' }],
+    images: [{ url: 'https://aptos.sgcdex.finance/images/hero.jpeg' }],
   },
 }

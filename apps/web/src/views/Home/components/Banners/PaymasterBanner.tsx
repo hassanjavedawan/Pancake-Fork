@@ -48,7 +48,7 @@ const BannerDesc = styled(Text)`
 const startTradeLink =
   '/swap?chain=zkSync&utm_source=homepagebanner&utm_medium=paymaster&utm_campaign=paymaster&utm_id=abc.123'
 const learnMoreLink =
-  'https://blog.pancakeswap.finance/articles/pancake-swap-integrates-zyfi-on-zk-sync-era-enabling-gas-fee-payments-with-10-erc-20-tokens'
+  'https://blog.sgcdex.finance/articles/pancake-swap-integrates-zyfi-on-zk-sync-era-enabling-gas-fee-payments-with-10-erc-20-tokens'
 
 const Desc = () => {
   const { t } = useTranslation()

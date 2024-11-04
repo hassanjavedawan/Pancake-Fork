@@ -48,7 +48,7 @@ const BannerDesc = styled(Text)`
 `
 
 const stakeCakeLink = '/cake-staking'
-const learnMoreLink = 'https://docs.pancakeswap.finance/products/vecake'
+const learnMoreLink = 'https://docs.sgcdex.finance/products/vecake'
 
 const Desc = () => {
   return (

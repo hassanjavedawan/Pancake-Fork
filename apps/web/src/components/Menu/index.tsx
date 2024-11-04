@@ -11,9 +11,8 @@ import { useCakePrice } from 'hooks/useCakePrice'
 import { usePerpUrl } from 'hooks/usePerpUrl'
 import useTheme from 'hooks/useTheme'
 import { IdType, useUserNotUsCitizenAcknowledgement } from 'hooks/useUserIsUsCitizenAcknowledgement'
-import { useWebNotifications } from 'hooks/useWebNotifications'
 import { useRouter } from 'next/router'
-import { Suspense, lazy, useCallback, useMemo } from 'react'
+import { useCallback, useMemo } from 'react'
 import { getOptionsUrl } from 'utils/getOptionsUrl'
 import GlobalSettings from './GlobalSettings'
 import { SettingsMode } from './GlobalSettings/types'
@@ -21,14 +20,11 @@ import UserMenu from './UserMenu'
 import { UseMenuItemsParams, useMenuItems } from './hooks/useMenuItems'
 import { getActiveMenuItem, getActiveSubMenuChildItem, getActiveSubMenuItem } from './utils'
 
-const Notifications = lazy(() => import('views/Notifications'))
-
 const LinkComponent = (linkProps) => {
   return <NextLinkFromReactRouter to={linkProps.href} {...linkProps} prefetch={false} />
 }
 
 const Menu = (props) => {
-  const { enabled } = useWebNotifications()
   const { chainId } = useActiveChainId()
   const { isDark, setTheme } = useTheme()
   const cakePrice = useCakePrice()
@@ -128,7 +124,7 @@ const Menu = (props) => {
         activeSubItem={activeSubMenuItem?.href}
         activeSubItemChildItem={activeSubChildMenuItem?.href}
         buyCakeLabel={t('Buy CAKE')}
-        buyCakeLink="https://pancakeswap.finance/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82&chainId=56"
+        buyCakeLink="https://sgcdex.finance/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82&chainId=56"
         {...props}
       />
     </>

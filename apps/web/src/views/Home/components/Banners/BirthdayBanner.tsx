@@ -74,7 +74,7 @@ export const BirthdayBanner = () => {
         actions={
           <BannerActionContainer>
             <Action
-              href="https://blog.pancakeswap.finance/articles/pancake4ever-celebrating-4-years-of-pancakeswap"
+              href="https://blog.sgcdex.finance/articles/pancake4ever-celebrating-4-years-of-pancakeswap"
               alignItems="center"
               text={t('Join Now')}
               color="#280D5F"

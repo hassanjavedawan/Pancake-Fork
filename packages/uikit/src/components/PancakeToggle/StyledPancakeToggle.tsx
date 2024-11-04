@@ -1,15 +1,15 @@
 import { styled } from "styled-components";
-import { scales, PancakeToggleProps, HandleProps, InputProps, ScaleKeys } from "./types";
+import { HandleProps, InputProps, PancakeToggleProps, ScaleKeys, scales } from "./types";
 
 const scaleKeyValues = {
   sm: {
-    pancakeSize: "14px", // The size of a pancake (the handle)
+    pancakeSize: "14px", // The size of asgcdex(the handle)
     travelDistance: "14px", // How far pancakes should travel horizontally
     toggleHeight: "20px", // General Height and
     toggleWidth: "36px", // Width of a toggle box
     pancakeThickness: "1px", // Bottom shadow of a pancake
     pancakeTwoOffset: "0px", // Pancakes don't look good when they are concentric
-    pancakeThreeOffset: "-3px", // so pancake 2 and 3 are shifted a little bit
+    pancakeThreeOffset: "-3px", // sosgcdex2 and 3 are shifted a little bit
     butterTop: "3px", // Fine adjustments for butter position
     butterLeft: "10px",
     butterWidth: "6px", // Width and

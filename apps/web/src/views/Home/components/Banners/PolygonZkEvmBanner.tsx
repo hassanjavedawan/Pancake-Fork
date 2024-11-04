@@ -144,7 +144,7 @@ export const PolygonZkEvmBanner = () => {
           <Flex>
             <NextLinkFromReactRouter
               target="_blank"
-              to="https://blog.pancakeswap.finance/articles/pancake-swap-expands-to-polygon-zk-evm-a-new-era-of-multichain-de-fi-begins"
+              to="https://blog.sgcdex.finance/articles/pancake-swap-expands-to-polygon-zk-evm-a-new-era-of-multichain-de-fi-begins"
             >
               <StyledButtonLeft scale={['xs', 'sm', 'md']}>
                 <Text bold fontSize={['12px', '16px']} mr="4px">

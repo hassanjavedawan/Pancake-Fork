@@ -1,11 +1,11 @@
-import { Address, encodeFunctionData, Hex } from 'viem'
 import { BigintIsh, Currency, CurrencyAmount, TradeType } from '@pancakeswap/swap-sdk-core'
 import invariant from 'tiny-invariant'
+import { Address, encodeFunctionData, Hex } from 'viem'
 import { quoterABI } from './abi/Quoter'
 import { quoterV2ABI } from './abi/QuoterV2'
+import { FeeAmount } from './constants'
 import { Route } from './entities'
 import { encodeRouteToPath, MethodParameters, toHex } from './utils'
-import { FeeAmount } from './constants'
 
 /**
  * Optional arguments to send to the quoter.
@@ -30,7 +30,7 @@ interface BaseQuoteParams {
 }
 
 /**
- * Represents the Pancake V3 QuoterV1 contract with a method for returning the formatted
+ * Represents theSGCDEXV3 QuoterV1 contract with a method for returning the formatted
  * calldata needed to call the quoter contract.
  */
 export abstract class SwapQuoter {

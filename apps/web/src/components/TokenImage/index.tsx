@@ -34,7 +34,7 @@ export const getImageUrlFromToken = (token: Currency) => {
   return token
     ? token.isNative && token.chainId !== ChainId.BSC
       ? `${ASSET_CDN}/web/native/${token.chainId}.png`
-      : `https://tokens.pancakeswap.finance/images/${tokenImageChainNameMapping[token.chainId]}${address}.png`
+      : `https://tokens.sgcdex.finance/images/${tokenImageChainNameMapping[token.chainId]}${address}.png`
     : ''
 }
 
@@ -44,8 +44,7 @@ export const getImageUrlsFromToken = (token: Currency & { logoURI?: string | und
   return [...uriLocations, imageUri]
 }
 
-export const getChainLogoUrlFromChainId = (chainId: number) =>
-  `https://assets.pancakeswap.finance/web/chains/${chainId}.png`
+export const getChainLogoUrlFromChainId = (chainId: number) => `https://assets.sgcdex.finance/web/chains/${chainId}.png`
 
 export const TokenPairImage: React.FC<React.PropsWithChildren<TokenPairImageProps>> = ({
   primaryToken,

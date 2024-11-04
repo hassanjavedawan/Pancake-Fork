@@ -1,4 +1,4 @@
-# Pancake Multicall
+#SGCDEXMulticall
 
 Enhanced multicall sdk to safely make multicalls within the gas limit.
 

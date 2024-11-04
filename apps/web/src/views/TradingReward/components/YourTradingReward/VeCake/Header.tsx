@@ -10,10 +10,7 @@ export const Header = () => {
       <Text>
         {t('The estimated veCAKE amount at the snapshot time is based on veCAKE’s linearly decreasing math.')}
       </Text>
-      <Link
-        external
-        href="https://docs.pancakeswap.finance/products/trading-reward/faq#what-is-vecake-at-snapshot-time"
-      >
+      <Link external href="https://docs.sgcdex.finance/products/trading-reward/faq#what-is-vecake-at-snapshot-time">
         {t('Learn More')}
       </Link>
     </Box>,

@@ -13,13 +13,14 @@ import {
   UserMenuDivider,
   UserMenuItem,
   useTooltip,
+  Image,
 } from '@pancakeswap/uikit'
-import { ASSET_CDN } from 'config/constants/endpoints'
+
 import { useActiveChainId, useLocalNetworkChain } from 'hooks/useActiveChainId'
 import { useNetworkConnectorUpdater } from 'hooks/useActiveWeb3React'
 import { useHover } from 'hooks/useHover'
 import { useSwitchNetwork } from 'hooks/useSwitchNetwork'
-import Image from 'next/image'
+
 import { useRouter } from 'next/router'
 import { useMemo } from 'react'
 import { useUserShowTestnet } from 'state/user/hooks/useUserShowTestnet'
@@ -72,10 +73,10 @@ const NetworkSelect = ({ switchNetwork, chainId, isWrongNetwork }) => {
         style={{ justifyContent: 'flex-start' }}
         as="a"
         target="_blank"
-        href="https://aptos.pancakeswap.finance/swap"
+        href="https://aptos.sgcdex.finance/swap"
       >
         <Image
-          src="https://aptos.pancakeswap.finance/images/apt.png"
+          src="https://aptos.sgcdex.finance/images/apt.png"
           width={24}
           height={24}
           unoptimized

@@ -87,7 +87,7 @@ const CurrencyLogoWithChain = ({ currency }: { currency: ERC20Token }) => (
     <CurrencyLogo currency={currency} />
     <StyledChainLogo
       alt={`chain-${currency.chainId}`}
-      src={`https://assets.pancakeswap.finance/web/chains/${currency.chainId}.png`}
+      src={`https://assets.sgcdex.finance/web/chains/${currency.chainId}.png`}
     />
   </CurrencyLogoContainer>
 );

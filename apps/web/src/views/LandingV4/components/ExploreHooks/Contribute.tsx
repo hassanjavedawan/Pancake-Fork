@@ -58,7 +58,7 @@ export const Contribute = () => {
               </NextLinkFromReactRouter>
               <NextLinkFromReactRouter
                 target="_blank"
-                to="https://blog.pancakeswap.finance/articles/introducing-pancake-swap-s-500-k-developer-program-and-cake-emissions-grant-program?utm_source=v4landingpage&utm_medium=banner&utm_campaign=v4landingpage&utm_id=v4landingpage"
+                to="https://blog.sgcdex.finance/articles/introducing-pancake-swap-s-500-k-developer-program-and-cake-emissions-grant-program?utm_source=v4landingpage&utm_medium=banner&utm_campaign=v4landingpage&utm_id=v4landingpage"
               >
                 <Button variant="secondary" display="flex" m={['8px auto 0 auto', '8px auto 0 auto', '0 0 0 8px']}>
                   <Text color="primary" bold fontSize={['12px', '16px']} mr="4px">

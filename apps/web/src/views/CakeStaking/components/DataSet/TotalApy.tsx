@@ -98,7 +98,7 @@ export const TotalApy: React.FC<React.PropsWithChildren<TotalApyProps>> = ({ veC
           {t('is the sum of veCAKE Pool APR, Revenue sharing APR and Birbes APY from Guages voting.')}
         </Text>
       </Box>
-      <Link mt="8px" external href="https://docs.pancakeswap.finance/products/vecake/faq#why-there-are-multiple-aprs">
+      <Link mt="8px" external href="https://docs.sgcdex.finance/products/vecake/faq#why-there-are-multiple-aprs">
         {t('Learn More')}
       </Link>
     </Box>,
@@ -121,7 +121,7 @@ export const TotalApy: React.FC<React.PropsWithChildren<TotalApyProps>> = ({ veC
           {t('is generated from CAKE emission, controlled by the veCAKE Pool gauge.')}
         </Text>
       </Box>
-      <Link mt="8px" external href="https://docs.pancakeswap.finance/products/vecake/faq#what-is-vecake-pool-apr">
+      <Link mt="8px" external href="https://docs.sgcdex.finance/products/vecake/faq#what-is-vecake-pool-apr">
         {t('Learn More')}
       </Link>
     </Box>,
@@ -144,7 +144,7 @@ export const TotalApy: React.FC<React.PropsWithChildren<TotalApyProps>> = ({ veC
           {t('is generated from weekly revenue sharing from  Volrex.Network  V3.')}
         </Text>
       </Box>
-      <Link mt="8px" external href="https://docs.pancakeswap.finance/products/vecake/faq#what-is-revenue-sharing-apr">
+      <Link mt="8px" external href="https://docs.sgcdex.finance/products/vecake/faq#what-is-revenue-sharing-apr">
         {t('Learn More')}
       </Link>
     </Box>,

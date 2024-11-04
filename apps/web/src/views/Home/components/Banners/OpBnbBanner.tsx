@@ -144,7 +144,7 @@ export const OpBnbBanner = memo(() => {
           <Link
             style={{ textDecoration: 'none' }}
             external
-            href="https://blog.pancakeswap.finance/articles/pancake-swap-v3-on-opBNB"
+            href="https://blog.sgcdex.finance/articles/pancake-swap-v3-on-opBNB"
           >
             <Button variant="text" pl="0px" pt="0px" scale={isMobile ? 'sm' : 'md'}>
               <Text textTransform={isMobile ? 'uppercase' : 'capitalize'} bold fontSize="16px" color="white">

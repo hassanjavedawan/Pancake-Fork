@@ -21,7 +21,7 @@ const AptosBridgeMessage = () => {
           </MessageText>
           <MessageText mb="5px">
             Learn more in the
-            <InlineLink ml="4px" external href="https://docs.pancakeswap.finance/products/cake-bridging/faq">
+            <InlineLink ml="4px" external href="https://docs.sgcdex.finance/products/cake-bridging/faq">
               FAQ.
             </InlineLink>
           </MessageText>

@@ -46,7 +46,7 @@ const MenuItem: React.FC<React.PropsWithChildren<FooterProps>> = ({
     >
       <Flex flexDirection="column" width={["100%", null, "1200px;"]}>
         <StyledIconMobileContainer display={["block", null, "none"]}>
-          <LogoWithTextIcon width="130px" />
+          <LogoWithTextIcon />
         </StyledIconMobileContainer>
         <Flex
           order={[2, null, 1]}
@@ -66,7 +66,7 @@ const MenuItem: React.FC<React.PropsWithChildren<FooterProps>> = ({
                       href={href}
                       target="_blank"
                       rel="noreferrer noopener"
-                      color={isHighlighted ? vars.colors.warning : "text"}
+                      color={isHighlighted ? vars.colors.warning : "#fff"}
                       bold={false}
                       style={{ textTransform: "none" }}
                     >
@@ -81,7 +81,7 @@ const MenuItem: React.FC<React.PropsWithChildren<FooterProps>> = ({
           ))}
           <Box display={["none", null, "block"]}>{isXl ? <LogoIcon /> : <LogoWithTextIcon />}</Box>
         </Flex>
-        <StyledSocialLinks order={[2]} pb={["42px", null, "32px"]} mb={["0", null, "32px"]} />
+        {/* <StyledSocialLinks order={[2]} pb={["42px", null, "32px"]} mb={["0", null, "32px"]} /> */}
         <StyledToolsContainer
           data-theme="dark"
           order={[1, null, 3]}
@@ -90,13 +90,13 @@ const MenuItem: React.FC<React.PropsWithChildren<FooterProps>> = ({
         >
           <Flex order={[2, null, 1]} alignItems="center">
             {isMounted && <ThemeSwitcher isDark={isDark} toggleTheme={toggleTheme} />}
-            <LangSelector
+            {/* <LangSelector
               currentLang={currentLang}
               langs={langs}
               setLang={setLang}
               color="textSubtle"
               dropdownPosition="top-right"
-            />
+            /> */}
           </Flex>
           <Flex order={[1, null, 2]} mb={["24px", null, "0"]} justifyContent="space-between" alignItems="center">
             {/* <Box mr="20px">
