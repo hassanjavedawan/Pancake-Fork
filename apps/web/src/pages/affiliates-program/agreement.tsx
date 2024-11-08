@@ -13,18 +13,18 @@ const Agreement = () => {
           (“
           <strong>Affiliate”</strong>) and Volrex.Network that applies to your participation in the Volrex.Network
           Affiliate Program (“Program”). In this Agreement, “<strong>PancakeSwap</strong>,” “<strong>we</strong>” or “
-          <strong>us</strong>” means PancakeSwap. If you are participating or registering on behalf of a business, then
-          the term “<strong>you</strong>” means such business, and you represent and warrant that you have authority to
-          bind that business to this Agreement. By participating or registering to participate in the Program, or
-          otherwise indicating your acceptance of this Agreement (such as by clicking a button or checking a box on a
-          web page), you agree to this Agreement which may be amended from time to time by PancakeSwap.
+          <strong>us</strong>” means SGCDEX. If you are participating or registering on behalf of a business, then the
+          term “<strong>you</strong>” means such business, and you represent and warrant that you have authority to bind
+          that business to this Agreement. By participating or registering to participate in the Program, or otherwise
+          indicating your acceptance of this Agreement (such as by clicking a button or checking a box on a web page),
+          you agree to this Agreement which may be amended from time to time by SGCDEX.
         </Text>
 
         <Text as="h3">1. Program Overview</Text>
         <Text as="p">
           1.1 The Program offers you the opportunity to get paid different commission rates, by means of inviting new
-          users (“<strong>Referrals”</strong>) to register and trade on PancakeSwap, in accordance with the terms of
-          this Agreement.
+          users (“<strong>Referrals”</strong>) to register and trade on SGCDEX, in accordance with the terms of this
+          Agreement.
         </Text>
         <Text as="p">
           1.2 A Referral must be a new user and must not have interacted or signed with the Volrex.Network platform or
@@ -309,14 +309,14 @@ const Agreement = () => {
           not that of employer and employee. You will not be treated as an employee of Volrex.Network for any purpose.
           Nothing in this Agreement will create any, partnership, joint venture, agency, franchise, sales representative
           or employer-employee relationships between the Parties. You shall have no authority to make or accept any
-          offers or representations on behalf of PancakeSwap. You shall have no authority to bind PancakeSwap, and
-          undertake not to hold yourself out as an employee, agent or authorised representative of PancakeSwap.
+          offers or representations on behalf of SGCDEX. You shall have no authority to bind SGCDEX, and undertake not
+          to hold yourself out as an employee, agent or authorised representative of SGCDEX.
         </Text>
 
         <Text as="h3">13. No Joint Publicity</Text>
         <Text as="p">
-          You may not claim that any materials are created jointly between you and PancakeSwap, or attribute any
-          materials created or issued by you (including press releases) to PancakeSwap.
+          You may not claim that any materials are created jointly between you and SGCDEX, or attribute any materials
+          created or issued by you (including press releases) to SGCDEX.
         </Text>
 
         <Text as="h3">14. Term and Termination</Text>
@@ -328,9 +328,9 @@ const Agreement = () => {
           and all images of Volrex.Network and other materials provided under the Program.
         </Text>
         <Text as="p">
-          14.2 PancakeSwap, in its sole discretion, reserves the right to suspend or terminate your account and refuse
-          any and all current or future use of the Program, or any other Volrex.Network service, for any reason and at
-          any time. Such termination will result in the deactivation or deletion of your Affiliate Account.
+          14.2 SGCDEX, in its sole discretion, reserves the right to suspend or terminate your account and refuse any
+          and all current or future use of the Program, or any other Volrex.Network service, for any reason and at any
+          time. Such termination will result in the deactivation or deletion of your Affiliate Account.
         </Text>
         <Text as="p">
           14.3 Volrex.Network reserves the right to refuse service to anyone for any reason at any time.
@@ -345,12 +345,12 @@ const Agreement = () => {
 
         <Text as="h3">16. Limits of Liability</Text>
         <Text as="p">
-          Volrex.Network and any of PancakeSwap&apos;s officers, directors, employees, shareholders or agents of any of
-          them, exclude all liability and responsibility for any amount or kind of loss or damage that may result to you
-          or a third party (including without limitation, any direct, indirect, punitive or consequential loss or
-          damages, or any loss of income, profits, goodwill, data, contracts, use of money, or loss or damages arising
-          from or connected in any way to business interruption, and whether in tort (including without limitation
-          negligence), contract or otherwise) in connection with this Agreement.
+          Volrex.Network and any of SGCDEX&apos;s officers, directors, employees, shareholders or agents of any of them,
+          exclude all liability and responsibility for any amount or kind of loss or damage that may result to you or a
+          third party (including without limitation, any direct, indirect, punitive or consequential loss or damages, or
+          any loss of income, profits, goodwill, data, contracts, use of money, or loss or damages arising from or
+          connected in any way to business interruption, and whether in tort (including without limitation negligence),
+          contract or otherwise) in connection with this Agreement.
         </Text>
 
         <Text as="h3">17. Prohibited Activities</Text>
@@ -386,20 +386,20 @@ const Agreement = () => {
 
         <Text as="h3">18. Marks</Text>
         <Text as="p">
-          PancakeSwap Volrex.Network may provide you with trademarks and/or graphical images that can be used to promote
-          PancakeSwap. You may not modify these trademarks and/or images in any way. Volrex.Network reserves the right
-          to change the trademarks and/or images at any time without notice.
+          SGCDEX Volrex.Network may provide you with trademarks and/or graphical images that can be used to promote
+          SGCDEX. You may not modify these trademarks and/or images in any way. Volrex.Network reserves the right to
+          change the trademarks and/or images at any time without notice.
         </Text>
 
         <Text as="h3">19. Disclosure of Affiliate relationship</Text>
         <Text as="p">
           You must include a clear and concise statement to any third parties that you market to that discloses your
-          relationship as an Affiliate which is promoting PancakeSwap. For example:
+          relationship as an Affiliate which is promoting SGCDEX. For example:
         </Text>
         <Text as="p">
           (a) If you promote Volrex.Network through a web page, podcast, blog post, or social media post as an
           endorsement or review of Volrex.Network or incentivise others to do so, you must ensure that such post
-          includes a clear disclosure that it is an advertisement or was otherwise promoted by PancakeSwap; and
+          includes a clear disclosure that it is an advertisement or was otherwise promoted by SGCDEX; and
         </Text>
         <Text as="p">
           (b) Your disclosure must be as close as possible to the review or endorsement, be placed above the fold so it

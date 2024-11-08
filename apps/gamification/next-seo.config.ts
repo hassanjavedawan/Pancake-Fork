@@ -1,17 +1,17 @@
 import { DefaultSeoProps } from 'next-seo'
 
 export const SEO: DefaultSeoProps = {
-  titleTemplate: '%s |  Volrex.Network ',
-  defaultTitle: 'Game |  Volrex.Network ',
-  description: 'Play different games on  Volrex.Network , using CAKE and  Volrex.Network  NFTs',
+  titleTemplate: '%s | SGCDEX.Finance',
+  defaultTitle: 'Game | SGCDEX.Finance',
+  description: 'Play different games on   SGCDEX.Finance NFTs',
   twitter: {
     cardType: 'summary_large_image',
-    handle: '@ Volrex.Network ',
-    site: '@ Volrex.Network ',
+    handle: '@SGCDEX.Finance',
+    site: '@SGCDEX.Finance',
   },
   openGraph: {
-    title: ' Volrex.Network  - A next evolution DeFi exchange on BNB Smart Chain (BSC)',
-    description: 'Play different games on  Volrex.Network , using CAKE and  Volrex.Network  NFTs',
-    images: [{ url: 'https://assets.sgcdex.finance/web/og/v2/hero.jpg' }],
+    title: 'SGCDEX.Finance - A next evolution DeFi exchange on BNB Smart Chain (BSC)',
+    description: 'Play different games on  SGCDEX.Finance NFTs',
+    images: [{ url: '/logo1.png' }],
   },
 }

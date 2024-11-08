@@ -93,8 +93,8 @@ export const OptionsBanner = () => {
         }
         actions={
           <BannerActionContainer>
-            {TryItNowAction}
-            {isMobile ? null : learnMoreAction}
+            {/* {TryItNowAction}
+            {isMobile ? null : learnMoreAction} */}
           </BannerActionContainer>
         }
       />

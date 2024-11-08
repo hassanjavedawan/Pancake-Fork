@@ -21,7 +21,7 @@ const CommunityTag = styled.div`
   justify-content: center;
   align-items: center;
   border-radius: 32px;
-  background-color: ${({ theme }) => theme.colors.backgroundAlt};
+  background-color: ${({ theme }) => theme.colors.blue};
   width: 32px;
   height: 32px;
   transition: background-color 0.25s ease-in-out;
@@ -30,9 +30,8 @@ const CommunityTag = styled.div`
     transition: fill 0.25s ease-in-out;
   }
   &:hover {
-    background-color: ${({ theme }) => theme.colors.primary};
     svg path {
-      fill: ${({ theme }) => (theme.isDark ? '#000000' : '#ffffff')};
+      fill: ${({ theme }) => (theme.isDark ? '#000000' : '#000000')};
     }
   }
   ${({ theme }) => theme.mediaQueries.sm} {
@@ -41,12 +40,12 @@ const CommunityTag = styled.div`
   }
 `
 const communityData = [
-  { icon: <TwitterIcon />, href: 'https://twitter.com/pancakeswap', alt: 'TwitterIcon' },
-  { icon: <TelegramIcon />, href: 'https://t.me/pancakeswap', alt: 'TelegramIcon' },
-  { icon: <DiscordIcon />, href: 'https://discord.gg/pancakeswap', alt: 'DiscordIcon' },
-  { icon: <InstagramIcon />, href: 'https://www.instagram.com/pancakeswap_official/', alt: 'InstagramIcon' },
-  { icon: <RedditIcon />, href: 'https://www.reddit.com/r/pancakeswap/', alt: 'RedditIcon' },
-  { icon: <YoutubeIcon />, href: 'https://www.youtube.com/@pancakeswap_official', alt: 'YoutubeIcon' },
+  { icon: <TwitterIcon />, href: 'https://twitter.com/', alt: 'TwitterIcon' },
+  { icon: <TelegramIcon />, href: 'https://t.me/', alt: 'TelegramIcon' },
+  { icon: <DiscordIcon />, href: 'https://discord.gg/', alt: 'DiscordIcon' },
+  { icon: <InstagramIcon />, href: 'https://www.instagram.com/', alt: 'InstagramIcon' },
+  { icon: <RedditIcon />, href: 'https://www.reddit.com/r//', alt: 'RedditIcon' },
+  { icon: <YoutubeIcon />, href: 'https://www.youtube.com/@', alt: 'YoutubeIcon' },
 ]
 
 export const CommunityTags: React.FC = () => {

@@ -132,12 +132,12 @@ const Footer = () => {
 
   return (
     <Box>
-      <BgWrapper>
+      {/* <BgWrapper>
         <Flex position="relative" zIndex={2} alignItems="center" justifyContent="center" width="100%" height="100%">
           <StyledSunburst />
         </Flex>
         <ImageBox />
-      </BgWrapper>
+      </BgWrapper> */}
 
       <Wrapper>
         <Text mb="24px" fontWeight={600} color="#F4EEFF" textAlign="center" fontSize={isMobile ? 32 : 40}>

@@ -149,7 +149,7 @@ const Home: React.FC<React.PropsWithChildren> = () => {
         <RightTopBox />
         <CommunitySection />
       </PageSection>
-      <PageSection
+      {/* <PageSection
         innerProps={{
           style: {
             ...HomeSectionContainerStyles,
@@ -161,7 +161,7 @@ const Home: React.FC<React.PropsWithChildren> = () => {
         hasCurvedDivider={false}
       >
         <NewsSection />
-      </PageSection>
+      </PageSection> */}
       <PageSection
         innerProps={{ style: HomeSectionContainerStyles }}
         background="linear-gradient(180deg, #7645D9 0%, #5121B1 100%)"

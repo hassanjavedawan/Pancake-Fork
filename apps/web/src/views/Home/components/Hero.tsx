@@ -106,7 +106,7 @@ const StyledText = styled(Text)`
     font-size: 64px;
   }
   ${({ theme }) => theme.mediaQueries.xxl} {
-    font-size: 88px;
+    font-size: 64px;
   }
 `
 
@@ -218,9 +218,9 @@ const Hero = () => {
         <Flex flex="1" flexDirection="column">
           <Text textAlign={isMobile || isMd ? 'center' : 'left'} pr={isMobile ? 0 : '10px'} mb="16px">
             <StyledText display="inline-block" lineHeight="110%" fontWeight={600} color="text" mr="8px">
-              {t("Everyone's")}
+              {t('The Preferred DEX for Everyone')}
             </StyledText>
-            <StyledText
+            {/* <StyledText
               display="inline-block"
               fontWeight={600}
               lineHeight="110%"
@@ -232,7 +232,7 @@ const Hero = () => {
             {isMobile && <br />}
             <StyledText display="inline-block" lineHeight="110%" fontWeight={600} color="text">
               {t('DEX')}
-            </StyledText>
+            </StyledText> */}
           </Text>
           <Text
             mb="24px"
@@ -243,7 +243,7 @@ const Hero = () => {
             lineHeight="110%"
             fontWeight={600}
           >
-            {t('Trade, earn, and own crypto on the all-in-one multichain DEX')}
+            {t('Trade, earn, and take ownership of crypto on a comprehensive multichain DEX platform.')}
           </Text>
 
           <Flex justifyContent={isMobile || isMd ? 'center' : 'start'}>

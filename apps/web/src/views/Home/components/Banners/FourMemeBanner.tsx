@@ -58,9 +58,9 @@ export const FourMemeBanner = () => {
         title={<BannerTitle variant="green">{t('Rocker launching your meme career')}</BannerTitle>}
         actions={
           <BannerActionContainer>
-            <StyledButton external externalIcon="openNew" color="black" href="https://four.meme/">
+            {/* <StyledButton external externalIcon="openNew" color="black" href="https://four.meme/">
               {t('Learn more')}
-            </StyledButton>
+            </StyledButton> */}
           </BannerActionContainer>
         }
       />

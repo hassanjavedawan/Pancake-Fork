@@ -94,9 +94,9 @@ export const PaymasterBanner = () => {
         }
         actions={
           <BannerActionContainer>
-            {startTradeAction}
+            {/* {startTradeAction}
             {!isMobile && <VerticalDivider />}
-            {learnMoreAction}
+            {learnMoreAction} */}
           </BannerActionContainer>
         }
       />

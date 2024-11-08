@@ -1,11 +1,11 @@
 {
-  "short_name": " Volrex.Network ",
-  "name": " Volrex.Network ",
-  "description": "Farm SGC with Volrex LP Tokens",
+  "short_name": "SGCDEX.Finance",
+  "name": "SGCDEX.Finance",
+  "description": "Farm SGC with Volrex.Nexwork LP Tokens",
   "homepage_url": "",
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#1FC7D4",
+  "theme_color": "#299B44",
   "background_color": "#ffffff",
   "orientation": "portrait",
   "icons": [

@@ -453,7 +453,7 @@ const CakeSection: React.FC = () => {
     >
       <Text textAlign="center" padding="0px 16px">
         <Text fontSize={['32px', null, null, '40px']} display="inline" fontWeight={600} lineHeight="110%">
-          {t('Unlock the Full Potential of DeFi with')}
+          {t('Unleash the Full Power of DeFi with')}
         </Text>
         <Text
           fontWeight={600}
@@ -476,13 +476,13 @@ const CakeSection: React.FC = () => {
           padding="0px 16px"
         >
           {t(
-            'Experience the power of community ownership, global governance, and explore infinite use cases within the  Volrex.Network  ecosystem',
+            'Discover the power of community ownership, global governance, and limitless possibilities within the Volrex.Network ecosystem.',
           )}
         </Text>
       </Flex>
       <Flex justifyContent="center" style={{ gap: 14 }}>
         <NextLink href="/swap">
-          <Button variant="primary">{t('Buy SGC')}</Button>
+          <Button variant="primary">{t('Buy Volrex.Network')}</Button>
         </NextLink>
         {/* <Link href="https://docs.sgcdex.finance/governance-and-tokenomics/cake-tokenomics">
           <Button pl="0" endIcon={<OpenNewIcon color="primary" />} variant="text">
@@ -545,20 +545,16 @@ const CakeSection: React.FC = () => {
           ref={bottomRef}
           className={played?.current ? 'show' : ''}
         >
-          <CakeBottomLine />
-          <BottomCakeContainer flexDirection="column">
+          {/* <CakeBottomLine /> */}
+          {/* <BottomCakeContainer flexDirection="column">
             <Text textAlign="center" fontSize="40px" fontWeight="600">
               {t('Staking')}
             </Text>
             <Text color="secondary" textAlign="center" fontSize="20px" fontWeight="600" mb="16px">
               {t('Earn up to %apr%% APR', { apr: totalApr.toFixed(2) })}
             </Text>
-            <NextLink href="/cake-staking">
-              <StyledLink color="primary" margin="auto">
-                <Button variant="secondary">{t('Lock CAKE Now!')}🔥</Button>
-              </StyledLink>
-            </NextLink>
-          </BottomCakeContainer>
+         
+          </BottomCakeContainer> */}
         </CakeSectionBottomBox>
       </Flex>
     </Flex>

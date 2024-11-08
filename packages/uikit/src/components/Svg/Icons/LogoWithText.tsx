@@ -1,15 +1,11 @@
-import { Text } from "@pancakeswap/uikit";
+import { Image } from "@pancakeswap/uikit";
 
 interface LogoProps {
-  color?: string; // Define the color prop as an optional string type
+  className?: string; // Define the color prop as an optional string type
 }
 
-const Logo: React.FC<LogoProps> = ({ color }) => {
-  return (
-    <Text fontSize="20px" fontWeight="bold" color={color}>
-      SGCDEX.Finance
-    </Text>
-  );
+const Logo: React.FC<LogoProps> = (props) => {
+  return <Image alt="sgc" src="/images/sgc.png" width={160} height={60} />;
 };
 
 export default Logo;

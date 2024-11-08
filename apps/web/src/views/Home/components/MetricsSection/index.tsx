@@ -67,7 +67,7 @@ const Stats = () => {
   return (
     <Flex justifyContent="center" alignItems="center" flexDirection="column" overflow="hidden">
       <Text textAlign="center" lineHeight="110%" fontWeight={600} mb="4px" fontSize={isMobile ? '20px' : '32px'}>
-        {t('Shaping the Future of Decentralized Trading:')}
+        {t('Pioneering the Future of Decentralized Trading:')}
       </Text>
       <Text
         textAlign="center"
@@ -76,7 +76,7 @@ const Stats = () => {
         fontSize={isMobile ? '20px' : '32px'}
         mb={isMobile ? '32px' : '48px'}
       >
-        {t(' Volrex.Network  Unstoppable Expansion')}
+        {t('Volrex.Network’s Relentless Growth')}
       </Text>
       <Flex
         justifyContent="center"

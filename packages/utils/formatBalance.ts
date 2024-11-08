@@ -39,7 +39,7 @@ export const formatNumber = (number: number, minPrecision = 2, maxPrecision = 2)
     minimumFractionDigits: minPrecision,
     maximumFractionDigits: maxPrecision,
   }
-  return number.toLocaleString(undefined, options)
+  return number?.toLocaleString(undefined, options)
 }
 
 export const formatBigInt = (value: bigint, displayDecimals = 18, decimals = 18): string => {

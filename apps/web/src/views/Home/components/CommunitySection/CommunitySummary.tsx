@@ -45,19 +45,19 @@ const CommunitySummary = () => {
           {t('Community Members')}
         </Text>
         <StyledText fontSize="40px" bold mb="27px">
-          2.0M +
+          0
         </StyledText>
         <Text color="white" bold fontSize="16px">
           {t('Multilingual Communities')}
         </Text>
         <StyledText fontSize="40px" bold mb="27px">
-          15 +
+          0
         </StyledText>
         <Text color="white" bold fontSize="16px">
           {t('Community Ambassadors')}
         </Text>
         <StyledText fontSize="40px" bold mb="27px">
-          35 +
+          0
         </StyledText>
       </Flex>
     </Wrapper>

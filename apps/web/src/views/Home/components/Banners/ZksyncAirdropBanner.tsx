@@ -91,7 +91,7 @@ export const ZksyncAirDropBanner = () => {
           desc={<BannerDesc color="white">{!isMobile ? t('2.4 Million $ZK available to claim') : null}</BannerDesc>}
           actions={
             <BannerActionContainer>
-              <LinkExternalAction onClick={onOpen} color="#FFE238" externalIcon="arrowForward">
+              {/* <LinkExternalAction onClick={onOpen} color="#FFE238" externalIcon="arrowForward">
                 {t('Check Eligibility')}
               </LinkExternalAction>
               {!isMobile && (
@@ -101,7 +101,7 @@ export const ZksyncAirDropBanner = () => {
                     {t('Learn More')}
                   </LinkExternalAction>
                 </>
-              )}
+              )} */}
             </BannerActionContainer>
           }
         />

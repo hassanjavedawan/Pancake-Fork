@@ -140,57 +140,62 @@ const CakeDataRow = () => {
         <Text color="text" bold fontSize={isMobile ? '14px' : undefined}>
           {t('Circulating Supply')}
         </Text>
-        {circulatingSupply ? (
+        {/* {circulatingSupply ? (
           <Balance decimals={0} lineHeight="1.1" fontSize="24px" bold value={circulatingSupply} color="secondary" />
         ) : (
           <Skeleton height={24} width={126} my="4px" />
-        )}
+        )} */}
+        <Skeleton height={24} width={126} my="4px" />
       </StyledColumn>
       <StyledColumn noMobileBorder>
         <Text bold fontSize={isMobile ? '14px' : undefined}>
           {t('Total supply')}
         </Text>
-        {cakeSupply ? (
+        {/* {cakeSupply ? (
           <Balance color="secondary" decimals={0} lineHeight="1.1" fontSize="24px" bold value={cakeSupply} />
         ) : (
           <>
             <div ref={observerRef} />
             <Skeleton height={24} width={126} my="4px" />
           </>
-        )}
+        )} */}
+        <Skeleton height={24} width={126} my="4px" />
       </StyledColumn>
       <StyledColumn>
         <Text bold fontSize={isMobile ? '14px' : undefined}>
           {t('Market cap')}
         </Text>
-        {mcap?.gt(0) && mcapString ? (
+        {/* {mcap?.gt(0) && mcapString ? (
           <Heading color="secondary" scale="lg">
             {t('$%marketCap%', { marketCap: mcapString })}
           </Heading>
         ) : (
           <Skeleton height={24} width={126} my="4px" />
-        )}
+        )} */}
+        <Skeleton height={24} width={126} my="4px" />
       </StyledColumn>
       <StyledColumn>
         <Text bold fontSize={isMobile ? '14px' : undefined}>
           {t('Token Burn')}
         </Text>
-        {burnedBalance ? (
+        {/* {burnedBalance ? (
           <Balance color="secondary" decimals={0} lineHeight="1.1" fontSize="24px" bold value={burnedBalance} />
         ) : (
           <Skeleton height={24} width={126} my="4px" />
-        )}
+        )} */}
+        <Skeleton height={24} width={126} my="4px" />
       </StyledColumn>
       <StyledColumn>
         <Text bold>{t('Current emissions')}</Text>
 
-        {emissionsPerBlock ? (
+        {/* {emissionsPerBlock ? (
           <Heading color="secondary" scale="lg">
             {t('%cakeEmissions%/block', { cakeEmissions: formatNumber(emissionsPerBlock) })}
           </Heading>
         ) : (
           <Skeleton height={24} width={126} my="4px" />
-        )}
+        )} */}
+        <Skeleton height={24} width={126} my="4px" />
       </StyledColumn>
     </StyledWrapper>
   )

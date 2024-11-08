@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Text } from "@pancakeswap/uikit";
 import React, { useContext } from "react";
 import { keyframes, styled } from "styled-components";
@@ -47,8 +48,7 @@ const Logo: React.FC<React.PropsWithChildren<Props>> = ({ href }) => {
   const isAbsoluteUrl = href.startsWith("http");
   const innerLogo = (
     <>
-      <LogoIcon className="mobile-icon" />
-      <LogoWithTextIcon className="desktop-icon" />
+      <Image alt="sgc" src="/images/sgc.png" width={160} height={60} />
     </>
   );
 
@@ -56,18 +56,11 @@ const Logo: React.FC<React.PropsWithChildren<Props>> = ({ href }) => {
     <Flex alignItems="center">
       {isAbsoluteUrl ? (
         <StyledLink as="a" href={href} aria-label="SGCDEX.Finance">
-          {/* {innerLogo} */}
-          <Text fontSize="20px" fontWeight="bold">
-            {" "}
-            SGCDEX.Finance{" "}
-          </Text>
+          {innerLogo}
         </StyledLink>
       ) : (
         <StyledLink href={href} as={linkComponent} aria-label="SGCDEX.Finance">
-          <Text fontSize="20px" fontWeight="bold">
-            {" "}
-            SGCDEX.Finance{" "}
-          </Text>
+          {innerLogo}
         </StyledLink>
       )}
     </Flex>

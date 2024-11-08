@@ -57,12 +57,6 @@ export function Blocklist() {
                 {t('Learn more')}
               </Link>
             </Text>
-            <Text>
-              {t('If you believe that your address has been misclassified, please email')}{' '}
-              <Link style={{ display: 'inline-block' }} href="mailto:info@pancakeswap.com">
-                info@pancakeswap.com
-              </Link>
-            </Text>
           </Grid>
         </Modal>
       </ModalV2>

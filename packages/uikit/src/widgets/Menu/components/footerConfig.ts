@@ -28,20 +28,20 @@ export const footerLinks: (t: ContextApi["t"]) => FooterLinkType[] = (t) => [
     ],
   },
   {
-    label: "Business",
+    label: "Developers",
     items: [
       // {
       //   label: t("CAKE Incentives"),
       //   href: "https://docs.sgcdex.finance/ecosystem-and-partnerships/business-partnerships/syrup-pools-and-farms",
       // },
-      {
-        label: t("Staking Pools"),
-        href: "https://sgcdex.finance/pools",
-      },
       // {
-      //   label: t("Token Launches"),
-      //   href: "https://docs.sgcdex.finance/ecosystem-and-partnerships/business-partnerships/initial-farm-offerings-ifos",
+      //   label: t("Staking Pools"),
+      //   href: "https://sgcdex.finance/pools",
       // },
+      {
+        label: t("Token Launches"),
+        href: "https://sgcdex.finance/developers",
+      },
       // {
       //   label: t("Brand Assets"),
       //   href: "https://docs.sgcdex.finance/ecosystem-and-partnerships/brand",
@@ -101,21 +101,21 @@ export const footerLinks: (t: ContextApi["t"]) => FooterLinkType[] = (t) => [
       //   label: t("Tokenomics"),
       //   href: "https://docs.sgcdex.finance/governance-and-tokenomics/cake-tokenomics",
       // },
+      {
+        label: t("GasFees"),
+        href: "https://sgcdex.finance/gas-fees",
+      },
       // {
-      //   label: t("CAKE Emission Projection"),
-      //   href: "https://analytics.sgcdex.finance/",
+      //   label: t("Blog"),
+      //   href: "https://blog.sgcdex.finance/",
+      // },
+      // {
+      //   label: t("Careers"),
+      //   href: "https://docs.sgcdex.finance/team/become-a-chef",
       // },
       {
-        label: t("Blog"),
-        href: "https://blog.sgcdex.finance/",
-      },
-      {
-        label: t("Careers"),
-        href: "https://docs.sgcdex.finance/team/become-a-chef",
-      },
-      {
         label: t("Terms Of Service"),
-        href: "https://docs.sgcdex.finance/terms-of-service",
+        href: "https://sgcdex.finance/terms-of-service",
       },
     ],
   },

@@ -54,26 +54,26 @@ export const useMultipleBannerConfig = () => {
         shouldRender: isRenderUserBanner.shouldRender && !isRenderUserBanner.isEarningsBusdZero,
         banner: <UserBanner />,
       },
-      {
-        shouldRender: isRenderTgPredictionBotBanner,
-        banner: <TgPredictionBotBanner />,
-      },
-      {
-        shouldRender: true,
-        banner: <V4HackathonBanner />,
-      },
-      {
-        shouldRender: true,
-        banner: <WebNotificationBanner />,
-      },
-      {
-        shouldRender: true,
-        banner: <BirthdayBanner />,
-      },
-      {
-        shouldRender: true,
-        banner: <QuestBanner />,
-      },
+      // {
+      //   shouldRender: isRenderTgPredictionBotBanner,
+      //   banner: <TgPredictionBotBanner />,
+      // },
+      // {
+      //   shouldRender: true,
+      //   banner: <V4HackathonBanner />,
+      // },
+      // {
+      //   shouldRender: true,
+      //   banner: <WebNotificationBanner />,
+      // },
+      // {
+      //   shouldRender: true,
+      //   banner: <BirthdayBanner />,
+      // },
+      // {
+      //   shouldRender: true,
+      //   banner: <QuestBanner />,
+      // },
       {
         shouldRender: true,
         banner: <FourMemeBanner />,
@@ -94,11 +94,11 @@ export const useMultipleBannerConfig = () => {
         shouldRender: true,
         banner: <OptionsBanner />,
       },
-      { shouldRender: true, banner: <VeCakeBanner /> },
-      {
-        shouldRender: true,
-        banner: <V4InfoBanner />,
-      },
+      // { shouldRender: true, banner: <VeCakeBanner /> },
+      // {
+      //   shouldRender: true,
+      //   banner: <V4InfoBanner />,
+      // },
     ]
 
     const SHUFFLE_BANNERS: IBannerConfig[] = [

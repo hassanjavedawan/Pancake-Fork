@@ -14,12 +14,12 @@ import { getPerpetualUrl } from 'utils/getPerpetualUrl'
 // import GradientLogo from '../GradientLogoSvg'
 
 export const CardWrapper = styled.div`
-  border-radius: 24px;
+  border-radius: 14px;
   background: ${({ theme }) => (theme.isDark ? theme.colors.gradientBubblegum : theme.colors.backgroundAlt)};
   width: 100%;
   box-sizing: border-box;
   padding: 48px 24px 24px 24px;
-  min-height: 360px;
+  min-height: 150px;
   margin-top: 48px;
   ${({ theme }) => theme.mediaQueries.lg} {
     width: 100%;
@@ -68,7 +68,7 @@ export const ItemWrapper = styled(Flex)<{ $flexBasis: number }>`
   padding: 4px;
   &:hover {
     .cta > * {
-      color: ${({ theme }) => theme.colors.primary};
+      color: #000;
       path {
         fill: ${({ theme }) => theme.colors.primary};
       }
@@ -83,29 +83,29 @@ export const ItemWrapper = styled(Flex)<{ $flexBasis: number }>`
   flex-basis: calc(50% - 24px);
 
   &.type-a {
-    height: 246px;
+    height: 146px;
     &.adjust-height {
       margin-top: 20px;
-      height: 220px;
+      height: 120px;
     }
     ${({ theme }) => theme.mediaQueries.sm} {
       &.adjust-height {
         margin-top: 0px;
-        height: 246px;
+        height: 146px;
       }
       flex-basis: calc(33.3% - 48px);
     }
     ${({ theme }) => theme.mediaQueries.xl} {
-      height: 286px;
+      height: 186px;
       &.adjust-height {
         margin-top: 0px;
-        height: 286px;
+        height: 186px;
       }
       &.higher {
-        height: 292px;
+        height: 192px;
         &.adjust-height {
           margin-top: 0px;
-          height: 292px;
+          height: 192px;
         }
       }
     }
@@ -114,15 +114,15 @@ export const ItemWrapper = styled(Flex)<{ $flexBasis: number }>`
     }
   }
   &.type-b {
-    height: 263px;
+    height: 163px;
     ${({ theme }) => theme.mediaQueries.lg} {
       flex-basis: ${({ $flexBasis }) => $flexBasis}%;
     }
     ${({ theme }) => theme.mediaQueries.lg} {
-      height: 286px;
+      height: 186px;
     }
     ${({ theme }) => theme.mediaQueries.xl} {
-      height: 256px;
+      height: 156px;
     }
   }
   ${({ theme }) => theme.mediaQueries.sm} {
@@ -147,7 +147,7 @@ export const Title = styled.div`
   font-weight: 600;
   line-height: 110%;
   padding-left: 12px;
-  color: ${({ theme }) => theme.colors.secondary};
+  color: #000;
 `
 
 const useTradeBlockData = () => {
@@ -257,14 +257,14 @@ const useEarnBlockData = () => {
         defaultImage: `${ASSET_CDN}/web/landing/earn-fixed-staking-purple.png`,
         path: '/simple-staking',
       },
-      {
-        title: t('Pools'),
-        description: t('Stake CAKE, earn various rewards'),
-        ctaTitle: t('Stake Now'),
-        image: `${ASSET_CDN}/web/landing/earn-pools.png`,
-        defaultImage: `${ASSET_CDN}/web/landing/earn-pools-purple.png`,
-        path: '/pools',
-      },
+      // {
+      //   title: t('Pools'),
+      //   description: t('Stake CAKE, earn various rewards'),
+      //   ctaTitle: t('Stake Now'),
+      //   image: `${ASSET_CDN}/web/landing/earn-pools.png`,
+      //   defaultImage: `${ASSET_CDN}/web/landing/earn-pools-purple.png`,
+      //   path: '/pools',
+      // },
     ]
   }, [t])
 }
@@ -321,10 +321,10 @@ const FeatureBox: React.FC<{
       $flexBasis={width}
       onClick={onClick ? () => onClick() : () => path && push(path)}
     >
-      <ImageBox>
+      {/* <ImageBox>
         <Image className="default" src={defaultImage} width={108} height={108} alt={title} unoptimized />
         <Image className="hover" src={image} width={108} height={108} alt={title} unoptimized />
-      </ImageBox>
+      </ImageBox> */}
       <Box>
         <Text fontSize="20px" mb="8px" lineHeight="110%" fontWeight={600} color={theme.colors.text}>
           {title}
@@ -333,12 +333,12 @@ const FeatureBox: React.FC<{
           {description}
         </Text>
       </Box>
-      <Flex className="cta">
+      {/* <Flex className="cta">
         <Text fontSize="16px" fontWeight={600} color={theme.colors.textSubtle}>
           {ctaTitle}
         </Text>
         <ChevronRightIcon color={theme.colors.textSubtle} />
-      </Flex>
+      </Flex> */}
     </ItemWrapper>
   )
 }

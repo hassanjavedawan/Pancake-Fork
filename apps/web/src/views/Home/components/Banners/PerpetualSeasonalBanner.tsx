@@ -95,7 +95,7 @@ export const PerpetualSeasonalBanner = () => {
         }
         actions={
           <BannerActionContainer>
-            {isMobile ? (
+            {/* {isMobile ? (
               <LinkExternalAction color="white" href={learnMoreLink} externalIcon="arrowForward">
                 {t('Learn More')}
               </LinkExternalAction>
@@ -109,7 +109,7 @@ export const PerpetualSeasonalBanner = () => {
                   {t('Learn More')}
                 </LinkExternalAction>
               </>
-            )}
+            )} */}
           </BannerActionContainer>
         }
       />

@@ -10,7 +10,7 @@ import { Autoplay } from 'swiper/modules'
 const IntroSteps = [
   {
     title: <Trans>Your first step in the DeFi world</Trans>,
-    icon: 'https://cdn.pancakeswap.com/wallets/wallet_intro.png',
+    icon: '/images/sgc1.png',
     description: (
       <Trans>
         A Web3 Wallet allows you to send and receive crypto assets like bitcoin, BNB, ETH, NFTs and much more.
@@ -100,9 +100,9 @@ const StepIntro = ({ docLink, docText }: { docLink: string; docText: string }) =
         <StepDot place="left" active={step === 0} onClick={handleStepClick(0)} />
         <StepDot place="right" active={step === 1} onClick={handleStepClick(1)} />
       </AtomBox>
-      <Button minHeight={40} variant="subtle" external as={LinkExternal} color="backgroundAlt" href={docLink}>
+      {/* <Button minHeight={40} variant="subtle" external as={LinkExternal} color="backgroundAlt" href={docLink}>
         {docText}
-      </Button>
+      </Button> */}
     </AtomBox>
   )
 }
