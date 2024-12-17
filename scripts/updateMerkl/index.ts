@@ -33,6 +33,7 @@ type MerklConfigResponse = {
 }
 
 export const chainIdToChainName = {
+  786: 'Vox',
   1: 'ethereum',
   56: 'bnb smart chain',
   324: 'zkync',
@@ -47,7 +48,6 @@ export const chainIdToChainName = {
   42220: 'Celo',
   100: 'Gnosis',
   1116: 'coreDao',
-  786: 'SGC',
 } as const
 
 const fetchAllMerklConfig = async (): Promise<MerklConfigResponse> => {

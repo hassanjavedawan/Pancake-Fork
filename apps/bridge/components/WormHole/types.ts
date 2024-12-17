@@ -80,7 +80,7 @@ export const MAINNET_CHAINS = {
   optimism: 24,
   base: 30,
   gnosis: 100,
-  sgc: 786,
+  vox: 786,
   coreDao: 1116,
   wormchain: 3104,
   evmos: 4001,

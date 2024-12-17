@@ -21,7 +21,7 @@ export const SUPPORTED_CHAINS = [
   ChainId.CELO,
   ChainId.GNOSIS,
   ChainId.COREDAO,
-  ChainId.SGC,
+  ChainId.VOX,
 ] as const
 
 export type SupportedChainId = (typeof SUPPORTED_CHAINS)[number]

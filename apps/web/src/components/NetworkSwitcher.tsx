@@ -146,6 +146,7 @@ const WrongNetworkSelect = ({ switchNetwork, chainId }) => {
 
 const SHORT_SYMBOL = {
   [ChainId.ETHEREUM]: 'ETH',
+  [ChainId.VOX]: 'VOX',
   [ChainId.BSC]: 'BNB',
   [ChainId.BSC_TESTNET]: 'tBNB',
   [ChainId.GOERLI]: 'GOR',
@@ -172,7 +173,6 @@ const SHORT_SYMBOL = {
   [ChainId.CELO]: 'CELO',
   [ChainId.GNOSIS]: 'XDAI',
   [ChainId.COREDAO]: 'CORE',
-  [ChainId.SGC]: 'SGC',
 } as const satisfies Record<ChainId, string>
 
 export const NetworkSwitcher = () => {

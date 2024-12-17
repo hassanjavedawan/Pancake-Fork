@@ -76,6 +76,45 @@ const base = {
   },
 } as const
 
+const vox = {
+  id: 786,
+  network: 'Volrex',
+  name: 'Volrex',
+  nativeCurrency: {
+    name: 'Volrex',
+    symbol: 'VOX',
+    decimals: 18,
+  },
+  rpcUrls: {
+    default: {
+      http: ['https://walletnode.explorersgc.com'],
+    },
+    public: {
+      http: ['https://walletnode.explorersgc.com'],
+    },
+  },
+  blockExplorers: {
+    blockscout: {
+      name: 'explorersgc',
+      url: 'https://explorersgc.com',
+    },
+    default: {
+      name: 'Basescan',
+      url: 'https://explorersgc.org',
+    },
+    etherscan: {
+      name: 'explorersgc',
+      url: 'https://explorersgc.org',
+    },
+  },
+  contracts: {
+    multicall3: {
+      address: '0xcA11bde05977b3631167028862bE2a173976CA11',
+      blockCreated: 5022,
+    },
+  },
+} as const
+
 const linea = {
   id: 59_144,
   name: 'Linea Mainnet',
@@ -263,6 +302,17 @@ const baseClient = createPublicClient({
   },
   pollingInterval: 6_000,
 })
+const voxClient = createPublicClient({
+  chain: vox,
+  transport: http(VOX_NODE),
+  batch: {
+    multicall: {
+      batchSize: 1024 * 200,
+      wait: 16,
+    },
+  },
+  pollingInterval: 6_000,
+})
 
 const opBNBClient = createPublicClient({
   chain: opBNB,
@@ -314,6 +364,8 @@ export const viemProviders = ({ chainId }: { chainId?: ChainId }): PublicClient 
       return opBNBTestnetClient
     case ChainId.FANTOM:
       return fantomClient
+    case ChainId.VOX:
+      return voxClient
     default:
       return bscClient
   }

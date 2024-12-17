@@ -51,6 +51,7 @@ export const SMART_ROUTER_ADDRESSES = {
   [ChainId.BASE_SEPOLIA]: '0x678Aa4bF4E210cf2166753e054d5b7c31cc7fa86',
   [ChainId.MOONBEAM]: '0x96b244391d98b62d19ae89b1a4dccf0fc56970c7',
   [ChainId.COREDAO]: '0x74F56a7560eF0C72Cf6D677e3f5f51C2D579fF15',
+  [ChainId.VOX]: '0x342dccb6d50Fe91468B6219C4e126E117E40E6F0',
 } as const satisfies Record<ChainId, string>
 
 export const V2_ROUTER_ADDRESS: ChainMap<string> = {
@@ -79,7 +80,7 @@ export const V2_ROUTER_ADDRESS: ChainMap<string> = {
   [ChainId.AVALANCHE]: '0x3C351E1afdd1b1BC44e931E12D4E05D6125eaeCa',
   [ChainId.CELO]: '0x5615CDAb10dc425a742d643d949a7F474C01abc4',
   [ChainId.GNOSIS]: '0x1c232f01118cb8b424793ae03f870aa7d0ac7f77',
-  [ChainId.SGC]: '',
+  [ChainId.VOX]: '0x342dccb6d50Fe91468B6219C4e126E117E40E6F0',
 }
 
 export const STABLE_SWAP_INFO_ADDRESS: ChainMap<string> = {
@@ -109,7 +110,7 @@ export const STABLE_SWAP_INFO_ADDRESS: ChainMap<string> = {
   [ChainId.CELO]: '',
   [ChainId.GNOSIS]: '',
   [ChainId.COREDAO]: '',
-  [ChainId.SGC]: '',
+  [ChainId.VOX]: '',
 }
 
 // used to construct intermediary pairs for trading

@@ -12,17 +12,20 @@ import { CommonBasesType } from './types'
 
 const ButtonWrapper = styled.div`
   display: inline-block;
+  flex-wrap: wrap;
+
   vertical-align: top;
-  margin-right: 10px;
+  margin: 10px;
 `
 
 const BaseWrapper = styled.div<{ disable?: boolean }>`
   border: 1px solid ${({ theme, disable }) => (disable ? 'transparent' : theme.colors.dropdown)};
   border-radius: 10px;
   display: flex;
+  flex-wrap: wrap;
   padding: 6px;
   align-items: center;
-  &:hover {
+  :hover {
     cursor: ${({ disable }) => !disable && 'pointer'};
     background-color: ${({ theme, disable }) => !disable && theme.colors.background};
   }
@@ -31,10 +34,12 @@ const BaseWrapper = styled.div<{ disable?: boolean }>`
 `
 
 const RowWrapper = styled.div`
-  white-space: nowrap;
+  white-space: wrapping;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
+  flex-wrap: wrap;
+
   -webkit-overflow-scrolling: touch;
   &::-webkit-scrollbar {
     display: none;

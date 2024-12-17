@@ -70,7 +70,7 @@ export const SERVER_NODES = {
   [ChainId.CELO]: ['https://forno.celo.org'],
   [ChainId.GNOSIS]: ['https://gnosis-pokt.nodies.app'],
   [ChainId.COREDAO]: ['https://rpc.coredao.org'],
-  [ChainId.SGC]: ['https://walletnode.explorersgc.com'],
+  [ChainId.VOX]: ['https://walletnode.explorersgc.com'],
 
   [ChainId.OPTIMISM]: ['https://mainnet.optimism.io/'],
   [ChainId.MOONBEAM]: ['https://rpc.api.moonbeam.network'],
@@ -113,7 +113,7 @@ export const PUBLIC_NODES: Record<ChainId, string[] | readonly string[]> = {
   [ChainId.MOONBEAM]: ['https://rpc.api.moonbeam.network'],
   [ChainId.CELO]: ['https://forno.celo.org'],
   [ChainId.COREDAO]: ['https://rpc.coredao.org'],
-  [ChainId.SGC]: ['https://walletnode.explorersgc.com'],
+  [ChainId.VOX]: ['https://walletnode.explorersgc.com'],
 
   [ChainId.GNOSIS]: ['https://gnosis-pokt.nodies.app'],
 

@@ -59,16 +59,24 @@ const bsc = {
   },
 } satisfies Chain
 
-// export const sgc = {
-//   rpcUrls: {
-//     public: {
-//       http: ['https://walletnode.explorersgc.com/'],
-//     },
-//     default: {
-//       http: ['https://walletnode.explorersgc.com/'],
-//     },
-//   },
-// }
+export const vox = {
+  id: 786,
+  network: 'Volrex',
+  name: 'Volrex',
+  nativeCurrency: {
+    name: 'Volrex',
+    symbol: 'VOX',
+    decimals: 18,
+  },
+  rpcUrls: {
+    public: {
+      http: ['https://walletnode.explorersgc.com/'],
+    },
+    default: {
+      http: ['https://walletnode.explorersgc.com/'],
+    },
+  },
+}
 
 /**
  * Controls some L2 specific behavior, e.g. slippage tolerance, special UI behavior.
@@ -94,10 +102,11 @@ export const L2_CHAIN_IDS: ChainId[] = [
   ChainId.CELO,
   ChainId.GNOSIS,
   ChainId.COREDAO,
-  ChainId.SGC,
+  ChainId.VOX,
 ]
 
 export const CHAINS: [Chain, ...Chain[]] = [
+  vox,
   bsc,
   bscTestnet,
   mainnet,
@@ -124,5 +133,4 @@ export const CHAINS: [Chain, ...Chain[]] = [
   celo,
   gnosis,
   coreDao,
-  // sgc,
 ]

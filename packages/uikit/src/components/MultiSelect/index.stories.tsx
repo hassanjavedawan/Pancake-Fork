@@ -10,6 +10,7 @@ export default {
 };
 
 const chains = [
+  { label: "Volrex", value: "VOX", icon: "https://aptos.sgcdex.finance/images/786.png" },
   { label: "BNB", value: "BNB", icon: "https://assets.sgcdex.finance/web/chains/56.png" },
   { label: "Ethereum", value: "Ethereum", icon: "https://assets.sgcdex.finance/web/chains/1.png" },
   { label: "Polygon zkEVM", value: "Polygon zkEVM", icon: "https://assets.sgcdex.finance/web/chains/1101.png" },
@@ -26,7 +27,6 @@ const chains = [
   { label: "CELO", value: "celo", icon: "https://aptos.sgcdex.finance/images/42220.png" },
   { label: "Gnosis", value: "XDAI", icon: "https://aptos.sgcdex.finance/images/100.png" },
   { label: "CoreDao", value: "core", icon: "https://aptos.sgcdex.finance/images/1116.png" },
-  { label: "SGC", value: "SGC", icon: "https://aptos.sgcdex.finance/images/786.png" },
 ];
 
 const Title = styled.div`

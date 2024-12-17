@@ -18,4 +18,5 @@ declare global {
   const EXPLORER_URL: string
   const EXPLORER_API_KEY: string
   const FANTOM_NODE: string
+  const VOX_NODE: string
 }

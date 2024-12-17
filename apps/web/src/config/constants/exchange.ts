@@ -23,6 +23,7 @@ import {
   sepoliaTokens,
   zkSyncTestnetTokens,
   zksyncTokens,
+  voxTokens,
 } from '@pancakeswap/tokens'
 import { ChainTokenList } from './types'
 
@@ -78,6 +79,9 @@ export const SUGGESTED_BASES: ChainTokenList = {
     opBnbTestnetTokens.weth,
   ],
   [ChainId.BASE]: [baseTokens.usdc, baseTokens.weth],
+
+  [ChainId.VOX]: [voxTokens.bake, voxTokens.usdt, voxTokens.wbnb, voxTokens.hbtc, voxTokens.syrup, voxTokens.wbtc],
+
   [ChainId.BASE_TESTNET]: [baseTestnetTokens.usdc, baseTestnetTokens.weth],
   [ChainId.SCROLL_SEPOLIA]: [scrollSepoliaTokens.usdc, scrollSepoliaTokens.weth],
   [ChainId.SEPOLIA]: [scrollSepoliaTokens.usdc, scrollSepoliaTokens.weth],
@@ -163,7 +167,7 @@ export const BASE_FEE = new Percent(25n, BIPS_BASE)
 export const INPUT_FRACTION_AFTER_FEE = ONE_HUNDRED_PERCENT.subtract(BASE_FEE)
 
 // BNB
-export const DEFAULT_INPUT_CURRENCY = 'BNB'
+export const DEFAULT_INPUT_CURRENCY = 'VOX'
 // CAKE
 export const DEFAULT_OUTPUT_CURRENCY = '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82'
 

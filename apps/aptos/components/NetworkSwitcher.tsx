@@ -9,6 +9,7 @@ import Image from 'next/image'
 import { aptosLogoClass } from './Logo/CurrencyLogo.css'
 
 const evmChains = [
+  { id: 786, name: 'Volrex', chainName: 'vox' },
   { id: 56, name: 'BNB Chain', chainName: 'bsc' },
   { id: 1, name: 'Ethereum', chainName: 'eth' },
   { id: 324, name: 'zkSync Era', chainName: 'zkSync' },
@@ -24,7 +25,6 @@ const evmChains = [
   { id: 42220, name: 'Celo Mainnet', chainName: 'celo' },
   { id: 100, name: 'Gnosis', chainName: 'xdai' },
   { id: 1116, name: 'CoreDao', chainName: 'core' },
-  { id: 786, name: 'SGC', chainName: 'sgc' },
 ]
 
 const NetworkSelect = () => {
@@ -44,7 +44,7 @@ const NetworkSelect = () => {
           target="_blank"
           href={`${APEX_DOMAIN}?chain=${chain.chainName}`}
         >
-          <Image src={`/images/chains/${chainId}.png`} width={24} height={24} unoptimized alt={`chain-${chain.id}`} />
+          <Image src={`/images/chains/${chain.id}.png`} width={24} height={24} unoptimized alt={`chain-${chain.id}`} />
           <Text color="text" pl="12px">
             {chain.name}
           </Text>

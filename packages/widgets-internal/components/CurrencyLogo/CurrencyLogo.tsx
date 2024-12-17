@@ -1,6 +1,7 @@
 import { ChainId } from "@pancakeswap/chains";
 import { useHttpLocations } from "@pancakeswap/hooks";
 import { BinanceIcon, TokenLogo } from "@pancakeswap/uikit";
+import Image from "next/legacy/image";
 import { useMemo } from "react";
 import { styled } from "styled-components";
 import { space, SpaceProps } from "styled-system";
@@ -47,8 +48,8 @@ export function CurrencyLogo({
   }, [currency, uriLocations, useTrustWalletUrl]);
 
   if (currency?.isNative) {
-    if (currency.chainId === ChainId.BSC) {
-      return <BinanceIcon width={size} style={style} {...props} />;
+    if (currency.chainId === ChainId.VOX) {
+      return <Image width={24} height={24} src="/images/786.png" />;
     }
     return (
       <StyledLogo

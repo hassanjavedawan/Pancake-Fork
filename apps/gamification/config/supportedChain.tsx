@@ -15,7 +15,7 @@ import {
   gnosis,
   coreDao,
 } from 'wagmi/chains'
-// import { sgc } from '../../web/src/config/chains'
+import { vox } from '../../web/src/config/chains'
 
 export const SUPPORT_ONLY_BSC = [ChainId.BSC]
 
@@ -32,7 +32,7 @@ export const targetChains = [
   celo,
   gnosis,
   coreDao,
-  // sgc,
+  vox,
   // linea,
   // opBNB,
 ]
@@ -40,6 +40,7 @@ export const targetChains = [
 export const predictionTaskSupportChains = [bsc]
 
 export const SUPPORTED_CHAIN = [
+  ChainId.VOX,
   ChainId.ETHEREUM,
   ChainId.BSC,
   ChainId.ZKSYNC,
@@ -53,7 +54,6 @@ export const SUPPORTED_CHAIN = [
   ChainId.CELO,
   ChainId.GNOSIS,
   ChainId.COREDAO,
-  ChainId.SGC,
   // ChainId.LINEA,
   // ChainId.OPBNB,
 ]

@@ -1,6 +1,48 @@
 import { ChainId } from '@pancakeswap/chains'
 import { ERC20Token } from '@pancakeswap/sdk'
 
+export const WBNB_TESTNET = new ERC20Token(
+  ChainId.BSC_TESTNET,
+  '0x58051dbe967302A012aAD1EAEf22Cec1B75BB99B',
+  18,
+  'RTKN',
+  'Rights Token',
+)
+export const SYRUP_TESTNET = new ERC20Token(
+  ChainId.BSC_TESTNET,
+  '0xF8700C5a5124628CF5B056E541C33BBD54Bd0df3',
+  18,
+  'Mil',
+  'MilioTokens',
+)
+export const BAKE_TESTNET = new ERC20Token(
+  ChainId.BSC_TESTNET,
+  '0xE71d34aaF4EE405C9aDbF2a5efa18BB381067518',
+  18,
+  'GG',
+  'GALAGOLD',
+)
+export const HBTC_TESTNET = new ERC20Token(
+  ChainId.BSC_TESTNET,
+  '0xe538354021967a38A615ab7160d60685936D305b',
+  18,
+  'Maccoin',
+  'Maccoin',
+)
+export const WBTC_TESTNET = new ERC20Token(
+  ChainId.BSC_TESTNET,
+  '0x07BAB79C37bd4c19c80cce805422dBcE19AEC98E',
+  18,
+  'MetavCoin',
+  'MetavCoin',
+)
+export const USDT_TESTNET = new ERC20Token(
+  ChainId.BSC_TESTNET,
+  '0xa06DB00Abd15E4DfEE59C1A32e28fbd10cAB95ef',
+  18,
+  'Promocoin',
+  'Promocoin',
+)
 export const CAKE_MAINNET = new ERC20Token(
   ChainId.BSC,
   '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',

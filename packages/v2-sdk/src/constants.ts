@@ -33,7 +33,7 @@ export const FACTORY_ADDRESS_MAP = {
   [ChainId.CELO]: '0xAfE208a311B21f13EF87E33A90049fC17A7acDEc',
   [ChainId.GNOSIS]: '0xA818b4F111Ccac7AA31D0BCc0806d64F2E0737D7',
   [ChainId.COREDAO]: '0xe0b8838e8d73ff1CA193E8cc2bC0Ebf7Cf86F620',
-  [ChainId.SGC]: '',
+  [ChainId.VOX]: '0xb7128892736a8604b110e052106cd8a920f64ca178fd221c168d7e1f51fefdf3',
 } as const satisfies Record<ChainId, Address>
 
 export const INIT_CODE_HASH = '0x00fb7f630766e6a796048ea87d01acd3068e8ff67d078148a3fa3f4a84f69bd5'
@@ -67,5 +67,5 @@ export const INIT_CODE_HASH_MAP = {
   [ChainId.CELO]: '0x783cca1c0412dd0d695e784568c96da2e9c22ff989357a2e8b1d9b2b4e6b7118',
   [ChainId.GNOSIS]: '0x6e71edae12b1b97f4d1f60370fef10105fa2faae0126114a169c64845d6126c9',
   [ChainId.COREDAO]: '0xa496ce5b8348c4a27befb2616addacbfdd5beaf87f2e951c1f8910fd0d3bf9c0',
-  [ChainId.SGC]: '',
+  [ChainId.VOX]: '0xb7128892736a8604b110e052106cd8a920f64ca178fd221c168d7e1f51fefdf3',
 } as const satisfies Record<ChainId, Hash>

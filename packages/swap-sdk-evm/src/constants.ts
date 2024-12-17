@@ -167,6 +167,14 @@ export const WETH9 = {
     'Wrapped Ether',
     'https://weth.io',
   ),
+  [ChainId.VOX]: new ERC20Token(
+    ChainId.VOX,
+    '0x8025997223419E55790C7E836b2d5eAE0F9bDA3C',
+    18,
+    'WETH',
+    'Wrapped Ether',
+    'https://weth.io',
+  ),
 }
 
 export const WBNB = {
@@ -233,6 +241,7 @@ export const WNATIVE = {
   [ChainId.SEPOLIA]: WETH9[ChainId.SEPOLIA],
   [ChainId.ARBITRUM_SEPOLIA]: WETH9[ChainId.ARBITRUM_SEPOLIA],
   [ChainId.BASE_SEPOLIA]: WETH9[ChainId.BASE_SEPOLIA],
+  [ChainId.VOX]: WETH9[ChainId.VOX],
 } satisfies Record<ChainId, ERC20Token>
 
 const ETHER = { name: 'Ether', symbol: 'ETH', decimals: 18 } as const
@@ -286,6 +295,11 @@ export const NATIVE = {
   [ChainId.BASE_SEPOLIA]: {
     name: 'Sepolia Ether',
     symbol: 'ETH',
+    decimals: 18,
+  },
+  [ChainId.VOX]: {
+    name: 'Volrex',
+    symbol: 'VOX',
     decimals: 18,
   },
 } satisfies Record<

@@ -1,4 +1,5 @@
 export enum ChainId {
+  VOX = 786,
   ETHEREUM = 1,
   GOERLI = 5,
   BSC = 56,
@@ -26,7 +27,6 @@ export enum ChainId {
   CELO = 42220,
   GNOSIS = 100,
   COREDAO = 1116,
-  SGC = 786,
 }
 
 export const testnetChainIds = [
