@@ -1,15 +1,13 @@
-import { Button, Flex, Text, useMatchBreakpoints, OpenNewIcon, LogoWithTextIcon } from '@pancakeswap/uikit'
+import { Button, Flex, LogoWithTextIcon, OpenNewIcon, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
 import { NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
 
 import { useTranslation } from '@pancakeswap/localization'
-import Image from 'next/legacy/image'
-import { styled, css } from 'styled-components'
+import { css, styled } from 'styled-components'
 
 import { ASSET_CDN } from 'config/constants/endpoints'
 
-import { polygonZkBunny, polygonZkBgMobile, polygonZkBg } from './images'
-import * as S from './Styled'
 import { flyingAnim } from './animations'
+import * as S from './Styled'
 
 const pancakeSwapLogo = `${ASSET_CDN}/web/banners/ethXpancakeswap.png`
 
@@ -122,7 +120,7 @@ export const PolygonZkEvmBanner = () => {
   const { t } = useTranslation()
   const { isMobile, isDesktop } = useMatchBreakpoints()
 
-  const title = isDesktop ? t('PancakeSwap Now Live on Polygon zkEVM!') : t('Polygon zkEVM is LIVE!')
+  const title = isDesktop ? t('SGCDEX Now Live on Polygon zkEVM!') : t('Polygon zkEVM is LIVE!')
 
   return (
     <S.Wrapper

@@ -103,7 +103,12 @@ const AffiliatesBanner = () => {
             );
           }
           [data-theme='dark'] #home-1 .page-bg {
-            background: radial-gradient(103.12% 50% at 50% 50%, #21193a 0%, #191326 100%);
+            background: linear-gradient(
+              142.67deg,
+              #9bedff 10.8%,
+              rgba(214, 201, 255, 0.4) 41.55%,
+              rgba(214, 201, 255, 0.4) 81.99%
+            );
           }
 
           .slide-svg-dark {

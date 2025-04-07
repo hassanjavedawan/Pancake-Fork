@@ -5,7 +5,7 @@ import Image from 'next/legacy/image'
 import { memo } from 'react'
 import { styled } from 'styled-components'
 import * as S from './Styled'
-import { arbBg, arbBgMobile, arbBunny, arbLogo } from './images'
+import { arbLogo } from './images'
 
 const pancakeSwapLogo = `${ASSET_CDN}/web/banners/ethXpancakeswap.png`
 
@@ -116,7 +116,7 @@ const ArbitrumOneBanner = () => {
             <Divider />
             <Image src={arbLogo} alt="arbLogo" width={isMobile ? 81 : 113} height={isMobile ? 20 : 28} />
           </Flex>
-          <Header>{isMobile ? t('Arbitrum One is LIVE!') : t('PancakeSwap Now Live on Arbitrum One')}</Header>
+          <Header>{isMobile ? t('Arbitrum One is LIVE!') : t('SGCDEX Now Live on Arbitrum One')}</Header>
           {isDesktop && <StyledSubheading>{t('Swap and Provide Liquidity Now')}</StyledSubheading>}
 
           <Link

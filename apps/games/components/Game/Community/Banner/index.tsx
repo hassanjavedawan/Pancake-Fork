@@ -81,7 +81,8 @@ export const Banner = () => {
 
   const config = useGamesConfig()
   const games: GameType[] = useMemo(() => config.slice(0, 6), [config])
-
+  //  akbar :  5 + 6   +  5 = 16
+  // ahmed : 5.5 + 5  + 2.5  + 6 = 19
   return (
     <StyledBackground>
       <StyledGradientBg />
@@ -92,7 +93,7 @@ export const Banner = () => {
           width={['100%', '100%', '100%', '100%', '100%', '100%', '1200px']}
         >
           <Text bold color="secondary" lineHeight="110%" fontSize={['40px']} mb={['8px', '8px', '8px', '8px', '24px']}>
-            {isDesktop ? t('PancakeSwap Gaming Community') : t('Gaming Community')}
+            {isDesktop ? t('SGCDEX Gaming Community') : t('Gaming Community')}
           </Text>
           <Text bold lineHeight="110%" fontSize={['16px', '16px', '16px', '16px', '24px']}>
             {t('Every Game, Every Chain, One Destination')}

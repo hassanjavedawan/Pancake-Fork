@@ -1,15 +1,12 @@
 import { useTranslation, type TranslateFunction } from '@pancakeswap/localization'
 import { Flex, LogoWithTextIcon, useMatchBreakpoints } from '@pancakeswap/uikit'
 import {
-  BackgroundGraphic,
   BannerActionContainer,
   BannerContainer,
   BannerDesc,
-  BannerGraphics,
   BannerMain,
   BannerTitle,
   LinkExternalAction,
-  PancakeSwapBadge,
   type GraphicDetail,
 } from '@pancakeswap/widgets-internal'
 import { ASSET_CDN } from 'config/constants/endpoints'
@@ -63,9 +60,9 @@ const titleVariant = {
 }
 
 const Titles: { [bp in CustomBreakPoints]: (t: TranslateFunction) => string } = {
-  sm: (t) => t('PancakeSwap Athletic Games:'),
-  md: (t) => t('PancakeSwap Games: Get Usdt, Merch, and NFTs'),
-  lg: (t) => t('PancakeSwap Athletic Games: Get Usdt, Merch, special edition NFTs'),
+  sm: (t) => t('SGCDEX Athletic Games:'),
+  md: (t) => t('SGCDEX Games: Get Usdt, Merch, and NFTs'),
+  lg: (t) => t('SGCDEX Athletic Games: Get Usdt, Merch, special edition NFTs'),
 }
 
 const SubTitles: { [bp in CustomBreakPoints]: (t: TranslateFunction) => string } = {

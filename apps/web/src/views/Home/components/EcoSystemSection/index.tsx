@@ -1,11 +1,10 @@
 import { useTranslation } from '@pancakeswap/localization'
-import { Box, ChevronRightIcon, Flex, Text, useMatchBreakpoints, useModal } from '@pancakeswap/uikit'
+import { Box, Flex, Text, useMatchBreakpoints, useModal } from '@pancakeswap/uikit'
 import USCitizenConfirmModal from 'components/Modal/USCitizenConfirmModal'
 import { ASSET_CDN } from 'config/constants/endpoints'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import useTheme from 'hooks/useTheme'
 import { IdType, useUserNotUsCitizenAcknowledgement } from 'hooks/useUserIsUsCitizenAcknowledgement'
-import Image from 'next/legacy/image'
 
 import { useRouter } from 'next/router'
 import { useMemo } from 'react'
@@ -160,7 +159,7 @@ const useTradeBlockData = () => {
   const { push } = useRouter()
   const perpetualUrl = useMemo(() => getPerpetualUrl({ chainId, languageCode: code, isDark }), [chainId, code, isDark])
   const [onUSCitizenModalPresent] = useModal(
-    <USCitizenConfirmModal title={t('PancakeSwap Perpetuals')} id={IdType.PERPETUALS} />,
+    <USCitizenConfirmModal title={t('SGCDEX Perpetuals')} id={IdType.PERPETUALS} />,
     true,
     false,
     'usCitizenConfirmModal',

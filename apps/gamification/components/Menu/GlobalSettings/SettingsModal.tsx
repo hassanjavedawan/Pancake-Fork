@@ -25,10 +25,10 @@ export const SettingsModal: React.FC<React.PropsWithChildren<InjectedModalProps>
       <ScrollableContainer>
         <Flex pb="24px" flexDirection="column">
           <PreTitle mb="24px">{t('Global')}</PreTitle>
-          <Flex justifyContent="space-between" mb="24px">
+          {/* <Flex justifyContent="space-between" mb="24px">
             <Text>{t('Dark mode')}</Text>
             <ThemeSwitcher isDark={isDark} toggleTheme={() => setTheme(isDark ? 'light' : 'dark')} />
-          </Flex>
+          </Flex> */}
         </Flex>
         <Flex justifyContent="space-between" alignItems="center" mb="24px">
           <Flex alignItems="center">

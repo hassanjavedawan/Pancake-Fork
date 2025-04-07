@@ -56,7 +56,7 @@ const Footer: React.FC<
   const isSide = variant === "side";
   return (
     <Wrapper $isSide={isSide}>
-      {externalText && externalLinkUrl && (
+      {/* {externalText && externalLinkUrl && (
         <Flex flexDirection={isSide ? "column" : ["column", "column", "row"]} alignItems="center">
           <LinkExternal
             id="ercBridge"
@@ -68,8 +68,8 @@ const Footer: React.FC<
             {externalText}
           </LinkExternal>
         </Flex>
-      )}
-      {isSide && <Flex flexGrow={1} />}
+      )} */}
+      {/* {isSide && <Flex flexGrow={1} />}
       {helpUrl && (
         <Flex
           flexGrow={isSide ? 0 : 1}
@@ -87,7 +87,7 @@ const Footer: React.FC<
           </BubbleWrapper>
           {helpImage}
         </Flex>
-      )}
+      )} */}
     </Wrapper>
   );
 };

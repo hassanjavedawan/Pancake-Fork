@@ -51,7 +51,7 @@ export const Banner = () => {
             background: linear-gradient(139.73deg, #f3efff 0%, #e6fdff 100%);
           }
           [data-theme='dark'] #home-1 .page-bg {
-            background: radial-gradient(103.12% 50% at 50% 50%, #21193a 0%, #191326 100%);
+            background: linear-gradient(139.73deg, #f3efff 0%, #e6fdff 100%);
           }
 
           .slide-svg-dark {
@@ -67,7 +67,7 @@ export const Banner = () => {
             display: block;
           }
           [data-theme='dark'] .slide-svg-light {
-            display: none;
+            display: block;
           }
         `}
       </style>
@@ -101,7 +101,7 @@ export const Banner = () => {
                 '0 0 24px 0',
               ]}
             >
-              <Tag variant="secondary">{t('PancakeSwap v4')}</Tag>
+              <Tag variant="secondary">{t('SGCDEX v4')}</Tag>
             </Box>
             <Box>
               <Flex justifyContent={['center', 'center', 'center', 'center', 'left']}>

@@ -200,12 +200,12 @@ const Hero = () => {
           }
         `}
       </style>
-      <BgWrapper>
+      {/* <BgWrapper>
         <InnerWrapper>
           <SlideSvgDark className="slide-svg-dark" width="100%" />
           <SlideSvgLight className="slide-svg-light" width="100%" />
         </InnerWrapper>
-      </BgWrapper>
+      </BgWrapper> */}
       <Flex
         position="relative"
         flexDirection={['column-reverse', null, null, 'row']}
@@ -252,7 +252,7 @@ const Hero = () => {
               <Button
                 scale="md"
                 style={{ borderRadius: isXs ? 12 : undefined }}
-                variant={!account ? 'secondary' : 'primary'}
+                variant={!account ? 'primary' : 'primary'}
               >
                 {t('Trade Now')}
               </Button>

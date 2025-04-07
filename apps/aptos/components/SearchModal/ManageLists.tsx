@@ -222,7 +222,7 @@ function ManageLists({
 
         if (l1 && l2) {
           // Always make  Volrex.Network  list in top.
-          const keyword = 'pancakeswap'
+          const keyword = 'SGCDEX'
           if (l1.name.toLowerCase().includes(keyword) || l2.name.toLowerCase().includes(keyword)) {
             return -1
           }

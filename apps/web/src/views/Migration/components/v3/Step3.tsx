@@ -164,7 +164,7 @@ export function Step3() {
   return (
     <AtomBox textAlign="center">
       <Heading scale="lg" pb="16px">
-        {t('Quick Start')} - {t('PancakeSwap V3')}
+        {t('Quick Start')} - {t('SGCDEX V3')}
       </Heading>
       <Text pb="48px">
         {t(

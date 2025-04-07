@@ -1,13 +1,13 @@
 import { DefaultSeoProps } from 'next-seo'
 
 export const SEO: DefaultSeoProps = {
-  titleTemplate: '%s | PancakeSwap',
-  defaultTitle: 'PancakeSwap',
+  titleTemplate: '%s | SGCDEX',
+  defaultTitle: 'PancakeSGCDEXSwap',
   description: 'Trade, earn, and own crypto on the all-in-one multichain DEX',
   twitter: {
     cardType: 'summary_large_image',
-    handle: '@PancakeSwap',
-    site: '@PancakeSwap',
+    handle: '@SGCDEX',
+    site: '@SGCDEX',
   },
   openGraph: {
     title: "🥞 Volrex.Network Aptos - Everyone's Favorite DEX",

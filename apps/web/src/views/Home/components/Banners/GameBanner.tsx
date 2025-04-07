@@ -1,11 +1,11 @@
 import { useTranslation } from '@pancakeswap/localization'
-import { Box, Flex, Link, OpenNewIcon, Text, useMatchBreakpoints, Button, LogoWithTextIcon } from '@pancakeswap/uikit'
+import { Box, Button, Flex, Link, LogoWithTextIcon, OpenNewIcon, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
 import { ASSET_CDN } from 'config/constants/endpoints'
 import Image from 'next/legacy/image'
 import { memo } from 'react'
-import { styled, keyframes } from 'styled-components'
+import { keyframes, styled } from 'styled-components'
 import * as S from './Styled'
-import { gameDesktopBg, gameMobileBunny, gameDesktopBunny, gameCube, gameText, gameMobileText } from './images'
+import { gameMobileText, gameText } from './images'
 
 const flyingAnim = keyframes`
   from {
@@ -131,8 +131,8 @@ const GameBanner = () => {
           <Flex alignItems="center" mb="8px" style={{ gap: isMobile ? 8 : 10 }}>
             <LogoWithTextIcon color="white" />
           </Flex>
-          <Header data-text={isMobile ? t('Gaming Marketplace') : t('PancakeSwap Gaming Marketplace')}>
-            {isMobile ? t('Gaming Marketplace') : t('PancakeSwap Gaming Marketplace')}
+          <Header data-text={isMobile ? t('Gaming Marketplace') : t('SGCDEX Gaming Marketplace')}>
+            {isMobile ? t('Gaming Marketplace') : t('SGCDEX Gaming Marketplace')}
           </Header>
           <Box>
             {isDesktop ? (

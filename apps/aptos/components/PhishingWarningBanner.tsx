@@ -72,7 +72,7 @@ const PhishingWarningBanner: React.FC<React.PropsWithChildren> = () => {
           background: linear-gradient(180deg, #1eb8cb 0%, #00bfa5 100%);
         }
         [data-theme='dark'] .warning-banner {
-          background: linear-gradient(180deg, #12838e 0%, #005a5a 100%);
+          background: linear-gradient(180deg, #1eb8cb 0%, #00bfa5 100%);
         }
       `}</style>
       <AtomBox display={{ xs: 'flex', lg: 'none' }} alignItems="center" justifyContent="center" width="100%">
